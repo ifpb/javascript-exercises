@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1507222228395" clover="3.2.0">
+  <project timestamp="1507222228396" name="All files">
+    <metrics statements="32" coveredstatements="30" conditionals="6" coveredconditionals="4" methods="29" coveredmethods="24" elements="67" coveredelements="58" complexity="0" loc="32" ncloc="32" packages="1" files="19" classes="19">
+      <file name="area-of-circle-arrow-fn.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/area-of-circle-arrow-fn.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+      <file name="calc.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/calc.js">
+        <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="cond" truecount="2" falsecount="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="calendar.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/calendar.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="cep.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/cep.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="cipher.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/cipher.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="citation.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/citation.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="exam.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/exam.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+      <file name="factorial.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/factorial.js">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+      <file name="fibonacci.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/fibonacci.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="figure-text.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/figure-text.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="hamming.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/hamming.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="ip.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/ip.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="order.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/order.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="prime-numbers.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/prime-numbers.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="product.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/product.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="scan-patterns.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/scan-patterns.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="sum.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/sum.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="text-util.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/text-util.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="triangle-checker.js" path="/Users/lucachaves/code/github/ifpb/ls/codes/ecma/tasks/responses/triangle-checker.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>

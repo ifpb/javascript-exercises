@@ -1,0 +1,29 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide circle
+
+class Order {
+    products: Object<Item>
+    addProduct(product: Product): void
+    getItems(category: String): Array<Item>
+    total(category: String): Number
+    toString(): String
+}
+
+class Item {
+    quantity: Number
+    product: Product
+    total(): Number
+}
+Order -- Item
+
+class Product {
+    id: Number
+    name: String
+    price: Number
+    getNameCompact(): String
+}
+Item -- Product
+
+@enduml

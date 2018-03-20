@@ -1,0 +1,10 @@
+# Teste Visual
+- [x] mudou o campo e não informou o cep
+- [x] remover error ao voltar para o cep
+- [x] insere cep correto
+- [x] insere cep correto e reedita cep correto
+- [x] insere cep correto e reedita cep errado
+- [x] insere cep errado
+- [x] insere cep errado e reedita cep correto
+- [x] insere cep errado e reedita cep errado
+- [x] https://viacep.com.br/ws/58053174/json/  `{"erro": true}`
