@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 title: Javascript Exercises
 description: 
-github.is_project_page: false
+github:
+  is_project_page: false
 show_downloads: false
 google_analytics: UA-1523172-8
