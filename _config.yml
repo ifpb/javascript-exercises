@@ -5,3 +5,4 @@ github:
 show_downloads: false
 google_analytics: UA-1523172-8
 remote_theme: lucachaves/cayman
+theme: jekyll-theme-cayman
