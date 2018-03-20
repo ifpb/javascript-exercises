@@ -1,6 +1,6 @@
-theme: jekyll-theme-cayman
+remote_theme: lucachaves/cayman
 title: Javascript Exercises
-description: ""
+description: false
 github:
   is_project_page: false
 show_downloads: false
