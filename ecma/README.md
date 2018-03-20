@@ -1,6 +1,4 @@
-# Tasks
-
-<!-- https://rosettacode.org/wiki/Category:Programming_Tasks -->
+# ECMAScript
 
 * [Basic (Expressions & operators, Statements & declarations)](#basic-expressions--operators-statements--declarations)
   * [Body mass index(BMI)](#body-mass-index-bmi)
@@ -75,8 +73,8 @@
 | Overweight | 25–29.9 |
 | Obesity | BMI of 30 or greater |
 
-[basic/bmi-if.js](responses/basic/bmi-if.js)<br>
-[basic/bmi-switch.js](responses/basic/bmi-switch.js)
+[basic/bmi-if.js](code/basic/bmi-if.js)<br>
+[basic/bmi-switch.js](code/basic/bmi-switch.js)
 
 ```js
 // BMI = weight/height²
@@ -96,7 +94,7 @@ De 2.826,66 até 3.751,05 | 15,0 | 354,80
 De 3.751,06 até 4.664,68 | 22,5 | 636,13
 Acima de 4.664,68	| 27,5 | 869,36
 
-[basic/bmi-if.js](responses/basic/bmi-if.js)
+[basic/bmi-if.js](code/basic/bmi-if.js)
 
 ```js
 let salary = 3500.5
@@ -104,8 +102,8 @@ let salary = 3500.5
 
 ### Numbers series
 
-[basic/numbers-for.js](responses/basic/numbers-for.js)<br>
-[basic/numbers-forfor.js](responses/basic/numbers-forfor.js)<br>
+[basic/numbers-for.js](code/basic/numbers-for.js)<br>
+[basic/numbers-forfor.js](code/basic/numbers-forfor.js)<br>
 
 ```
 00 01 02 03 04 05 06 07 08 09
@@ -120,7 +118,7 @@ let salary = 3500.5
 90 91 92 93 94 95 96 97 98 99
 ```
 
-[basic/numbers-reverse-for.js](responses/basic/numbers-reverse-for.js)<br>
+[basic/numbers-reverse-for.js](code/basic/numbers-reverse-for.js)<br>
 
 ```
 99 98 97 96 95 94 93 92 91 90
@@ -135,7 +133,7 @@ let salary = 3500.5
 09 08 07 06 05 04 03 02 01 00
 ```
 
-[basic/numbers-reverse-odd-for.js](responses/basic/numbers-reverse-odd-for.js)
+[basic/numbers-reverse-odd-for.js](code/basic/numbers-reverse-odd-for.js)
 
 ```
 99 97 95 93 91
@@ -152,7 +150,7 @@ let salary = 3500.5
 
 ### Harmonic series
 
-[basic/harmonic-series.js](responses/basic/harmonic-series.js)
+[basic/harmonic-series.js](code/basic/harmonic-series.js)
 
 ```js
 // h = 1/1 + 1/2 + ... + 1/n
@@ -166,8 +164,8 @@ let n = 10
 
 ### Sum
 
-[function/sum.js](responses/function/sum.js)<br>
-[function/sum.test.js](responses/function/sum.test.js)
+[function/sum.js](code/function/sum.js)<br>
+[function/sum.test.js](code/function/sum.test.js)
 
 ```js
 function sum(operand1, operand2){
@@ -180,8 +178,8 @@ console.log(sum(3, 2)) //=> 5
 
 ## Area of Circle
 
-[function/area-of-circle.js](responses/function/area-of-circle-fn.js)<br>
-[function/area-of-circle.test.js](responses/function/area-of-circle-fn.test.js)
+[function/area-of-circle.js](code/function/area-of-circle-fn.js)<br>
+[function/area-of-circle.test.js](code/function/area-of-circle-fn.test.js)
 
 ```js
 // A = πr²
@@ -199,8 +197,8 @@ console.log(areaOfCircle(radius)) //=> 1256.64
 
 ### Calc
 
-[function/calc.js](responses/function/calc.js)<br>
-[function/calc.test.js](responses/function/calc.test.js)
+[function/calc.js](code/function/calc.js)<br>
+[function/calc.test.js](code/function/calc.test.js)
 
 ```js
 /**
@@ -216,8 +214,8 @@ console.log(calc(1, 1, '*')) //=> 1
 
 ### Factorial
 
-[function/factorial.js](responses/function/factorial.js)<br>
-[function/factorial.test.js](responses/function/factorial.test.js)
+[function/factorial.js](code/function/factorial.js)<br>
+[function/factorial.test.js](code/function/factorial.test.js)
 
 ```js
 console.log(factorial(4)) //=> 24
@@ -226,8 +224,8 @@ console.log(factorial(6)) //=> 720
 
 ### Fibonacci number
 
-[function/fibonacci-number.js](responses/function/fibonacci-number.js)<br>
-[function/fibonacci-number.test.js](responses/function/fibonacci-number.test.js)
+[function/fibonacci-number.js](code/function/fibonacci-number.js)<br>
+[function/fibonacci-number.test.js](code/function/fibonacci-number.test.js)
 
 ```js
 console.log(fibonacci(4)) //=> 2
@@ -236,8 +234,8 @@ console.log(fibonacci(6)) //=> 5
 
 ### Fibonacci sequence
 
-[function/fibonacci-sequence.js](responses/function/fibonacci-sequence.js)<br>
-[function/fibonacci-sequence.test.js](responses/function/fibonacci-sequence.test.js)
+[function/fibonacci-sequence.js](code/function/fibonacci-sequence.js)<br>
+[function/fibonacci-sequence.test.js](code/function/fibonacci-sequence.test.js)
 
 ```js
 console.log(fibonacci(4)) //=> 0, 1, 1, 2
@@ -246,8 +244,8 @@ console.log(fibonacci(6)) //=> 0, 1, 1, 2, 3, 5
 
 ### Triangle Checker
 
-[function/triangle-checker.js](responses/function/triangle-checker.js)<br>
-[function/triangle-checker.test.js](responses/function/triangle-checker.test.js)
+[function/triangle-checker.js](code/function/triangle-checker.js)<br>
+[function/triangle-checker.test.js](code/function/triangle-checker.test.js)
 
 ```js
 console.log(triangleChecker(2, 2, 2))    //=> equilateral
@@ -270,8 +268,8 @@ console.log(triangleChecker(2, 4, 2))    //=> none
 
 ### isPrime
 
-[function/prime.js](responses/function/prime.js)<br>
-[function/prime.test.js](responses/function/prime.test.js)
+[function/prime.js](code/function/prime.js)<br>
+[function/prime.test.js](code/function/prime.test.js)
 
 ```js
 console.log(isPrime(2))   //=> true
@@ -284,8 +282,8 @@ console.log(isPrime(7))   //=> true
 
 ### Nth Prime
 
-[function/prime-nth.js](responses/function/prime-nth.js)<br>
-[function/prime-nth.test.js](responses/function/prime-nth.test.js)
+[function/prime-nth.js](code/function/prime-nth.js)<br>
+[function/prime-nth.test.js](code/function/prime-nth.test.js)
 
 ```js
 console.log(prime(4))     //=> 7
@@ -294,8 +292,8 @@ console.log(prime(6))     //=> 13
 
 ### Calendar
 
-[function/calendar.js](responses/function/calendar.js)<br>
-[function/calendar.test.js](responses/function/calendar.test.js)
+[function/calendar.js](code/function/calendar.js)<br>
+[function/calendar.test.js](code/function/calendar.test.js)
 
 ```js
 console.log(calendar('SEG', 31))
@@ -310,8 +308,8 @@ console.log(calendar('SEG', 31))
 
 ### Figure Text
 
-[function/figure-text.js](responses/function/figure-text.js)<br>
-[function/figure-text.test.js](responses/function/figure-text.test.js)
+[function/figure-text.js](code/function/figure-text.js)<br>
+[function/figure-text.test.js](code/function/figure-text.test.js)
 
 ```js
 // Triangle Text
@@ -473,8 +471,8 @@ console.log(boardText(4))
 
 ### Array Util (Min, Max, Range, Zip, Uniq)
 
-[array/array.js](responses/array/array.js)<br>
-[array/array.test.js](responses/array/array.test.js)
+[array/array.js](code/array/array.js)<br>
+[array/array.test.js](code/array/array.test.js)
 
 ```js
 // Min
@@ -514,8 +512,8 @@ console.log(uniq([1, 2, 1, 3, 3]))
 
 ### Array Operations
 
-[array/array-operations.js](responses/array/array-operations.js)<br>
-[array/array-operations.test.js](responses/array/array-operations.test.js)
+[array/array-operations.js](code/array/array-operations.js)<br>
+[array/array-operations.test.js](code/array/array-operations.test.js)
 
 ```js
 // Sum
@@ -568,8 +566,8 @@ console.log(productMatrix(a, b)) //=> [[58, 64], [139, 154]]
 
 ### Fibonacci sequence array
 
-[array/fibonacci.js](responses/array/fibonacci.js)<br>
-[array/fibonacci.test.js](responses/array/fibonacci.test.js)
+[array/fibonacci.js](code/array/fibonacci.js)<br>
+[array/fibonacci.test.js](code/array/fibonacci.test.js)
 
 ```js
 console.log(fibonacci(4))   //=> [0, 1, 1, 2]
@@ -578,8 +576,8 @@ console.log(fibonacci(6))   //=> [0, 1, 1, 2, 3, 5]
 
 ### Prime Numbers Array
 
-[array/prime-numbers.js](responses/array/prime-numbers.js)<br>
-[array/prime-numbers.test.js](responses/array/prime-numbers.test.js)
+[array/prime-numbers.js](code/array/prime-numbers.js)<br>
+[array/prime-numbers.test.js](code/array/prime-numbers.test.js)
 
 ```js
 console.log(prime(4))       //=> [2, 3, 5, 7]
@@ -590,8 +588,8 @@ console.log(prime(2, 20))   //=> [2, 3, 5, 7, 11, 13, 17, 19]
 
 ### Min withdraw
 
-[array/min-withdraw.js](responses/array/min-withdraw.js)<br>
-[array/min-withdraw.test.js](responses/array/min-withdraw.test.js)
+[array/min-withdraw.js](code/array/min-withdraw.js)<br>
+[array/min-withdraw.test.js](code/array/min-withdraw.test.js)
 
 ```js
 console.log(withdraw(1280)) //=> [[100, 12], [50, 1], [20, 1], [10, 1]]
@@ -601,8 +599,8 @@ console.log(withdraw(892))  //=> [[100, 8], [50, 1], [20, 2], [2, 1]]
 
 ### Roman number
 
-[array/roman-number.js](responses/array/roman-number.js)<br>
-[array/roman-number.test.js](responses/array/roman-number.test.js)
+[array/roman-number.js](code/array/roman-number.js)<br>
+[array/roman-number.test.js](code/array/roman-number.test.js)
 
 ```js
 console.log(toRoman(1))     //=> I
@@ -627,8 +625,8 @@ console.log(toRoman(3000))  //=> MMM
 
 ### Prime Factors
 
-[array/prime-factors.js](responses/array/prime-factors.js)<br>
-[array/prime-factors.test.js](responses/array/prime-factors.test.js)
+[array/prime-factors.js](code/array/prime-factors.js)<br>
+[array/prime-factors.test.js](code/array/prime-factors.test.js)
 
 ```js
 console.log(primeFactors(1)           //=> []
@@ -646,8 +644,8 @@ console.log(primeFactors(93819012551) //=> [11, 9539, 894119]
 
 ### Products Array
 
-[array/products.js](responses/array/products.js)<br>
-[array/products.test.js](responses/array/products.test.js)
+[array/products.js](code/array/products.js)<br>
+[array/products.test.js](code/array/products.test.js)
 
 ```js
 const products = [
@@ -663,8 +661,8 @@ console.log(total(products)) //=> 1650.0
 
 ### Products Array with Quantity
 
-[array/products-qtd.js](responses/array/products-qtd.js)<br>
-[array/products-qtd.test.js](responses/array/products-qtd.test.js)
+[array/products-qtd.js](code/array/products-qtd.js)<br>
+[array/products-qtd.test.js](code/array/products-qtd.test.js)
 
 ```js
 const products = [
@@ -704,8 +702,8 @@ console.log(total(products))
 
 ### List Generator
 
-[string/list-generator.js](responses/string/list-generator.js)<br>
-[string/list-generator.test.js](responses/string/list-generator.test.js)
+[string/list-generator.js](code/string/list-generator.js)<br>
+[string/list-generator.test.js](code/string/list-generator.test.js)
 
 ```js
 console.log(createList(5))
@@ -731,8 +729,8 @@ console.log(createList(5, 'Item'))
 
 ### Table Generator
 
-[string/table-generator.js](responses/string/table-generator.js)<br>
-[string/table-generator.test.js](responses/string/table-generator.test.js)
+[string/table-generator.js](code/string/table-generator.js)<br>
+[string/table-generator.test.js](code/string/table-generator.test.js)
 
 ```js
 console.log(createTable(3, 4))
@@ -774,8 +772,8 @@ console.log(createTableHTML(3, 4, 'Item'))
 
 ### String Util
 
-[string/string-util.js](responses/string/string-util.js)<br>
-[string/string-util.test.js](responses/string/string-util.test.js)
+[string/string-util.js](code/string/string-util.js)<br>
+[string/string-util.test.js](code/string/string-util.test.js)
 
 ```js
 console.log(formatter('lorem ipsum dolor', 'uppercase'))  //=> LOREM IPSUM DOLOR
@@ -794,8 +792,8 @@ console.log(formatter('lorem\nipsum dolor', 'countline')) //=> 2
 
 ### Simple Substitution
 
-[string/simple-substitution.js](responses/string/simple-substitution.js)<br>
-[string/simple-substitution.test.js](responses/string/simple-substitution.test.js)
+[string/simple-substitution.js](code/string/simple-substitution.js)<br>
+[string/simple-substitution.test.js](code/string/simple-substitution.test.js)
 
 ```js
 // https://simple.wikipedia.org/wiki/Leet
@@ -808,8 +806,8 @@ console.log(substitution('senha secreta', 'aegiost', '!@#$%&*')) //=> &@nh! &@cr
 
 ### Lorem Ipsum Generator
 
-[string/lorem-ipsum-generator.js](responses/string/lorem-ipsum-generator.js)<br>
-[string/lorem-ipsum-generator.test.js](responses/string/lorem-ipsum-generator.test.js)
+[string/lorem-ipsum-generator.js](code/string/lorem-ipsum-generator.js)<br>
+[string/lorem-ipsum-generator.test.js](code/string/lorem-ipsum-generator.test.js)
 
 ```js
 // https://www.lipsum.com/
@@ -835,8 +833,8 @@ console.log(ipsumParagraphGenerator(5))
 
 ### Hamming
 
-[string/hamming.js](responses/string/hamming.js)<br>
-[string/hamming.test.js](responses/string/hamming.test.js)
+[string/hamming.js](code/string/hamming.js)<br>
+[string/hamming.test.js](code/string/hamming.test.js)
 
 ```js
 let dna1 = 'GGACG'
@@ -852,8 +850,8 @@ console.log(hamming(dna1, dna2)) //=> 9
 
 ### Rna Transcription
 
-[string/rna-transcription.js](responses/string/rna-transcription.js)<br>
-[string/rna-transcription.test.js](responses/string/rna-transcription.test.js)
+[string/rna-transcription.js](code/string/rna-transcription.js)<br>
+[string/rna-transcription.test.js](code/string/rna-transcription.test.js)
 
 ```js
 console.log(toRna('C'))             //=> G
@@ -865,8 +863,8 @@ console.log(toRna('ACGTGGTCTTAA')) //=> UGCACCAGAAUU
 
 ### Citation
 
-[string/citation.js](responses/string/citation.js)<br>
-[string/citation.test.js](responses/string/citation.test.js)
+[string/citation.js](code/string/citation.js)<br>
+[string/citation.test.js](code/string/citation.test.js)
 
 ```js
 let name = 'Luiz Carlos Rodrigues Chaves'
@@ -918,8 +916,8 @@ Se o `Resto` for igual ao segundo dígito verificador, a segunda parte da valida
 
 **Code**
 
-[string/validating-cpf.js](responses/string/validating-cpf.js)<br>
-[string/validating-cpf.test.js](responses/string/validating-cpf.test.js)
+[string/validating-cpf.js](code/string/validating-cpf.js)<br>
+[string/validating-cpf.test.js](code/string/validating-cpf.test.js)
 
 ```js
 console.log(validateCPF('12345678909')) //=> true
@@ -927,8 +925,8 @@ console.log(validateCPF('12345678909')) //=> true
 
 ### Cipher
 
-[string/cipher.js](responses/string/cipher.js)<br>
-[string/cipher.test.js](responses/string/cipher.test.js)
+[string/cipher.js](code/string/cipher.js)<br>
+[string/cipher.test.js](code/string/cipher.test.js)
 
 ```js
 console.log(rot('abc', 2))              //=> cde
@@ -937,8 +935,8 @@ console.log(rot('xyz', 2))              //=> zab
 
 ### IP
 
-[string/ip.js](responses/string/ip.js)<br>
-[string/ip.test.js](responses/string/ip.test.js)
+[string/ip.js](code/string/ip.js)<br>
+[string/ip.test.js](code/string/ip.test.js)
 
 ```js
 console.log(ip2decimal('192.168.0.1'))  //=> 3232235521
@@ -950,8 +948,8 @@ console.log(decimal2ip(3232235522))     //=> 192.168.0.2
 
 ### Parser (String2Number)
 
-[string/parser.js](responses/string/parser.js)<br>
-[string/parser.test.js](responses/string/parser.test.js)
+[string/parser.js](code/string/parser.js)<br>
+[string/parser.test.js](code/string/parser.test.js)
 
 ```js
 let char = 'A'
@@ -982,8 +980,8 @@ console.log(dec2str('65 66 67'))                   //=> ABC
 
 ### Table Convert .md to .html
 
-[string/table-convert-md2html.js](responses/string/table-convert-md2html.js)<br>
-[string/table-convert-md2html.test.js](responses/string/table-convert-md2html.test.js)
+[string/table-convert-md2html.js](code/string/table-convert-md2html.js)<br>
+[string/table-convert-md2html.test.js](code/string/table-convert-md2html.test.js)
 
 ```js
 const table =
@@ -1015,8 +1013,8 @@ console.log(tablemd2html(table))
 
 ### Random
 
-[math/random.js](responses/math/random.js)<br>
-[math/random.test.js](responses/math/random.test.js)
+[math/random.js](code/math/random.js)<br>
+[math/random.test.js](code/math/random.test.js)
 
 ```js
 Math.random()
@@ -1036,8 +1034,8 @@ console.log(randArray(people))
 
 ### CEP
 
-[object/cep.js](responses/object/cep.js)<br>
-[object/cep.test.js](responses/object/cep.test.js)
+[object/cep.js](code/object/cep.js)<br>
+[object/cep.test.js](code/object/cep.test.js)
 
 ```js
 // https://viacep.com.br/ws/01001000/json/
@@ -1069,8 +1067,8 @@ console.log(getInfo(cep))
 
 ### Products
 
-[object/products.js](responses/object/products.js)<br>
-[object/products.test.js](responses/object/products.test.js)
+[object/products.js](code/object/products.js)<br>
+[object/products.test.js](code/object/products.test.js)
 
 ```js
 const products = [
@@ -1092,8 +1090,8 @@ console.log(total(products)) //=> 1650.0
 
 ### Products with Quantity
 
-[object/products-qtd.js](responses/object/products-qtd.js)<br>
-[object/products-qtd.test.js](responses/object/products-qtd.test.js)
+[object/products-qtd.js](code/object/products-qtd.js)<br>
+[object/products-qtd.test.js](code/object/products-qtd.test.js)
 
 ```js
 const products = [
@@ -1169,8 +1167,8 @@ console.log(total(products))
 
 ### Comics
 
-[object/comics.js](responses/object/comics.js)<br>
-[object/comics.test.js](responses/object/comics.test.js)
+[object/comics.js](code/object/comics.js)<br>
+[object/comics.test.js](code/object/comics.test.js)
 
 ```js
 const characters = [
@@ -1232,8 +1230,8 @@ console.log(weight(characters, 'DC'))
 
 ### Exam
 
-[object/exam/exam.js](responses/object/exam/exam.js)<br>
-[object/exam/exam.test.js](responses/object/exam/exam.test.js)
+[object/exam/exam.js](code/object/exam/exam.js)<br>
+[object/exam/exam.test.js](code/object/exam/exam.test.js)
 
 ```js
 studend1 = {q1: 'a', q2: 'b', q3: 'b', q4: 'b', q5: 'b'}
@@ -1260,8 +1258,8 @@ console.log(gt(students, 6))                 //=> [7, 10]
 ```
 **Desafio: Exam OO**
 
-[object/exam-oo/exam.js](responses/object/exam-oo/exam.js)<br>
-[object/exam-oo/exam.test.js](responses/object/exam-oo/exam.test.js)
+[object/exam-oo/exam.js](code/object/exam-oo/exam.js)<br>
+[object/exam-oo/exam.test.js](code/object/exam-oo/exam.test.js)
 
 Exam Check<br>
 <img src="assets/object-exam-check.svg" alt="Exam Check" width="300">
@@ -1273,9 +1271,9 @@ Exam Stats<br>
 
 <img src="assets/object-order.svg" alt="Order" width="300">
 
-[object/order/product.js](responses/object/order/product.js)<br>
-[object/order/order.js](responses/object/order/order.js)<br>
-[object/order/order.test.js](responses/object/order/order.test.js)
+[object/order/product.js](code/object/order/product.js)<br>
+[object/order/order.js](code/object/order/order.js)<br>
+[object/order/order.test.js](code/object/order/order.test.js)
 
 ```js
 // Products
@@ -1297,10 +1295,10 @@ console.log(order.total()) //=> 26
 
 <img src="assets/object-order-category.svg" alt="Order Category" width="300">
 
-[object/order-category/product.js](responses/object/order-category/product.js)<br>
-[object/order-category/item.js](responses/object/order-category/item.js)<br>
-[object/order-category/order.js](responses/object/order-category/order.js)<br>
-[object/order-category/order.test.js](responses/object/order-category/order.test.js)
+[object/order-category/product.js](code/object/order-category/product.js)<br>
+[object/order-category/item.js](code/object/order-category/item.js)<br>
+[object/order-category/order.js](code/object/order-category/order.js)<br>
+[object/order-category/order.test.js](code/object/order-category/order.test.js)
 
 ```js
 // Products
@@ -1382,8 +1380,8 @@ Teams are ranked by PTS, W, GD, and GF. If points are equal between two or more 
 
 **Code**
 
-[object/brazilian-championship.js](responses/object/brazilian-championship.js)<br>
-[object/brazilian-championship.test.js](responses/object/brazilian-championship.test.js)
+[object/brazilian-championship.js](code/object/brazilian-championship.js)<br>
+[object/brazilian-championship.test.js](code/object/brazilian-championship.test.js)
 
 ```js
 cont standings = // TODO
@@ -1421,8 +1419,8 @@ console.log(showStading(standings))
 
 ### Diff Timestamp (ms)
 
-[date/diff-timestamp.js](responses/date/diff-timestamp.js)<br>
-[date/diff-timestamp.test.js](responses/date/diff-timestamp.test.js)
+[date/diff-timestamp.js](code/date/diff-timestamp.js)<br>
+[date/diff-timestamp.test.js](code/date/diff-timestamp.test.js)
 
 ```js
 let last = 1483239600000 // (new Date(2017, 0, 1)).getTime()
@@ -1437,8 +1435,8 @@ console.log(diffMonth(last, now)) //=> 5
 
 ### Text util
 
-[regexp/text-util.js](responses/regexp/text-util.js)<br>
-[regexp/text-util.test.js](responses/regexp/text-util.test.js)
+[regexp/text-util.js](code/regexp/text-util.js)<br>
+[regexp/text-util.test.js](code/regexp/text-util.test.js)
 
 ```js
 // Camel case
@@ -1456,8 +1454,8 @@ console.log(text.applyBold(, 'ipsum'))
 
 ### Scanning Pattern
 
-[regexp/scan-pattern.js](responses/regexp/scan-pattern.js)<br>
-[regexp/scan-pattern.test.js](responses/regexp/scan-pattern.test.js)
+[regexp/scan-pattern.js](code/regexp/scan-pattern.js)<br>
+[regexp/scan-pattern.test.js](code/regexp/scan-pattern.test.js)
 
 ```js
 // CEP
@@ -1473,8 +1471,8 @@ console.log(date(message)) //=> {count: 2, values: ['01/01/2017', '02/01/2017']}
 
 ### Pattern Validator
 
-[regexp/validator-pattern.js](responses/regexp/validator-pattern.js)<br>
-[regexp/validator-pattern.test.js](responses/regexp/validator-pattern.test.js)
+[regexp/validator-pattern.js](code/regexp/validator-pattern.js)<br>
+[regexp/validator-pattern.test.js](code/regexp/validator-pattern.test.js)
 
 ```js
 // Valide o CPF primeiro usando o regex e depois o cálculo do dígito verificador
@@ -1497,3 +1495,9 @@ let message = `Lorem ipsum 01/01/2017 dolor sit amet, 2017-01-02 consectetur.`
 * [Exercism](http://exercism.io/languages/ecmascript/exercises)
 * [Javscript Koan](https://github.com/mrdavidlaing/javascript-koans)
 * [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/categories)
+
+
+<!-- 
+TODO
+https://rosettacode.org/wiki/Category:Programming_Tasks 
+-->
