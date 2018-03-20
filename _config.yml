@@ -1,5 +1,6 @@
 theme: jekyll-theme-cayman
 title: Javascript Exercises
-is_project_page: false
-site.show_downloads: false
+description: 
+github.is_project_page: false
+show_downloads: false
 google_analytics: UA-1523172-8
