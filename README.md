@@ -1,4 +1,4 @@
-# Javascript Exercises
+# Exercises
 
 * [ECMA](ecma/)
 * [W3C](w3c/)
