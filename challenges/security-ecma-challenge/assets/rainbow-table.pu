@@ -1,0 +1,11 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide circle
+
+class RainbowTable {
+  constructor(length: Number)
+  table(length: Number): undefined
+  cracker(hash: String): String
+}
+@enduml

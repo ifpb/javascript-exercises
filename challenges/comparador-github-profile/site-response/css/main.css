@@ -1,0 +1,47 @@
+body {
+  color: #222;
+  font-family: "Helvetica Neue",
+  Helvetica,
+  Roboto,
+  Arial,
+  sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  color: #008CBA;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, 
+.compare-content, 
+.compare-form {
+  margin-top: 2rem;
+}
+
+.comp-section + .comp-section {
+  content: "";
+  border-top: solid 1px #ddd;
+  padding-top: 1.3rem;
+  margin-top: 1.3rem;
+}
+
+.project .repos {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.project .repos,
+.community .stars,
+.code .commits {
+  font-size: 1.3em;
+}

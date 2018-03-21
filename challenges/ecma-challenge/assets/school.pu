@@ -1,0 +1,12 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide circle
+
+class School {
+  grades: Object
+  roster(): Object
+  add(student: String, grade: Number): undefined
+  grade(grade: Number): Array<Number>
+}
+@enduml

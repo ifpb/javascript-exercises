@@ -1,0 +1,125 @@
+<!-- 
+  https://github.com/bayne/github-compare
+  https://bayne.github.io/github-compare/#!/compare/twbs/bootstrap/zurb/foundation-sites 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1>Github Compare</h1>
+  
+    <form class="compare-form row" name="compare-form">
+      <div class="form-group col-5">
+        <input class="form-control" type="text" name="repos_url" value="https://github.com/twbs/bootstrap">
+      </div>
+      <div class="form-group col-5">
+        <input class="form-control" type="text" name="repos_url" value="https://github.com/zurb/foundation-sites">
+      </div>
+      <div class="form-group col-2">
+        <button type="button" class="btn btn-secondary">Compare</button>
+      </div>
+    </form>
+    
+    <div class="compare">
+      <div class="comp-section row project">
+        <div class="col-3">
+          <h3>Project</h3>
+        </div>
+        <div class="col-4">
+          <a class="repos" href="https://github.com/twbs/bootstrap">bootstrap</a>
+          <span class="fa fa-user"></span>
+          <a class="owner" href="https://github.com/twbs">twbs</a>
+          <br>
+          <span class="fa fa-circle-o"></span> Jul 29th, 2011
+          <br>
+          <span class="fa fa-refresh"></span>
+          <span>an hour ago</span>
+          <br>
+        </div>
+        <div class="col-4">
+          <a class="repos" href="https://github.com/zurb/foundation-sites">foundation-sites</a>
+          <span class="fa fa-user"></span>
+          <a class="owner" href="https://github.com/zurb">zurb</a>
+          <br>
+          <span class="fa fa-circle-o"></span> Oct 13th, 2011
+          <br>
+          <span class="fa fa-refresh"></span>
+          <span>5 hours ago</span>
+          <br>
+        </div>
+      </div>
+      
+      <div class="comp-section row community">
+        <div class="col-3">
+          <h3>Community</h3>
+        </div>
+        <div class="col-4">
+          <div class="stars">
+            <span class="fa fa-star"></span>
+            <a href="https://github.com/twbs/bootstrap/stargazers">121242</a>
+            <span class="fa fa-code-fork"></span>
+            <a href="https://github.com/twbs/bootstrap/network">57379</a>
+            <br>
+          </div>
+          <span class="fa fa-users"></span>
+          <a href="https://github.com/twbs/bootstrap/contributors">384</a> contributors
+        </div>
+        <div class="col-4">
+          <div class="stars">
+            <span class="fa fa-star"></span>
+            <a href="https://github.com/zurb/foundation-sites/stargazers">26946</a>
+            <span class="fa fa-code-fork"></span>
+            <a href="https://github.com/zurb/foundation-sites/network">5777</a>
+            <br>
+          </div>
+          <span class="fa fa-users"></span>
+          <a  href="https://github.com/zurb/foundation-sites/contributors">367</a> contributors
+        </div>
+      </div>
+
+      <div class="comp-section row code">
+        <div class="col-3">
+          <h3>Code</h3>
+        </div>
+        <div class="col-4">
+          <div class="commits">
+            <a href="https://github.com/twbs/bootstrap/commits">17509</a> commits
+          </div>
+          <span class="fa fa-language"></span>
+          <span>
+            <span class="language"><strong>CSS</strong>: 43% </span>
+            <span class="language">JavaScript: 42% </span>
+            <span class="language">HTML: 13% </span>
+          </span>
+        </div>
+        <div class="col-4">
+          <div class="commits">
+            <a href="https://github.com/zurb/foundation-sites/commits">15204</a> commits
+          </div>
+          <span class="fa fa-language"></span>
+          <span>
+            <span class="language"><strong>JavaScript</strong>: 44% </span>
+            <span class="language">HTML: 37% </span>
+            <span class="language">CSS: 19% </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide circle
+
+class DnaTranscriber {
+  toRna(dna: String): String
+}
+@enduml

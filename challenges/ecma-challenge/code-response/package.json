@@ -1,0 +1,13 @@
+{
+  "name": "prova-ecma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "scripts": {
+    "test": "./node_modules/jest/bin/jest.js",
+    "test-coverage": "npm test --silent -- --coverage"
+  }
+}

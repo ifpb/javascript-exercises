@@ -1,0 +1,89 @@
+{
+  "city": "João Pessoa, BRA",
+  "forecasts": [
+    {
+      "weekday": "hoje",
+      "weather": {
+        "name": "Poucas Nuvens",
+        "wi": "wi-day-cloudy",
+        "celsius": 32,
+        "humidity": {
+          "min": 71,
+          "max": 78
+        },
+        "precip": {
+          "mm": 2,
+          "percent": 60
+        },
+        "wind": {
+          "speed": 30,
+          "direction": "ese"
+        },
+        "sun": {
+          "sunrise": "05:20",
+          "sunset": "17:45"
+        }
+      }
+    },
+    {
+      "weekday": "sáb",
+      "weather": {
+        "wi": "wi-day-cloudy",
+        "celsius": {
+          "min": 30,
+          "max": 25
+        }
+      }
+    }, 
+    {
+      "weekday": "dom",
+      "weather": {
+        "wi": "wi-day-sunny",
+        "celsius": {
+          "min": 30,
+          "max": 25
+        }
+      }
+    }, 
+    {
+      "weekday": "seg",
+      "weather": {
+        "wi": "wi-day-cloudy",
+        "celsius": {
+          "min": 30,
+          "max": 25
+        }
+      }
+    }, 
+    {
+      "weekday": "ter",
+      "weather": {
+        "wi": "wi-thunderstorm",
+        "celsius": {
+          "min": 30,
+          "max": 25
+        }
+      }
+    }, 
+    {
+      "weekday": "qua",
+      "weather": {
+        "wi": "wi-thunderstorm",
+        "celsius": {
+          "min": 30,
+          "max": 25
+        }
+      }
+    }, 
+    {
+      "weekday": "qui",
+      "weather": {
+        "wi": "wi-thunderstorm",
+        "celsius": {
+          "min": 29,
+          "max": 24
+        }
+      }
+    }
+  ]
+}
