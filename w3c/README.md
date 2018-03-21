@@ -1,6 +1,6 @@
 # W3C
 
-* [hello](hello/)
+<!-- * [hello](hello/)
 * [calculator](calculator/)
 * [hello-event](hello-event/)
 * [ipinfo](ipinfo/)
@@ -8,4 +8,4 @@
 * [address-cep](address-cep/)
 * [cryptcoins](cryptcoins/)
 * [cryptcoins-fetch](cryptcoins-fetch/)
-* [weather](weather/)
+* [weather](weather/) -->
