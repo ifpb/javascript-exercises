@@ -61,8 +61,7 @@
 * [Other Exercises](#other-exercises)
 
 ## Basic (Expressions & operators, Statements & declarations)
-
-* * *
+---
 
 ### Body mass index (BMI)
 
@@ -159,8 +158,7 @@ let n = 10
 ```
 
 ## Function
-
-* * *
+---
 
 ### Sum
 
@@ -473,8 +471,7 @@ console.log(boardText(4))
 ```
 
 ## Array
-
-* * *
+---
 
 ### Array Util (Min, Max, Range, Zip, Uniq)
 
@@ -704,8 +701,7 @@ console.log(total(products))
 > Use `map`, `filter` ou `reduce`
 
 ## String
-
-* * *
+---
 
 ### List Generator
 
@@ -1015,8 +1011,7 @@ console.log(tablemd2html(table))
 ```
 
 ## Math
-
-* * *
+---
 
 ### Random
 
@@ -1036,8 +1031,7 @@ console.log(randArray(people))
 ```
 
 ## Object
-
-* * *
+---
 
 ### CEP
 
@@ -1422,8 +1416,7 @@ console.log(showStading(standings))
 ```
 
 ## Date
-
-* * *
+---
 
 ### Diff Timestamp (ms)
 
@@ -1438,8 +1431,7 @@ console.log(diffMonth(last, now)) //=> 5
 ```
 
 ## Regexp
-
-* * *
+---
 
 ### Text util
 
