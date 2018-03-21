@@ -34,4 +34,4 @@ class ExamStats {
   }
 }
 
-module.exports = ExamStats
+export { ExamStats }

@@ -1,4 +1,4 @@
-const Item = require('./item')
+import { Item } from './item.js'
 
 class Order {
   
@@ -38,4 +38,4 @@ class Order {
   }
 }
 
-module.exports = Order
+export { Order }

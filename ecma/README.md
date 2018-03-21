@@ -176,6 +176,13 @@ console.log(sum(1, 2)) //=> 3
 console.log(sum(3, 2)) //=> 5
 ```
 
+```
+$ cd javascript-exercises/ecma
+$ npm install
+$ cd code
+$ npx jest function/sum.test.js
+```
+
 ## Area of Circle
 
 [function/area-of-circle.js](code/function/area-of-circle-fn.js)<br>

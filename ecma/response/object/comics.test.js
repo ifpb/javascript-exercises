@@ -1,4 +1,4 @@
-const comics = require('./comics')
+import { namesByComics, topWeightNames, weight } from './comics.js'
 
 const characters = [
   {
@@ -51,21 +51,21 @@ const characters = [
 describe('Comics Tool', () => {
 
   test('listing names by DC comics', () => {
-    expect(comics.namesByComics(characters, 'DC')).toEqual([
+    expect(namesByComics(characters, 'DC')).toEqual([
       'batman',
       'Superman'
     ])
   })
 
   test('sorting top weight by Marvel comics', () => {
-    expect(comics.topWeightNames(characters, 'Marvel')).toEqual([
+    expect(topWeightNames(characters, 'Marvel')).toEqual([
       'Hulk',
       'Spider-Man'
     ])
   })
 
   test('sorting top weight', () => {
-    expect(comics.topWeightNames(characters)).toEqual([
+    expect(topWeightNames(characters)).toEqual([
       'Hulk',
       "Superman",
       "batman",
@@ -74,7 +74,7 @@ describe('Comics Tool', () => {
   })
 
   test('weighing by DC comics', () => {
-    expect(comics.weight(characters, 'DC')).toBe(101)
+    expect(weight(characters, 'DC')).toBe(101)
   })
 
 })

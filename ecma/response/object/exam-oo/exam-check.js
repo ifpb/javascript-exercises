@@ -13,4 +13,4 @@ class ExamCheck {
   }
 }
 
-module.exports = ExamCheck
+export { ExamCheck }

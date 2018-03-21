@@ -33,11 +33,4 @@ function gt(students, limit) {
   return grades.filter(grade => grade > limit)
 }
 
-module.exports = {
-  grade,
-  avg,
-  min,
-  max,
-  gt,
-  lt
-}
+export { grade, avg, min, max, gt, lt }

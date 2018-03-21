@@ -12,8 +12,4 @@ function total(products) {
   return products.reduce((total, p) => total + p.qtd * p.preco, 0)
 }
 
-module.exports = {
-  gtZero,
-  subTotal,
-  total
-}
+export { gtZero, subTotal, total }

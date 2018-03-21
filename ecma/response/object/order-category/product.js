@@ -13,4 +13,4 @@ class Product {
   }
 }
 
-module.exports = Product
+export { Product }

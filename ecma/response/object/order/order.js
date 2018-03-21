@@ -15,4 +15,4 @@ class Order {
 
 }
 
-module.exports = Order
+export { Order }

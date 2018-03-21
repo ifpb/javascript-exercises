@@ -1,5 +1,5 @@
-const Order = require('./order')
-const Product = require('./product')
+import { Order } from './order.js'
+import { Product } from './product.js'
 
 describe('Store Tool', () => {
 

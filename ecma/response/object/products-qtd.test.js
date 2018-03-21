@@ -1,4 +1,4 @@
-const cart = require('./products-qtd')
+import { gtZero, subTotal, total } from './products-qtd.js'
 
 const products = [
   {
@@ -26,7 +26,7 @@ const products = [
 describe('Cart Tool', () => {
   
   test('filtering greater than zero', () => {
-    expect(cart.gtZero(products)).toEqual(
+    expect(gtZero(products)).toEqual(
       [
         {
           id: 1,
@@ -49,7 +49,7 @@ describe('Cart Tool', () => {
 
 
   test('calculating subtotal', () => {
-    expect(cart.subTotal(products)).toEqual(
+    expect(subTotal(products)).toEqual(
       [
         {
           id: 1,
@@ -72,7 +72,7 @@ describe('Cart Tool', () => {
   })
 
   test('calculating total', () => {
-    expect(cart.total(products)).toBe(60.0)
+    expect(total(products)).toBe(60.0)
   })
 
 })

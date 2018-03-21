@@ -1,5 +1,5 @@
-const ExamCheck = require('./exam-check')
-const ExamStats = require('./exam-stats')
+import { ExamCheck } from './exam-check.js'
+import { ExamStats } from './exam-stats.js'
 
 describe('Exam Tool', () => {
 

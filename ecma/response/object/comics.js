@@ -1,3 +1,4 @@
+
 // Filters
 const collectAllFilter = character => true
 const collectByComicsFilter = comics => character => character.comics === comics
@@ -41,8 +42,4 @@ function weight(characters, comics) {
 }
 
 // Export
-module.exports = {
-  namesByComics,
-  topWeightNames,
-  weight
-}
+export { namesByComics, topWeightNames, weight }

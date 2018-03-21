@@ -1,4 +1,4 @@
-const exam = require('./exam')
+import { grade, avg, min, max, gt, lt } from './exam.js'
 
 describe('Exam Tool', () => {
 
@@ -7,7 +7,7 @@ describe('Exam Tool', () => {
     let weight =   {q1:  2 , q2:  2 , q3:  2 , q4:  2 , q5:  2 }
     let answer =   {q1: 'a', q2: 'b', q3: 'a', q4: 'c', q5: 'd'}
 
-    expect(exam.grade(student, weight, answer)).toBe(4)
+    expect(grade(student, weight, answer)).toBe(4)
   })
 
   test('calculating grade by weighted average', () => {
@@ -15,7 +15,7 @@ describe('Exam Tool', () => {
     let weight =   {q1:  2 , q2:  2 , q3:  2 , q4:  2 , q5:  2 }
     let answer =   {q1: 'a', q2: 'b', q3: 'a', q4: 'c', q5: 'd'}
 
-    expect(exam.grade(student, weight, answer)).toBe(8)
+    expect(grade(student, weight, answer)).toBe(8)
   })
 
   test('calculating exam values', () => {
@@ -25,16 +25,16 @@ describe('Exam Tool', () => {
       {"student": "Beltrano", "grade": 7},
     ]
 
-    expect(exam.avg(students)).toBe(7.333333333333333)
+    expect(avg(students)).toBe(7.333333333333333)
 
-    expect(exam.min(students)).toEqual([5])
-    expect(exam.min(students, 2)).toEqual([5, 7])
+    expect(min(students)).toEqual([5])
+    expect(min(students, 2)).toEqual([5, 7])
 
-    expect(exam.max(students)).toEqual([10])
+    expect(max(students)).toEqual([10])
 
-    expect(exam.lt(students, 6)).toEqual([5])
+    expect(lt(students, 6)).toEqual([5])
 
-    expect(exam.gt(students, 6)).toEqual([7, 10])
+    expect(gt(students, 6)).toEqual([7, 10])
   })
 
 })

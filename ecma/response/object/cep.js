@@ -1,3 +1,4 @@
+
 function getInfo(cep) {
   return Object
     .keys(cep)
@@ -5,4 +6,4 @@ function getInfo(cep) {
     .join(',\n')
 }
 
-module.exports = getInfo
+export { getInfo }
