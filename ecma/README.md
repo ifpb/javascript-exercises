@@ -5,7 +5,7 @@
   * [IRRF 2017](#irrf-2017)
   * [Numbers series](#numbers-series)
   * [Harmonic series](#harmonic-series)
-* [Function](#functions)
+* [Function](#function)
   * [Sum](#sum)
   * [Area of Circle](#area-of-circle)
   * [Calc](#calc)
@@ -47,7 +47,7 @@
   * [CEP](#cep)
   * [Products](#products)
   * [Products with Quantity](#products-with-quantity)
-  * [Heroes](#heroes)
+  * [Comics](#comics)
   * [Exam](#exam)
   * [Order](#order)
   * [Brazilian Championship A Series 2016](#brazilian-championship-a-series-2016)
@@ -55,10 +55,10 @@
   * [Diff Timestamp (ms)](#diff-timestamp-ms)
 * [Regexp](#regexp)
   * [Text util](#text-util)
-  * [Scanning patterns](#scanning-patterns)
-  * [Pattern Validador](#pattern-validador)
+  * [Scanning pattern](#scanning-pattern)
+  * [Pattern Validador](#pattern-validator)
   * [Search on Tools](#search-on-tools)
-* [Other tasks](#other-tasks)
+* [Other Exercises](#other-exercises)
 
 ## Basic (Expressions & operators, Statements & declarations)
 
@@ -573,8 +573,8 @@ console.log(productMatrix(a, b)) //=> [[58, 64], [139, 154]]
 
 ### Fibonacci sequence array
 
-[array/fibonacci.js](code/array/fibonacci.js)<br>
-[array/fibonacci.test.js](code/array/fibonacci.test.js)
+[array/fibonacci-array.js](code/array/fibonacci-array.js)<br>
+[array/fibonacci-array.test.js](code/array/fibonacci-array.test.js)
 
 ```js
 console.log(fibonacci(4))   //=> [0, 1, 1, 2]
@@ -1265,7 +1265,8 @@ console.log(gt(students, 6))                 //=> [7, 10]
 ```
 **Desafio: Exam OO**
 
-[object/exam-oo/exam.js](code/object/exam-oo/exam.js)<br>
+[object/exam-oo/exam-check.js](code/object/exam-oo/exam-check.js)<br>
+[object/exam-oo/exam-stats.js](code/object/exam-oo/exam-stats.js)<br>
 [object/exam-oo/exam.test.js](code/object/exam-oo/exam.test.js)
 
 Exam Check<br>
@@ -1497,14 +1498,13 @@ console.log(cpf('12345678909')) //=> true
 let message = `Lorem ipsum 01/01/2017 dolor sit amet, 2017-01-02 consectetur.`
 ```
 
-## Other tasks
+## Other Exercises
 
 * [Exercism](http://exercism.io/languages/ecmascript/exercises)
 * [Javscript Koan](https://github.com/mrdavidlaing/javascript-koans)
 * [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/categories)
 
-
 <!-- 
-TODO
-https://rosettacode.org/wiki/Category:Programming_Tasks 
+  TODO
+  https://rosettacode.org/wiki/Category:Programming_Tasks 
 -->
