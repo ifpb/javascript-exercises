@@ -12,6 +12,14 @@ function calc(operand1, operand2, operator){
     case '/':
       return operand1 / operand2
   }
+
+  
 }
 
-export {calc}
+/* alternative answer. to undersand how eval works:
+ * https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/eval */
+function calcWithEval(operand1, operand2, operator) {
+  return eval(operand1 + operator + operand2)
+}
+
+export { calc, calcWithEval }
