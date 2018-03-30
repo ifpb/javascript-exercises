@@ -9,5 +9,5 @@
 | Obesity | BMI of 30 or greater |
 
 ```js
-{% include bmi-if.js %}
+{% include ecma/code/basic/bmi-if.js %}
 ```

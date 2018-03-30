@@ -64,26 +64,26 @@
 ## Running Javascript
 ---
 
-{% include running-javascript.md %}
+{% include ecma/running-javascript.md %}
 
 ## Basic (Expressions & operators, Statements & declarations)
 ---
 
 ### Body mass index (BMI)
 
-{% include code/basic/bmi.md %}
+{% include ecma/code/basic/bmi.md %}
 
 ### IRRF 2017
 
-{% include code/basic/irrf-2017.md %}
+{% include ecma/code/basic/irrf-2017.md %}
 
 ### Numbers series
 
-{% include code/basic/numbers.md %}
+{% include ecma/code/basic/numbers.md %}
 
 ### Harmonic series
 
-{% include code/basic/harmonic-series.md %}
+{% include ecma/code/basic/harmonic-series.md %}
 
 ## Function
 ---
