@@ -1,5 +1,4 @@
-[basic/bmi-if.js](code/basic/bmi-if.js)<br>
-[basic/bmi-switch.js](code/basic/bmi-switch.js)
+### Body mass index (BMI)
 
 | Category | BMI |
 | -|- |
@@ -8,6 +7,12 @@
 | Overweight | 25–29.9 |
 | Obesity | BMI of 30 or greater |
 
+`ecma/code/basic/bmi-if.js`:
 ```js
 {% include ecma/code/basic/bmi-if.js %}
+```
+
+`code/basic/bmi-switch.js`:
+```js
+{% include ecma/code/basic/bmi-switch.js %}
 ```

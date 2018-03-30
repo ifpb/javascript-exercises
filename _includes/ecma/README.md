@@ -69,19 +69,11 @@
 ## Basic (Expressions & operators, Statements & declarations)
 ---
 
-### Body mass index (BMI)
-
 {% include ecma/code/basic/bmi.md %}
-
-### IRRF 2017
 
 {% include ecma/code/basic/irrf-2017.md %}
 
-### Numbers series
-
 {% include ecma/code/basic/numbers.md %}
-
-### Harmonic series
 
 {% include ecma/code/basic/harmonic-series.md %}
 
