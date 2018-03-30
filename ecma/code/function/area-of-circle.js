@@ -1,5 +1,6 @@
 // A = πr²
-let areaOfCircle = function(radius){
+
+function areaOfCircle(radius) {
   // TODO
 }
 

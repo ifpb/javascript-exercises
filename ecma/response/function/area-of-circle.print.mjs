@@ -1,4 +1,4 @@
-import { areaOfCircle } from './area-of-circle-arrow-fn.mjs'
+import { areaOfCircle } from './area-of-circle-fn.mjs'
 
 // Circle Tools
 

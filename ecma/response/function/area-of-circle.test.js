@@ -1,4 +1,4 @@
-import { areaOfCircle } from './area-of-circle-arrow-fn.js'
+import { areaOfCircle } from './area-of-circle.js'
 
 describe('Circle Tools', () => {
 
