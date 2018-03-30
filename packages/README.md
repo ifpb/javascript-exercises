@@ -1,1 +1,1 @@
-# PACKAGES
+{% include packages/README.md %}
