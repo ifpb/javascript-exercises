@@ -1,12 +1,12 @@
 ### Node.js (terminal)
 
 ```
-$ cd javascript-exercises/ecma/code/basic/
+$ cd javascript-exercises/_includes/ecma/code/basic/
 $ node bmi-if.mjs
 ```
 
 ```
-$ cd javascript-exercises/ecma
+$ cd javascript-exercises/_includes/ecma
 $ node
 > (ctrl + v)
 ```
@@ -27,7 +27,7 @@ Control+Shift+J (Google Chrome)
 ### Node.js (Node Carbon)
 
 ```
-$ cd javascript-exercises/ecma/code/function/
+$ cd javascript-exercises/_includes/ecma/code/function/
 $ mv sum.{js,mjs)
 $ node --experimental-modules sum.print.mjs
 ```
@@ -35,7 +35,7 @@ $ node --experimental-modules sum.print.mjs
 ### Unit Test (Jest)
 
 ```
-$ cd javascript-exercises/ecma
+$ cd javascript-exercises/_includes/ecma
 $ npm install
 $ mv code/function/sum.{mjs,js}
 $ npx jest code/function/sum.test.js

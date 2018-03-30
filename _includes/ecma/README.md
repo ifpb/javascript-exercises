@@ -80,19 +80,7 @@
 ## Function
 ---
 
-### Sum
-
-[function/sum.js](code/function/sum.js)<br>
-[function/sum.test.js](code/function/sum.test.js)
-
-```js
-function sum(operand1, operand2){
-  // TODO
-}
-
-console.log(sum(1, 2)) //=> 3
-console.log(sum(3, 2)) //=> 5
-```
+{% include ecma/code/function/sum.md %}
 
 ## Area of Circle
 

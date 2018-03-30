@@ -1,4 +1,3 @@
-
 // TODO for
 
 // Output:

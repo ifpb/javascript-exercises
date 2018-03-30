@@ -1,5 +1,4 @@
 let salary = 3500
-let tax
 
 // TODO
 
