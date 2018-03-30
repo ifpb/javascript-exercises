@@ -1,4 +1,4 @@
-const diffMonth = require('diff-timestamp')
+import { diffMonth } from './diff-timestamp.js'
 
 describe('Date Tool', () => {
   test('calculating the difference between months', () => {
