@@ -1,7 +1,6 @@
-// A = πr²
 
 function areaOfCircle(radius) {
-  // TODO
+  // TODO A = πr²
 }
 
 export { areaOfCircle }
