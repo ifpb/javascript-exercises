@@ -64,145 +64,26 @@
 ## Running Javascript
 ---
 
-### Node.js (terminal)
-
-```
-$ cd javascript-exercises/ecma/code/basic/
-$ node bmi-if.mjs
-```
-
-```
-$ cd javascript-exercises/ecma
-$ node
-> (ctrl + v)
-```
-
-### Browser Console
-
-```
-Control+Shift+J (Google Chrome)
-> (ctrl + v)
-```
-
-### Online Interpreter
-
-[https://repl.it/](https://repl.it/) (ctrl + v)
-
-### vscode
-
-### Node.js (Node Carbon)
-
-```
-$ cd javascript-exercises/ecma/code/function/
-$ mv sum.{js,mjs)
-$ node --experimental-modules sum.print.mjs
-```
-
-### Unit Test (Jest)
-
-```
-$ cd javascript-exercises/ecma
-$ npm install
-$ mv code/function/sum.{mjs,js}
-$ npx jest code/function/sum.test.js
-```
+{% include running-javascript.md %}
 
 ## Basic (Expressions & operators, Statements & declarations)
 ---
 
 ### Body mass index (BMI)
 
-[basic/bmi-if.js](code/basic/bmi-if.js)<br>
-[basic/bmi-switch.js](code/basic/bmi-switch.js)
-
-| Category | BMI |
-| -|- |
-| Underweight | <18.5 |
-| Normal weight | 18.5–24.9 |
-| Overweight | 25–29.9 |
-| Obesity | BMI of 30 or greater |
-
-```js
-// BMI = weight/height²
-let height = 1.5
-let weight = 60
-```
+{% include code/basic/bmi.md %}
 
 ### IRRF 2017
 
-[basic/irrf-2017.js](code/basic/irrf-2017.js)
-
-Base de cálculo mensal em R$ | Alíquota % | Parcela a deduzir do imposto em R$
------------------------------|------------|-----------------------------------
-Até 1.903,98 | – | –
-De 1.903,99 até 2.826,65 | 7,5| 142,80
-De 2.826,66 até 3.751,05 | 15,0 | 354,80
-De 3.751,06 até 4.664,68 | 22,5 | 636,13
-Acima de 4.664,68	| 27,5 | 869,36
-
-Fonte: [Tabela IRRF 2017](https://www.tabeladoirrf.com.br/tabela-irrf-2017.html)
-
-```js
-let salary = 3500.5
-```
+{% include code/basic/irrf-2017.md %}
 
 ### Numbers series
 
-[basic/numbers-for.js](code/basic/numbers-for.js)<br>
-[basic/numbers-forfor.js](code/basic/numbers-forfor.js)<br>
-
-```
-00 01 02 03 04 05 06 07 08 09
-10 11 12 13 14 15 16 17 18 19
-20 21 22 23 24 25 26 27 28 29
-30 31 32 33 34 35 36 37 38 39
-40 41 42 43 44 45 46 47 48 49
-50 51 52 53 54 55 56 57 58 59
-60 61 62 63 64 65 66 67 68 69
-70 71 72 73 74 75 76 77 78 79
-80 81 82 83 84 85 86 87 88 89
-90 91 92 93 94 95 96 97 98 99
-```
-
-[basic/numbers-reverse-for.js](code/basic/numbers-reverse-for.js)<br>
-
-```
-99 98 97 96 95 94 93 92 91 90
-89 88 87 86 85 84 83 82 81 80
-79 78 77 76 75 74 73 72 71 70
-69 68 67 66 65 64 63 62 61 60
-59 58 57 56 55 54 53 52 51 50
-49 48 47 46 45 44 43 42 41 40
-39 38 37 36 35 34 33 32 31 30
-29 28 27 26 25 24 23 22 21 20
-19 18 17 16 15 14 13 12 11 10
-09 08 07 06 05 04 03 02 01 00
-```
-
-[basic/numbers-reverse-odd-for.js](code/basic/numbers-reverse-odd-for.js)
-
-```
-99 97 95 93 91
-89 87 85 83 81
-79 77 75 73 71
-69 67 65 63 61
-59 57 55 53 51
-49 47 45 43 41
-39 37 35 33 31
-29 27 25 23 21
-19 17 15 13 11
-09 07 05 03 01
-```
+{% include code/basic/numbers.md %}
 
 ### Harmonic series
 
-[basic/harmonic-series.js](code/basic/harmonic-series.js)
-
-```js
-// h = 1/1 + 1/2 + ... + 1/n
-
-let n = 10
-```
+{% include code/basic/harmonic-series.md %}
 
 ## Function
 ---

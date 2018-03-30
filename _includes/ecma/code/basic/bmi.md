@@ -9,7 +9,5 @@
 | Obesity | BMI of 30 or greater |
 
 ```js
-// BMI = weight/height²
-let height = 1.5
-let weight = 60
+{% include bmi-if.js %}
 ```

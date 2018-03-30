@@ -1,0 +1,12 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide circle
+
+class ExamCheck {
+  weight: Object
+  answer: Object
+  constructor(weight: Object, answer: Object)
+  grade(answer): Number
+}
+@enduml
