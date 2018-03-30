@@ -60,30 +60,63 @@
   * [Search on Tools](#search-on-tools)
 * [Other Exercises](#other-exercises)
 
+
+## Running Javascript
+---
+
+### Node.js (terminal)
+
+```
+$ cd javascript-exercises/ecma/code/basic/
+$ node bmi-if.mjs
+```
+
+```
+$ cd javascript-exercises/ecma
+$ node
+> (ctrl + v)
+```
+
+### Browser Console
+
+```
+Control+Shift+J (Google Chrome)
+> (ctrl + v)
+```
+
+### Online Interpreter
+
+[https://repl.it/](https://repl.it/) (ctrl + v)
+
+### vscode
+
+### Node.js (Node Carbon)
+
+```
+$ cd javascript-exercises/ecma/code/function/
+$ mv sum.{js,mjs)
+$ node --experimental-modules sum.print.mjs
+```
+
+### Unit Test (Jest)
+
+```
+$ cd javascript-exercises/ecma
+$ npm install
+$ mv code/function/sum.{mjs,js}
+$ npx jest code/function/sum.test.js
+```
+
 ## Basic (Expressions & operators, Statements & declarations)
 ---
 
 ### Body mass index (BMI)
 
-| Category | BMI |
-| -|- |
-| Underweight | <18.5 |
-| Normal weight | 18.5–24.9 |
-| Overweight | 25–29.9 |
-| Obesity | BMI of 30 or greater |
-
-[basic/bmi-if.js](code/basic/bmi-if.js)<br>
-[basic/bmi-switch.js](code/basic/bmi-switch.js)
-
-```js
-// BMI = weight/height²
-let height = 1.5
-let weight = 60
-```
+{% include basic/bmi.md %}
 
 ### IRRF 2017
 
-Fonte: [Tabela IRRF 2017](https://www.tabeladoirrf.com.br/tabela-irrf-2017.html)
+[basic/irrf-2017.js](code/basic/irrf-2017.js)
 
 Base de cálculo mensal em R$ | Alíquota % | Parcela a deduzir do imposto em R$
 -----------------------------|------------|-----------------------------------
@@ -93,7 +126,7 @@ De 2.826,66 até 3.751,05 | 15,0 | 354,80
 De 3.751,06 até 4.664,68 | 22,5 | 636,13
 Acima de 4.664,68	| 27,5 | 869,36
 
-[basic/bmi-if.js](code/basic/bmi-if.js)
+Fonte: [Tabela IRRF 2017](https://www.tabeladoirrf.com.br/tabela-irrf-2017.html)
 
 ```js
 let salary = 3500.5
@@ -172,13 +205,6 @@ function sum(operand1, operand2){
 
 console.log(sum(1, 2)) //=> 3
 console.log(sum(3, 2)) //=> 5
-```
-
-```
-$ cd javascript-exercises/ecma
-$ npm install
-$ cd code
-$ npx jest function/sum.test.js
 ```
 
 ## Area of Circle
