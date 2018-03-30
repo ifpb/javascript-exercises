@@ -4,6 +4,7 @@ describe('Array Operation', () => {
 
   test('adding values from [1, 2, 3]', () => {
     let values = [1, 2, 3]
+    console.log(sum(values))
     expect(sum(values)).toBe(6)
   })
 
@@ -64,7 +65,6 @@ describe('Array Operation', () => {
     let b = [[7, 8], [9, 10], [11, 12]]
     expect(multiplyingMatrix(a, b)).toEqual([[58, 64], [139, 154]])
   })
-
 
   test('multiplying a matrix (2x2) by another matrix (2x2)', () => {
     let a = [[1, 2], [3, 4]]

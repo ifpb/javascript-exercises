@@ -3,7 +3,7 @@ import { rand, randArray } from './random.js'
 describe('Random Util', () => {
   test('making random number >= 1 and <= 100', () => {
     let value = rand(100)
-    expect(value).toBeGreaterThanOrEqual(0)
+    expect(value).toBeGreaterThanOrEqual(1)
     expect(value).toBeLessThanOrEqual(100)
   })
 

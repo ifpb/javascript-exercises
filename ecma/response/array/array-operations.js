@@ -52,11 +52,4 @@ function multiplyingMatrix(a, b) {
   return result
 }
 
-
-export {
-  sum,
-  product,
-  sumOdds,
-  addingMatrix,
-  multiplyingMatrix
-}
+export { sum, product, sumOdds, addingMatrix, multiplyingMatrix }

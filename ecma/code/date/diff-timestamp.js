@@ -1,5 +1,5 @@
 
-function diffMonth() {
+function diffMonth(start, end) {
   // TODO
 }
 
