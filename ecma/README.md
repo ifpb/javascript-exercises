@@ -112,7 +112,7 @@ $ npx jest code/function/sum.test.js
 
 ### Body mass index (BMI)
 
-{% include basic/bmi.md %}
+{% include ecma/basic/bmi.md %}
 
 ### IRRF 2017
 
