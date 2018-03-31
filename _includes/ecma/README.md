@@ -686,62 +686,13 @@ console.log(diffMonth(last, now)) //=> 5
 ## Regexp
 ---
 
-### Text util
+{% include ecma/code/regexp/text-util.md %}
 
-[regexp/text-util.js](code/regexp/text-util.js)<br>
-[regexp/text-util.test.js](code/regexp/text-util.test.js)
+{% include ecma/code/regexp/scan-pattern.md %}
 
-```js
-// Camel case
-let message = 'lorem ipsum\ndolor'
+{% include ecma/code/regexp/validator-pattern.md %}
 
-console.log(message.toCamelCase())
-//=> Lorem Ipsum\nDolor
-
-// Apply bold
-let text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit'
-
-console.log(text.applyBold(, 'ipsum'))
-//=> Lorem <b>ipsum</b> dolor sit amet, consectetur adipisicing elit
-```
-
-### Scanning Pattern
-
-[regexp/scan-pattern.js](code/regexp/scan-pattern.js)<br>
-[regexp/scan-pattern.test.js](code/regexp/scan-pattern.test.js)
-
-```js
-// CEP
-let message = `Lorem ipsum 12345-123 dolor sit amet, 12345123 consectetur.`
-
-console.log(cep(message)) //=> {count: 2, values: ['12345-123', '12345123']}
-
-// Date
-let message = `Lorem ipsum 01/01/2017 dolor sit amet, 2017-01-02 consectetur.`
-
-console.log(date(message)) //=> {count: 2, values: ['01/01/2017', '02/01/2017']}
-```
-
-### Pattern Validator
-
-[regexp/validator-pattern.js](code/regexp/validator-pattern.js)<br>
-[regexp/validator-pattern.test.js](code/regexp/validator-pattern.test.js)
-
-```js
-// Valide o CPF primeiro usando o regex e depois o cálculo do dígito verificador
-// http://ghiorzi.org/DVnew.htm
-
-console.log(cpf('12345678909')) //=> true
-```
-
-### Search on Tools
-
-```js
-// Coloque esse texto no atom e veja se é possível procurar datas com RegExp
-// http://matt.might.net/articles/sculpting-text/ (grep, awk, sed, vim, emacs)
-
-let message = `Lorem ipsum 01/01/2017 dolor sit amet, 2017-01-02 consectetur.`
-```
+{% include ecma/code/regexp/search-tools.md %}
 
 ## Other Exercises
 
