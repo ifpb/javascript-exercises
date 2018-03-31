@@ -1,11 +1,11 @@
 ### Diff Timestamp
 
-`ecma/code/regexp/diff-timestamp.mjs`:
+`ecma/code/date/diff-timestamp.mjs`:
 ```js
-{% include ecma/code/regexp/diff-timestamp.js %}
+{% include ecma/code/date/diff-timestamp.js %}
 ```
 
-`ecma/code/regexp/diff-timestamp.print.mjs`:
+`ecma/code/date/diff-timestamp.print.mjs`:
 ```js
-{% include ecma/code/regexp/diff-timestamp.print.mjs %}
+{% include ecma/code/date/diff-timestamp.print.mjs %}
 ```
