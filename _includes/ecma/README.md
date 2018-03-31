@@ -52,7 +52,7 @@
   * [Order](#order)
   * [Brazilian Championship A Series 2016](#brazilian-championship-a-series-2016)
 * [Date](#date)
-  * [Diff Timestamp (ms)](#diff-timestamp-ms)
+  * [Diff Timestamp](#diff-timestamp)
 * [Regexp](#regexp)
   * [Text util](#text-util)
   * [Scanning pattern](#scanning-pattern)
@@ -671,17 +671,7 @@ console.log(tablemd2html(table))
 ## Date
 ---
 
-### Diff Timestamp (ms)
-
-[date/diff-timestamp.js](code/date/diff-timestamp.js)<br>
-[date/diff-timestamp.test.js](code/date/diff-timestamp.test.js)
-
-```js
-let last = 1483239600000 // (new Date(2017, 0, 1)).getTime()
-let now  = 1496762425846 // Date.now()
-
-console.log(diffMonth(last, now)) //=> 5
-```
+{% include ecma/code/date/diff-timestamp.md %}
 
 ## Regexp
 ---
