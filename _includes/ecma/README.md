@@ -147,7 +147,7 @@
 
 {% include ecma/code/string/validating-cpf.md %}
 
-{% include ecma/code/string/generating-cpf.md.md %}
+{% include ecma/code/string/generating-cpf.md %}
 
 {% include ecma/code/string/cipher.md %}
 
