@@ -7,7 +7,7 @@ String.prototype.toSnakeCase = function() {
   // TODO
 }
 
-String.prototype.applyBold = function() {
+String.prototype.applyBold = function(text) {
   // TODO
 }
 

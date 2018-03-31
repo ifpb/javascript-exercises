@@ -9,18 +9,18 @@ describe('Markdown Util', () => {
 
     const expected =
 `<table>
-<thead>
-<tr>
-<th>Header One</th>
-<th>Header Two</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Item One</td>
-<td>Item Two</td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>Header One</th>
+      <th>Header Two</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Item One</td>
+      <td>Item Two</td>
+    </tr>
+  </tbody>
 </table>`
 
     expect(md2html(table)).toBe(expected)

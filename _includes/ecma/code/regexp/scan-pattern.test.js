@@ -1,4 +1,4 @@
-import { date, cep } from './scan-patterns.js'
+import { date, cep } from './scan-pattern.js'
 
 describe('Scan Patterns', () => {
 

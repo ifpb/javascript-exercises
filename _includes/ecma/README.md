@@ -40,6 +40,7 @@
   * [Parser (String2Number)](#parser-string2number)
   * [IP](#ip)
   * [Validing CPF](#validing-cpf)
+  * [Generating CPF](#generating-cpf)
   * [Table Convert .md to .html](#table-convert-md-to-html)
 * [Math](#math)
   * [Random](#random)
@@ -145,6 +146,8 @@
 {% include ecma/code/string/citation.md %}
 
 {% include ecma/code/string/validating-cpf.md %}
+
+{% include ecma/code/string/generating-cpf.md.md %}
 
 {% include ecma/code/string/cipher.md %}
 

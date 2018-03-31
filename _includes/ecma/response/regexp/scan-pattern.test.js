@@ -1,4 +1,4 @@
-import { date, cep } from './scan-patterns.js'
+import { date, cep } from './scan-pattern.js'
 
 describe('Scan Patterns', () => {
 
@@ -11,7 +11,7 @@ describe('Scan Patterns', () => {
     expect(date(message)).toEqual(expected)
   })
 
-  test.skip('with message having one date', () => {
+  test('with message having one date', () => {
     let message = 'Lorem ipsum dolor sit amet 12/01/2017 aliqua.'
     let expected = {
       count: 1,
@@ -20,7 +20,7 @@ describe('Scan Patterns', () => {
     expect(date(message)).toEqual(expected)
   })
 
-  test.skip('with message having different date patterns', () => {
+  test('with message having different date patterns', () => {
     let message = 'Lorem ipsum dolor sit amet 12/01/2017, consectetur 2015-12-31 adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     let expected = {
       count: 2,
@@ -29,7 +29,7 @@ describe('Scan Patterns', () => {
     expect(date(message)).toEqual(expected)
   })
 
-  test.skip('with message without cep', () => {
+  test('with message without cep', () => {
     let message = 'Lorem ipsum dolor sit amet.'
     let expected = {
       count: 0,
@@ -38,7 +38,7 @@ describe('Scan Patterns', () => {
     expect(cep(message)).toEqual(expected)
   })
 
-  test.skip('with message with one cep', () => {
+  test('with message with one cep', () => {
     let message = 'Lorem ipsum dolor sit amet 12345123 aliqua.'
     let expected = {
       count: 1,
@@ -49,7 +49,7 @@ describe('Scan Patterns', () => {
     expect(received.values).toEqual(expected.values)
   })
 
-  test.skip('with message with different cep patterns', () => {
+  test('with message with different cep patterns', () => {
     let message = 'Lorem ipsum dolor sit amet 12345123, consectetur 12345-123 adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     let expected = {
       count: 2,

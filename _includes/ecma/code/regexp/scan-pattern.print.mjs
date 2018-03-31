@@ -1,4 +1,4 @@
-import { date, cep } from './scan-patterns.mjs'
+import { date, cep } from './scan-pattern.mjs'
 
 // Scan Patterns
 

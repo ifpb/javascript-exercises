@@ -1,6 +1,6 @@
 
-function validateCPF(value) {
+function checkingDigitCpf(cpf) {
   // TODO
 }
 
-export { validateCPF }
+export { checkingDigitCpf }

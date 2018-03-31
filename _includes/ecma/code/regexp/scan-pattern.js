@@ -1,9 +1,9 @@
 
-function date() {
+function date(text) {
   // TODO
 }
 
-function cep() {
+function cep(text) {
   // TODO
 }
 

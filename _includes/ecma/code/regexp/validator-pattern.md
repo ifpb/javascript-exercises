@@ -1,5 +1,7 @@
 ### Pattern Validator
 
+> CPF:  http://ghiorzi.org/DVnew.htm
+
 `ecma/code/regexp/validator-pattern.mjs`:
 ```js
 {% include ecma/code/regexp/validator-pattern.js %}

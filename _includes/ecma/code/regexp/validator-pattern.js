@@ -1,7 +1,6 @@
 
 function cpf(){
   // TODO
-  // http://ghiorzi.org/DVnew.htm
 }
 
 function cnpj(){

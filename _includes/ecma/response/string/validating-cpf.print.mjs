@@ -1,7 +1,7 @@
-import { validateCPF } from './validating-cpf.mjs'
+import { checkingDigitCpf } from './validating-cpf.mjs'
 
-// validateCPF
+// Checking Digit CPF
 
-// two plus two is four
-console.log(validateCPF('12345678909'))
+// the check digit of 123456789 is 09
+console.log(checkingDigitCpf('12345678909'))
 console.log(true)

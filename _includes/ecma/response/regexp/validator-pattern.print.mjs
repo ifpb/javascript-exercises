@@ -1,4 +1,4 @@
-import { cpf, cnpj, cep, octal } from './validador-regexp.js'
+import { cpf, cnpj, cep, octal } from './validator-pattern.js'
 
 // Validator Pattern
 

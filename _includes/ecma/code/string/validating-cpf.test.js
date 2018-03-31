@@ -1,9 +1,9 @@
-import { validateCPF } from './validating-cpf.js'
+import { checkingDigitCpf } from './validating-cpf.js'
 
-describe('Validate CPF', () => {
+describe('Checking Digit CPF', () => {
 
-  test('two plus two is four', () => {
-    expect(validateCPF('12345678909')).toBe(true)
+  test('the check digit of 123456789 is 09', () => {
+    expect(checkingDigitCpf('12345678909')).toBe(true)
   })
 
 })

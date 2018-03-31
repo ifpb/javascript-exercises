@@ -1,3 +1,4 @@
+import { isPrime } from '../function/prime.js'
 
 /**
  * begin: 1..n

@@ -1,19 +1,20 @@
+import { checkingDigitCpf } from '../string/validating-cpf.js'
 
-function cpf(){
-  // TODO
-  // http://ghiorzi.org/DVnew.htm
+function validateCpf(cpf) {
+  return /^(\d{11}|(\d{3}\.){2}\d{3}-\d{2})$/.test(cpf) && checkingDigitCpf(cpf.replace(/[\.-]/g, ''))
 }
 
-function cnpj(){
+function validateCnpj(cnpj) {
   // TODO
+  // return /^()$/.test(cnpj)
 }
 
-function cep(){
-  // TODO
+function validateCep(cep) {
+  return /^(\d{8}|\d{2}[\.-]?\d{3}-\d{3})$/.test(cep)
 }
 
-function octal(){
-  // TODO
+function validateOctal(octal) {
+  return /^0[oO]?[0-7]+$/.test(octal)
 }
 
-export { cpf, cnpj, cep, octal }
+export { validateCpf, validateCnpj, validateCep, validateOctal }
