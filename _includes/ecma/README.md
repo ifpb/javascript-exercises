@@ -664,7 +664,7 @@ console.log(tablemd2html(table))
 
 {% include ecma/code/object/order/order.md %}
 
-{% include ecma/code/object/order/order-category.md %}
+{% include ecma/code/object/order-category/order.md %}
 
 {% include ecma/code/object/brazilian-championship.md %}
 
