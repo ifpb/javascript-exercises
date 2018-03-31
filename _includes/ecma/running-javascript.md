@@ -22,7 +22,9 @@ Control+Shift+J (Google Chrome)
 
 [https://repl.it/](https://repl.it/) (ctrl + v)
 
-### vscode
+### vscode 
+
+(run, debug, jest, chrome)
 
 ### Node.js (Node Carbon)
 
