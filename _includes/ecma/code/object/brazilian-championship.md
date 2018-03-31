@@ -31,12 +31,12 @@ Teams are ranked by PTS, W, GD, and GF. If points are equal between two or more 
 
 **Code**
 
-`ecma/code/object/brasilian-championship.mjs`:
+`ecma/code/object/brazilian-championship.mjs`:
 ```js
-{% include ecma/code/object/brasilian-championship.js %}
+{% include ecma/code/object/brazilian-championship.js %}
 ```
 
-`ecma/code/object/brasilian-championship.print.mjs`:
+`ecma/code/object/brazilian-championship.print.mjs`:
 ```js
-{% include ecma/code/object/brasilian-championship.print.mjs %}
+{% include ecma/code/object/brazilian-championship.print.mjs %}
 ```

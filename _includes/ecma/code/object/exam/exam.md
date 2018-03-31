@@ -1,13 +1,13 @@
 ### Exam
 
-`ecma/code/function/exam.mjs`:
+`ecma/code/object/exam/exam.mjs`:
 ```js
-{% include ecma/code/function/exam.js %}
+{% include ecma/code/object/exam/exam.js %}
 ```
 
-`ecma/code/function/exam.print.mjs`:
+`ecma/code/object/exam/exam.print.mjs`:
 ```js
-{% include ecma/code/function/exam.print.mjs %}
+{% include ecma/code/object/exam/exam.print.mjs %}
 ```
 
 > Tips:<br>
