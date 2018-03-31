@@ -4,7 +4,6 @@ describe('Array Operation', () => {
 
   test('adding values from [1, 2, 3]', () => {
     let values = [1, 2, 3]
-    console.log(sum(values))
     expect(sum(values)).toBe(6)
   })
 

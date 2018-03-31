@@ -47,6 +47,7 @@ let expected = {
 let received = cep(message)
 console.log(received.count)
 console.log(expected.count)
+
 console.log(received.values)
 console.log(expected.values)
 
@@ -59,5 +60,6 @@ let expected = {
 let result = cep(message)
 console.log(result.count)
 console.log(expected.count)
+
 console.log(result.values)
 console.log(expected.values)

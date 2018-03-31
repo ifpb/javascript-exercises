@@ -1,6 +1,6 @@
 import { firstTeam, showStading } from './brazilian-championship.mjs'
 
-const standings = undefined // TODO
+const standings = // TODO
 
 // Brazilian Championship
 

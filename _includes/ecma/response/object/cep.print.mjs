@@ -3,7 +3,6 @@ import { getInfo } from './cep.mjs'
 // CEP Util
 
 // displaying cep information
-
 let expected = `cep: 01001-000,
 logradouro: Praça da Sé,
 complemento: lado ímpar,
