@@ -13,11 +13,11 @@ console.log(examCheck.grade(student))
 console.log(4)
 
 // calculating grade by weighted average
-let weight =   {q1:  2 , q2:  2 , q3:  2 , q4:  2 , q5:  2 }
-let answer =   {q1: 'a', q2: 'b', q3: 'a', q4: 'c', q5: 'd'}
-let examCheck = new ExamCheck(answer, weight)
+weight =   {q1:  2 , q2:  2 , q3:  2 , q4:  2 , q5:  2 }
+answer =   {q1: 'a', q2: 'b', q3: 'a', q4: 'c', q5: 'd'}
+examCheck = new ExamCheck(answer, weight)
 
-let student = {q1: 'c', q2: 'b', q3: 'a', q4: 'c', q5: 'd'}
+student = {q1: 'c', q2: 'b', q3: 'a', q4: 'c', q5: 'd'}
 console.log(examCheck.grade(student))
 console.log(8)
 
@@ -33,6 +33,7 @@ console.log(7.333333333333333)
 
 console.log(examStats.min())
 console.log([5])
+
 console.log(examStats.min(2))
 console.log([5, 7])
 
