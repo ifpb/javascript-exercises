@@ -7,31 +7,31 @@ describe('String Util', () => {
     expect(formatter('lorem ipsum dolor', 'uppercase')).toBe('LOREM IPSUM DOLOR')
   })
 
-  test.skip('change case for text to lowercase', () => {
+  test('change case for text to lowercase', () => {
     expect(formatter('LOREM IPSUM DOLOR', 'lowercase')).toBe('lorem ipsum dolor')
   })
 
-  test.skip('change case for text to camelcase', () => {
+  test('change case for text to camelcase', () => {
     expect(formatter('LOREM IPSUM DOLOR', 'camelcase')).toBe('Lorem Ipsum Dolor')
   })
 
-  test.skip('change case for text to snakecase', () => {
+  test('change case for text to snakecase', () => {
     expect(formatter('lorem ipsum dolor', 'snakecase')).toBe('lorem_ipsum_dolor')
   })
 
-  test.skip('reversing text', () => {
+  test('reversing text', () => {
     expect(formatter('lorem ipsum dolor', 'reverse')).toBe('rolod muspi merol')
   })
 
-  test.skip('counting chars', () => {
+  test('counting chars', () => {
     expect(formatter('lorem\nipsum dolor', 'countchar')).toBe(17)
   })
 
-  test.skip('counting words', () => {
+  test('counting words', () => {
     expect(formatter('lorem\nipsum dolor', 'countword')).toBe(3)
   })
 
-  test.skip('counting lines', () => {
+  test('counting lines', () => {
     expect(formatter('lorem\nipsum dolor', 'countline')).toBe(2)
   })
 })

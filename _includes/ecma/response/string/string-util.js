@@ -12,11 +12,21 @@ function formatter(text, action) {
       return text.toUpperCase()
     case 'camelcase':
       return toCamelCase(text)
+    case 'snakecase':
+      return text.replace(/\s/g, '_')
+    case 'reverse':
+      return text.split('').reverse().join('')
+    case 'countchar':
+      return text.split('').length
+    case 'countword':
+      return text.split(/\s/g).length
+    case 'countline':
+      return text.split('\n').length
   }
 }
 
 function toCamelCase(text) {
-  result = []
+  let result = []
   for (let word of text.split(' ')) {
     let firstLetter = word[0].toUpperCase()
     let slicedWord = word.substr(1).toLowerCase()

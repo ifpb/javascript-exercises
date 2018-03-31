@@ -5,7 +5,7 @@ import { citation, compactCitation } from './citation.mjs'
 // formatting case citation
 let person = 'Luiz Carlos Rodrigues Chaves'
 console.log(citation(person))
-console.log('CHAVES; Luiz Carlos Rodribues')
+console.log('CHAVES; Luiz Carlos Rodrigues')
 
 // formatting short form case citation
 let person = 'Luiz Carlos Rodrigues Chaves'

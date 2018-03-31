@@ -7,8 +7,6 @@ let expected = `<ul>
 <li>Text 1</li>
 <li>Text 2</li>
 <li>Text 3</li>
-<li>Text 4</li>
-<li>Text 5</li>
 </ul>
 `
 

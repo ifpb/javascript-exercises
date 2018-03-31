@@ -1,8 +1,8 @@
-function citation() {
+function citation(name) {
   // TODO
 }
 
-function compactCitation() {
+function compactCitation(name) {
   // TODO
 }
 

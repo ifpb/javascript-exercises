@@ -1,6 +1,8 @@
 import { word, paragraph } from './lorem-ipsum-generator.mjs'
 
 // Lorem Ipsum
+// https://www.lipsum.com/
+
 // generating the first 3 words
 console.log(word(3))
 console.log('lorem ipsum dolor')

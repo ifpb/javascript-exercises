@@ -7,7 +7,7 @@ describe('Table Generator', () => {
 3.1 3.2 3.3 3.4
 `
 
-    expect(generator.createTable(3, 4)).toBe(expected)
+    expect(createTable(3, 4)).toBe(expected)
   })
 
   test.skip('making text table', () => {
@@ -16,7 +16,7 @@ Item 2.1 Item 2.2 Item 2.3 Item 2.4
 Item 3.1 Item 3.2 Item 3.3 Item 3.4
 `
 
-    expect(generator.createTable(3, 4, 'Item')).toBe(expected)
+    expect(createTable(3, 4, 'Item')).toBe(expected)
   })
 
   test.skip('making HTML table', () => {
@@ -42,6 +42,6 @@ Item 3.1 Item 3.2 Item 3.3 Item 3.4
 </table>
 `
 
-    expect(generator.createTableHTML(3, 4)).toBe(expected)
+    expect(createTableHTML(3, 4)).toBe(expected)
   })
 })

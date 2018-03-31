@@ -1,4 +1,4 @@
-import { validateCPF } from './validate-cpf.mjs'
+import { validateCPF } from './validating-cpf.mjs'
 
 // validateCPF
 

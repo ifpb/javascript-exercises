@@ -1,6 +1,6 @@
-import { validateCPF } from './validate-cpf.js'
+import { validateCPF } from './validating-cpf.js'
 
-describe('validateCPF', () => {
+describe('Validate CPF', () => {
 
   test('two plus two is four', () => {
     expect(validateCPF('12345678909')).toBe(true)

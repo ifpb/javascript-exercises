@@ -6,7 +6,7 @@ describe('Caesar Cipher', () => {
     expect(rot('xyz', 2)).toBe('zab')
   })
 
-  test.skip('encoding rot13', () => {
+  test('encoding rot13', () => {
     expect(rot('abc', 13)).toBe('nop')
     expect(rot('xyz', 13)).toBe('klm')
   })

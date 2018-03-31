@@ -1,23 +1,23 @@
 import { toRna } from './rna-transcription.js'
 
 describe('RNA', function () {
-  test('transcribing cytosine to guanine', function () {
+  test('transcribing cytosine to guanine', () => {
     expect(toRna('C')).toEqual('G')
   })
 
-  test.skip('transcribing guanine to cytosine', function () {
+  test('transcribing guanine to cytosine', () => {
     expect(toRna('G')).toEqual('C')
   })
 
-  test.skip('transcribing adenine to uracil', function () {
+  test('transcribing adenine to uracil', () => {
     expect(toRna('A')).toEqual('U')
   })
 
-  test.skip('transcribing thymine to adenine', function () {
+  test('transcribing thymine to adenine', () => {
     expect(toRna('T')).toEqual('A')
   })
 
-  test.skip('transcribing all dna nucleotides to their rna complements', function () {
+  test('transcribing all dna nucleotides to their rna complements', () => {
     expect(toRna('ACGTGGTCTTAA'))
       .toEqual('UGCACCAGAAUU')
   })

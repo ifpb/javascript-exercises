@@ -33,18 +33,18 @@ console.log('AB')
 console.log(bin2str('01000001 01000010 01000011'))
 console.log('ABC')
 
-// converting string to octal
+// converting string to decimal
 console.log(str2dec('AB'))
-console.log('65 66')
+console.log('065 066')
 
-// converting string to octal
+// converting string to decimal
 console.log(str2dec('ABC'))
-console.log('65 66 67')
+console.log('065 066 067')
 
-// converting octal to string
-console.log(dec2str('65 66'))
+// converting decimal to string
+console.log(dec2str('065 066'))
 console.log('AB')
 
-// converting octal to string
-console.log(dec2str('65 66 67'))
+// converting decimal to string
+console.log(dec2str('065 066 067'))
 console.log('ABC')
