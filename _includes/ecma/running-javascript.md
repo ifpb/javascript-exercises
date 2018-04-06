@@ -41,5 +41,6 @@ $ cd javascript-exercises/_includes/ecma
 $ npm install
 $ mv code/function/sum.{mjs,js}
 $ npx jest code/function/sum.test.js
+$ npx jest --watch code/function/sum.test.js
 $ npx jest --coverage code/ 
 ```
