@@ -1,4 +1,4 @@
-import { sumIntegerInArray } from './sum-integers-in-array';
+import { sumIntegerInArray } from './sum-all-numbers-in-array';
 
 // the sum of a regular array
 const regularArray = [1, 2, 3, 20];

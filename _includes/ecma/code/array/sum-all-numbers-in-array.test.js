@@ -1,4 +1,4 @@
-import { sumIntegerInArray } from './sum-integers-in-array';
+import { sumIntegerInArray } from './sum-all-numbers-in-array';
 
 describe('Sum all integers in an Array', () => {
   test('Should return 0 for a empty array', () => {
