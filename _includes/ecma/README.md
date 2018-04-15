@@ -27,6 +27,7 @@
   * [Prime Factors](#prime-factors)
   * [Products Array](#products-array)
   * [Products Array with Quantity](#products-array-with-quantity)
+  * [Sum All Numbers in Array](#sum-all-numbers-in-array)
 * [String](#string)
   * [List Generator](#list-generator)
   * [Table Generator](#table-generator)
