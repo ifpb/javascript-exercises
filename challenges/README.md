@@ -1,6 +1,8 @@
 # CHALLENGES
 
-* [ecma-challenge](ecma-challenge/)
-* [weather-app](weather-app/)
-* [comparador-github-profile](comparador-github-profile/)
-* [security-ecma-challenge](security-ecma-challenge/)
+* ECMA
+  * [ecma-challenge](ecma/algorithms-challenge/)
+  * [security-ecma-challenge](ecma/security-challenge/)
+* W3C
+  * [comparador-github-profile](w3c/comparador-github-profile/)
+  * [weather-app](w3c/weather-app/)
