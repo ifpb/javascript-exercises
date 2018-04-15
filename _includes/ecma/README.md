@@ -124,6 +124,8 @@
 
 {% include ecma/code/array/products-qtd.md %}
 
+{% include ecma/code/array/sum-all-numbers-in-array.md %}
+
 ## String
 ---
 
