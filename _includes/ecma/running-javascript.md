@@ -8,14 +8,14 @@ $ node bmi-if.mjs
 ```
 $ cd javascript-exercises/_includes/ecma
 $ node
-> (`ctrl` + `v`)
+> (ctrl + v)
 ```
 
 ### Browser Console
 
 ```
 Control+Shift+J (Google Chrome)
-> (`ctrl` + `v`)
+> (ctrl + v)
 ```
 
 ### Online Interpreter
