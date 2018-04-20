@@ -1,0 +1,27 @@
+[
+  {
+    "status": "up",
+    "service": "Web Server",
+    "port": "80"
+  },
+  {
+    "status": "down",
+    "service": "Email Server (incoming)",
+    "port": "993"
+  },
+  {
+    "status": "down",
+    "service": "Email Server (outgoing)",
+    "port": "587"
+  },
+  {
+    "status": "down",
+    "service": "Database Server",
+    "port": "3306"
+  },
+  {
+    "status": "up",
+    "service": "SSH",
+    "port": "22"
+  }
+]

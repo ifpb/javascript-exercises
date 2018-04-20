@@ -1,0 +1,164 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+body>header {
+  color: #fff;
+  background-color: #99aec4;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+body>header .material-icons {
+  float: right;
+  cursor: pointer;
+  line-height: 50px;
+  margin-right: 20px;
+}
+
+body>main {
+  width: 960px;
+  margin: auto;
+}
+
+.row {
+  white-space : nowrap;
+}
+
+.col-right, .col-left {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-right {
+  margin-left: 0.75%;
+}
+
+.col-left {
+  margin-right: 0.75%;
+}
+
+.col-half section.panel {
+  width: 98.5%;
+}
+
+section.panel {
+  border: 1px solid #dfdfdf;
+  box-shadow: 1px 1px 0px 2px #dfdfdf;
+  margin: 20px 0;
+}
+
+section.panel header {
+  color: #fff;
+  background-color: #99aec4;
+  padding: 5px;
+  font-size: 1.3em;
+}
+
+section.panel header .material-icons {
+  float: right;
+  cursor: pointer;
+}
+
+section.panel table {
+  color: #989798;
+  width: 98%;
+  margin: 5px auto;
+  border-collapse: collapse;
+}
+
+section.panel table td, section.panel table th {
+  padding: 5px;
+}
+
+section.panel table tbody tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+section.panel.network table {
+  text-align: center;
+}
+
+section.panel.memory table td:nth-child(2) {
+  width: 80%;
+}
+
+section.panel.memory .memory-status {
+  background-color: #dee2e6;
+}
+
+section.panel.memory .memory-status .memory-used {
+  background-color: #7bce6c;
+}
+
+section.panel.service .online, section.service .offline {
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 1px 3px;
+  font-size: .9em;
+}
+
+section.panel.service .online {
+  background-color: #2b992b;
+}
+
+section.panel.service .offline {
+  background-color: #bd241c;
+}
+
+section.panel.disk {
+  margin-top: 0;
+}
+
+section.panel.disk .disk-status {
+  background-color: #dee2e6;
+}
+
+section.panel.disk .disk-status .disk-used {
+  background-color: #7bce6c;
+}
+
+section.panel.disk td:nth-child(n+4) {
+  text-align: center;
+}
+
+section.panel [data-used="37"]{
+  width: 37%;
+}
+
+section.panel [data-used="10"]{
+  width: 10%;
+}
+
+section.panel [data-used="1"]{
+  width: 1%;
+}
+
+section.panel [data-used="16"]{
+  width: 16%;
+}
+
+#system-info table {
+  min-height: 180px;
+}
+
+#network-info table {
+  min-height: 90px;
+}
+
+#memory-info table {
+  min-height: 120px;
+}
+
+#service-info table {
+  min-height: 150px;
+}
+
+#disk-info table {
+  min-height: 120px;
+}

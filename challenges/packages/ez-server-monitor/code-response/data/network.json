@@ -1,0 +1,14 @@
+[
+  {
+    "interface": "eth0",
+    "address": "192.168.0.1",
+    "receive": "500.00 MB",
+    "transmit": "19.00 MB"
+  },
+  {
+    "interface": "lo",
+    "address": "127.0.0.1",
+    "receive": "10 Kb",
+    "transmit": "10 KB"
+  }
+]

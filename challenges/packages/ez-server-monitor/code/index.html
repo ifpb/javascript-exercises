@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Material+Icons">
+</head>
+<body>
+  <header>
+    <span>vm-debian8-part - 192.168.0.1</span>
+    <i class="material-icons">cached</i>
+  </header>
+  <main>
+    <div class="row">
+      <div class="col-left">
+        <section class="panel system" id="system-info">
+          <header>System<i class="material-icons">cached</i></header>
+          <table>
+            <tbody>
+              <!-- TODO System Info
+                <tr>
+                  <td>Hostname</td>
+                  <td>vm-debian8-part</td>
+                </tr>
+                <tr>
+                  <td>OS</td>
+                  <td>Debian GNU/Linux 8.1 (jessie)</td>
+                </tr>
+                <tr>
+                  <td>Kernel version</td>
+                  <td>3.16.0-4-amd64</td>
+                </tr>
+                <tr>
+                  <td>Uptime</td>
+                  <td>1 day, 2 hour</td>
+                </tr>
+                <tr>
+                  <td>Last boot</td>
+                  <td>2017-06-09 10:10:10</td>
+                </tr>
+                <tr>
+                  <td>Current user(s)</td>
+                  <td>2</td>
+                </tr>
+              -->
+            </tbody>
+          </table>
+        </section>
+
+        <section class="panel network" id="network-info">
+          <header>Network Usage<i class="material-icons">cached</i></header>
+          <table>
+          <!-- TODO Newtork Info
+            <thead>
+              <tr>
+                <th>Interface</th>
+                <th>IP</th>
+                <th>Receive</th>
+                <th>Transmit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>eth0</td>
+                <td>192.168.0.1</td>
+                <td>500.00 MB</td>
+                <td>19.00 MB</td>
+              </tr>
+              <tr>
+                <td>lo</td>
+                <td>127.0.0.1</td>
+                <td>10 Kb</td>
+                <td>10 KB</td>
+              </tr> -->
+            </tbody>
+          </table>
+        </section>
+      </div>
+
+      <div class="col-right">
+        <section class="panel memory" id="memory-info">
+          <header>Memory<i class="material-icons">cached</i></header>
+          <table>
+             <tbody>
+             <!-- TODO Memory Info
+              <tr>
+                <td>Used %</td>
+                <td>
+                  <div class="memory-status">
+                    <div class="memory-used" data-used="16">16%</div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Used</td>
+                <td>80.28 MB</td>
+              </tr>
+              <tr>
+                <td>Free</td>
+                <td>414.17 MB</td>
+              </tr>
+              <tr>
+                <td>Total</td>
+                <td>494.45 MB</td>
+              </tr>
+            -->
+            </tbody>
+          </table>
+        </section>
+
+        <section class="panel service" id="service-info">
+          <header>Services Status<i class="material-icons">cached</i></header>
+          <table>
+            <tbody>
+            <!-- TODO Service Info
+              <tr>
+                <td>
+                  <span class="online">online</span>
+                </td>
+                <td>Web Server</td>
+                <td>80</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="offline">offline</span>
+                </td>
+                <td>Email Server (incoming)</td>
+                <td>993</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="offline">offline</span>
+                </td>
+                <td>Email Server (outgoing)</td>
+                <td>587</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="offline">offline</span>
+                </td>
+                <td>Database Server</td>
+                <td>3306</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="online">online</span>
+                </td>
+                <td>SSH</td>
+                <td>22</td>
+              </tr>
+            -->
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </div>
+
+    <section class="panel disk" id="disk-info">
+      <header>Disk Usage<i class="material-icons">cached</i></header>
+      <table>
+      <!-- TODO Disk Info
+        <thead>
+          <tr>
+            <th>Filesystem</th>
+            <th>Mount</th>
+            <th>Use</th>
+            <th>Free</th>
+            <th>Used</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>/dev/sda1</td>
+            <td>/</td>
+            <td>
+              <div class="disk-status">
+                <div class="disk-used" data-used="37">37%</div>
+              </div>
+            </td>
+            <td>1.42GB</td>
+            <td>808.07MB</td>
+            <td>2.36GB</td>
+          </tr>
+          <tr>
+            <td>/dev/sda2</td>
+            <td>/var</td>
+            <td>
+              <div class="disk-status">
+                <div class="disk-used" data-used="10">10%</div>
+              </div>
+            </td>
+            <td>2GB</td>
+            <td>212.04MB</td>
+            <td>2.34BB</td>
+          </tr>
+          <tr>
+            <td>/dev/sda3</td>
+            <td>/home</td>
+            <td>
+              <div class="disk-status">
+                <div class="disk-used" data-used="1">1%</div>
+              </div>
+            </td>
+            <td>2.53GB</td>
+            <td>4.21MB</td>
+            <td>2.69GB</td>
+          </tr>
+        </tbody>
+      -->
+      </table>
+    </section>
+  </main>
+  <script src="js/base.js"></script>
+</body>
+</html>

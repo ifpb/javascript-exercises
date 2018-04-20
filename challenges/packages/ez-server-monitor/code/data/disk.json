@@ -1,0 +1,26 @@
+[
+  {
+    "filesystem": "/dev/sda1",
+    "mount": "/",
+    "use": "37",
+    "free": "1.42GB",
+    "used": "808.07MB",
+    "total": "2.36GB"
+  },
+  {
+    "filesystem": "/dev/sda2",
+    "mount": "/var",
+    "use": "10",
+    "free": "2GB",
+    "used": "212.04MB",
+    "total": "2.34GB"
+  },
+  {
+    "filesystem": "/dev/sda3",
+    "mount": "/home",
+    "use": "1",
+    "free": "2.53GB",
+    "used": "4.21MB",
+    "total": "2.69GB"
+  }
+]

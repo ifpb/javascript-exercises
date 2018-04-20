@@ -1,0 +1,8 @@
+{
+  "hostname": "vm-debian8-part",
+  "os": "OS Debian GNU/Linux",
+  "osVersion": "8.1 (jessie)",
+  "kernelVersion": "3.16.0-4-amd64",
+  "uptime": "1 day, 2 hour",
+  "lastBoot": "2017-06-09 10:10:10"
+}
