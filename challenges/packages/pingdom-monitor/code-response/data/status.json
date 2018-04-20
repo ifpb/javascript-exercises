@@ -1,0 +1,15 @@
+{
+  "hosts": {
+    "up": 10,
+    "down": 1
+  },
+  "responseTime": {
+    "min": 300,
+    "avg": 450,
+    "max": 1250
+  },
+  "uptime": {
+    "min": 99,
+    "max": 50
+  }
+}

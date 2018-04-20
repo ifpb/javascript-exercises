@@ -1,0 +1,50 @@
+[
+  {
+    "service": "Moodle IFPB",
+    "type": "HTTP",
+    "status": "danger",
+    "uptime": "-",
+    "since": "30 mi",
+    "response": "-"
+  },
+  {
+    "service": "Q-Academico",
+    "type": "HTTP",
+    "status": "warning",
+    "uptime": "50",
+    "since": "4 mo",
+    "response": "1250"
+  },
+  {
+    "service": "Suap",
+    "type": "HTTP",
+    "status": "success",
+    "uptime": "99",
+    "since": "30 da",
+    "response": "200"
+  },
+  {
+    "service": "IFPB",
+    "type": "HTTP",
+    "status": "success",
+    "uptime": "90",
+    "since": "6 mo",
+    "response": "500"
+  },
+  {
+    "service": "IFPB Edu",
+    "type": "HTTP",
+    "status": "success",
+    "uptime": "85",
+    "since": "8 mo",
+    "response": "350"
+  },
+  {
+    "service": "Zimbra",
+    "type": "Ping",
+    "status": "success",
+    "uptime": "97",
+    "since": "4 mo",
+    "response": "300"
+  }
+]
