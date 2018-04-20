@@ -3,7 +3,7 @@
 ## DESAFIOS DIVERSOS
 ---
 
-O desafio é composta por quarto questões localizados em arquivos [deste diretório compactado](code.zip). Cada arquivo possui uma Suite de Testes que apresenta a sua respectiva validação por meio de testes.
+O desafio é composta por quarto questões disponibilizados no arquivo [code.zip](code.zip). Cada arquivo possui uma Suite de Testes que apresenta a sua respectiva validação por meio de testes.
 
 Contudo, para executar cada cenários de validação da Suite de Teste será necessário instalar a ferramenta [Jest](https://facebook.github.io/jest/) usando o `npm` e o `package.json` por meio do comando:
 
@@ -117,7 +117,7 @@ A princícpio uma equipe planejou a criação de um Sistema Web para tal problem
 
 ![School](assets/school.svg)
 
-Com a ajuda da instituição foi possível esboçar em `[code/grade-school/grade-school.test.js](code/grade-school/grade-school.test.js)` alguns casos de teste para validar os possíveis comporatamente do objeto. Como os exibidos a seguir para a ação `roster()`:
+Com a ajuda da instituição foi possível esboçar em [code/grade-school/grade-school.test.js](code/grade-school/grade-school.test.js) alguns casos de teste para validar os possíveis comporatamente do objeto. Como os exibidos a seguir para a ação `roster()`:
 
 ```js
 let school = new School()
