@@ -1,0 +1,135 @@
+body {
+  color: #797979;
+  background: #f2f2f2;
+  font-family: 'Ruda', sans-serif;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size: 13px;
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  white-space: nowrap;
+}
+.col {
+  white-space: normal;
+  display: inline-block;
+  vertical-align: top;
+}
+.col.col6{
+  width: 50%;
+}
+.col.col3{
+  width: 25%;
+}
+.col.col4{
+  width: 33.3%;
+}
+
+/* header */
+header.black-bg {
+  background: #ffd777;
+  border-bottom: 1px solid #c9aa5f;
+  padding: 18px;
+}
+
+header .header-menu, header .header-menu-right a {
+  display: inline-block;
+  text-decoration: none;
+  color: #797979;
+}
+header i {
+  vertical-align: middle;
+}
+header .header-title {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 20px;
+}
+header .header-menu-right {
+  float: right;
+  margin-right: 20px;
+  vertical-align: top;
+}
+header .header-menu-right a {
+  vertical-align: middle;
+}
+header .header-menu-right i {
+  font-size: 28px;
+}
+header img.user {
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+/* main */
+body>main {
+  width: 990px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+main>h1 {
+  text-align: center;
+  favicon
+}
+
+.white-panel {
+  text-align: center;
+  background: #ffffff;
+  /*color: #ccd1d9;*/
+  color: #797979;
+  height: 260px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 300ms ease;
+}
+
+.white-panel:hover {
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.white-panel .white-header {
+  /*background: #f4f4f4;*/
+  background: #797979;
+  padding: 3px;
+  margin-bottom: 15px;
+  /*color: #c6c6c6;*/
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+main div.container {
+  padding: 10px 0;
+}
+main div.container section.col {
+  margin: 0 4%;
+}
+main section.col #memory-size {
+  font-size: 31px;
+}
+
+main section.col i {
+  font-size: 6em;
+}
+
+main section.col table {
+  margin: 10px auto 0;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+main section.col table td, main section.col table th {
+  border-bottom: 1px solid #797979;
+  width: 50%;
+}
+
+#general-info td:nth-child(1) {
+  width: 33%;
+}

@@ -1,0 +1,114 @@
+<!-- http://blacktie.co/2014/07/dashgum-free-dashboard/ -->
+<!-- http://linuxdash.afaqtariq.com/#/system-status -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Ruda" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="black-bg">
+    <a href="#" class="header-menu">
+      <i class="material-icons">menu</i>
+    </a>
+    <a href="#" class="header-title">HostDash</a>
+    <nav class="header-menu-right">
+      <a href="#"><i class="material-icons">date_range</i></a>
+      <a href="#"><i class="material-icons">notifications</i></a>
+      <a href="#"><img class="user" src="img/admin.jpg" alt="admin"></a>
+    </nav>
+  </header>
+  <main>
+    <h1>Host Monitor</h1>
+    <div class="container">
+      <section class="white-panel col col3">
+        <header class="white-header">
+          GENERAL INFO
+        </header>
+        <main>
+          <i class="material-icons">info_outline</i>
+          <table id="general-info">
+            <tbody>
+              <tr>
+                <td>Hostname</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>OS</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Uptime</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Processor</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </main>
+      </section>
+
+      <section id="cpu-status" class="white-panel col col3">
+        <header class="white-header">
+          CPU LOAD
+        </header>
+        <main>
+          <i class="material-icons">memory</i>
+          <table>
+            <thead>
+              <tr>
+                <th>Instant</th>
+                <th>Load Average</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Last 1'</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Last 10'</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Last 15'</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </main>
+      </section>
+
+      <section id="memory-status" class="white-panel col col3">
+        <header class="white-header">
+          MEMORY
+        </header>
+        <main>
+          <i class="material-icons">straighten</i>
+          <div id="memory-size"></div>
+          <table>
+            <thead>
+              <tr>
+                <th>Used</th>
+                <th>Free</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </main>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
