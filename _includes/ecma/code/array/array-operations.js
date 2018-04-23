@@ -11,19 +11,8 @@ function sumOdds(array) {
   // TODO
 }
 
-function addingMatrix(a, b) {
-  // TODO
-}
-
-function multiplyingMatrix(a, b) {
-  // TODO
-}
-
-
 export {
   sum,
   product,
-  sumOdds,
-  addingMatrix,
-  multiplyingMatrix
+  sumOdds
 }

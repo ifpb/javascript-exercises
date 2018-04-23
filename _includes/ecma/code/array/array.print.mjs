@@ -1,4 +1,4 @@
-import { min, max, range, zip, uniq } from './array.mjs'
+import { min, max, range, zip, uniq, sortNum } from './array.mjs'
 
 // Array Util
 
@@ -41,3 +41,11 @@ console.log([1, 2, 4, 3])
 // removing duplicate values in [1, 2, 1, 3, 3]
 console.log(uniq([1, 2, 1, 3, 3]))
 console.log([1, 2, 3])
+
+// sorting number values in [1, 3, 2]
+console.log(sortNum([1, 3, 2]))
+console.log([1, 2, 3])
+
+// sorting number values in [1, 2, 10, 3, 32]
+console.log(sortNum([1, 2, 10, 3, 32]))
+console.log([1, 2, 3, 10, 32])

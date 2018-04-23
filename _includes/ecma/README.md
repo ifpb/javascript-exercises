@@ -20,6 +20,7 @@
 * [Array](#array)
   * [Array Util (Min, Max, Range, Zip, Uniq)](#array-util-min-max-range-zip-uniq)
   * [Array Operations](#array-operations)
+  * [Matrix Operations](#matrix-operations)
   * [Fibonacci Sequence Array](#fibonacci-sequence-array)
   * [Prime Numbers](#prime-numbers-array)
   * [Minimum Withdraw](#min-withdraw)
@@ -111,6 +112,8 @@
 
 {% include ecma/code/array/array-operations.md %}
 
+{% include ecma/code/array/matrix-operations.md %}
+
 {% include ecma/code/array/fibonacci-array.md %}
 
 {% include ecma/code/array/prime-numbers.md %}
@@ -137,8 +140,6 @@
 {% include ecma/code/string/string-util.md %}
 
 {% include ecma/code/string/simple-substitution.md %}
-
-{% include ecma/code/string/lorem-ipsum-generator.md %}
 
 {% include ecma/code/string/lorem-ipsum-generator.md %}
 

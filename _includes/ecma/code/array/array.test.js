@@ -1,4 +1,4 @@
-import { min, max, range, zip, uniq } from './array.js'
+import { min, max, range, zip, uniq, sortNum } from './array.js'
 
 describe('Array Util', () => {
 
@@ -45,6 +45,14 @@ describe('Array Util', () => {
 
   test.skip('removing duplicate values in [1, 2, 1, 3, 3]', () => {
     expect(uniq([1, 2, 1, 3, 3])).toEqual([1, 2, 3])
+  })
+
+  test('sorting number values in [1, 3, 2]', () => {
+    expect(sortNum([1, 3, 2])).toEqual([1, 2, 3])
+  })
+
+  test('sorting number values in [1, 2, 10, 3, 32]', () => {
+    expect(sortNum([1, 2, 10, 3, 32])).toEqual([1, 2, 3, 10, 32])
   })
 
 })

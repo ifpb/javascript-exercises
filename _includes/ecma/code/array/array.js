@@ -19,4 +19,8 @@ function uniq(array) {
   // TODO
 }
 
-export { min, max, range, zip, uniq }
+function sortNum(array) {
+  // TODO
+}
+
+export { min, max, range, zip, uniq, sortNum }

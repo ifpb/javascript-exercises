@@ -54,4 +54,8 @@ function uniq(array) {
   return result
 }
 
-export { min, max, range, zip, uniq }
+function sortNum(array) {
+  return array.sort((a, b) => a - b)
+}
+
+export { min, max, range, zip, uniq, sortNum }
