@@ -1,5 +1,7 @@
 ### IRRF 2017
 
+**Description**
+
 Base de cálculo mensal em R$ | Alíquota % | Parcela a deduzir do imposto em R$
 -----------------------------|------------|-----------------------------------
 Até 1.903,98 | – | –
@@ -15,6 +17,8 @@ tax = salary * taxRate - deduction
 ```
 Fonte: [Simulador IRRF](http://www.receita.fazenda.gov.br/aplicacoes/atrjo/simulador/simulador.asp?tipoSimulador=M) e [sitecontabil](https://www.sitecontabil.com.br/noticias/artigo.php?id=2272)
 <!-- tax = (salary - dependents - INSS) x taxRate - deduction -->
+
+**Code**
 
 `{{ page.path | replace:'README.md','' }}code/irrf-2017.js`:
 ```js

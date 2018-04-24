@@ -24,7 +24,7 @@
 * [Fibonacci Sequence](function/fibonacci-sequence/)
 * [Triangle Checker](function/triangle-checker/)
 * [isPrime](function/prime/)
-* [Nth Prime](function/nth-prime/)
+* [Nth Prime](function/prime-nth/)
 * [Calendar](function/calendar/)
 * [Figure Text](function/figure-text/)
 
@@ -55,11 +55,11 @@
 * [Rna Transcription](string/rna-transcription/)
 * [Citation](string/citation/)
 * [Caesar Cipher](string/cipher/)
-* [Parser (String2Number)](string/parser-string2number/)
-* [IP](string/ip/)
-* [Validing CPF](string/validing-cpf/)
+* [Parser (String2Number)](string/string2number/)
+* [IP](string/ip2number/)
+* [Validating CPF](string/validating-cpf/)
 * [Generating CPF](string/generating-cpf/)
-* [Table Convert .md to .html](string/table-convert-md-to-html/)
+* [Table Convert .md to .html](string/table-convert-md2html/)
 
 ## Math
 ---
@@ -95,9 +95,9 @@
 ## Other Exercises
 ---
 
+* [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/categories)
 * [Exercism](http://exercism.io/languages/ecmascript/exercises)
 * [Javscript Koan](https://github.com/mrdavidlaing/javascript-koans)
-* [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/categories)
 
 <!-- 
   TODO

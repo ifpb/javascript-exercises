@@ -8,7 +8,7 @@ let expected = `1.1 1.2 1.3 1.4
 3.1 3.2 3.3 3.4
 `
 
-console.log(generator.createTable(3, 4))
+console.log(createTable(3, 4))
 console.log(expected)
 
 // making text table
@@ -17,7 +17,7 @@ Item 2.1 Item 2.2 Item 2.3 Item 2.4
 Item 3.1 Item 3.2 Item 3.3 Item 3.4
 `
 
-console.log(generator.createTable(3, 4, 'Item'))
+console.log(createTable(3, 4, 'Item'))
 console.log(expected)
 
 // making HTML table
@@ -43,5 +43,5 @@ let expected = `<table>
 </table>
 `
 
-console.log(generator.createTableHTML(3, 4))
+console.log(createTableHTML(3, 4))
 console.log(expected)

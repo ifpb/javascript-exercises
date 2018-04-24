@@ -11,6 +11,7 @@
 ```
 
 > [Response](response/string-util.js)
+
 > Tips:<br>
 > String: toUpperCase(), toLowerCase(), split() <br>
 > Array: join(), reverse()

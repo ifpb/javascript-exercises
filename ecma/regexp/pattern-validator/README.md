@@ -1,6 +1,6 @@
 ### Pattern Validator
 
-> CPF:  http://ghiorzi.org/DVnew.htm
+> CPF: [Check Digit](http://ghiorzi.org/DVnew.htm)
 
 `ecma/code/regexp/validator-pattern.mjs`:
 ```js
