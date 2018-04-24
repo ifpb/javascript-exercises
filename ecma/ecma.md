@@ -1,9 +1,14 @@
 # ECMAScript
 
+## Running Javascript
+---
+
+* [How to run javascript](running-javascript.md)
+
 ## Basic (Expressions & operators, Statements & declarations)
 ---
 
-* [Body mass index(BMI)](basic/bmi/)
+* [Body mass index (BMI)](basic/bmi/)
 * [IRRF 2017](basic/irrf-2017/)
 * [Numbers series](basic/numbers/)
 * [Harmonic series](basic/harmonic-series/)
@@ -41,49 +46,51 @@
 ## String
 ---
 
-* [List Generator](#list-generator)
-* [Table Generator](#table-generator)
-* [String Util](#string-util)
-* [Simple substitution](#simple-substitution)
-* [Lorem ipsum generator](#lorem-ipsum-generator)
-* [Hamming](#hamming)
-* [Rna Transcription](#rna-transcription)
-* [Citation](#citation)
-* [Caesar Cipher](#cipher)
-* [Parser (String2Number)](#parser-string2number)
-* [IP](#ip)
-* [Validing CPF](#validing-cpf)
-* [Generating CPF](#generating-cpf)
-* [Table Convert .md to .html](#table-convert-md-to-html)
+* [List Generator](string/list-generator/)
+* [Table Generator](string/table-generator/)
+* [String Util](string/string-util/)
+* [Simple substitution](string/simple-substitution/)
+* [Lorem ipsum generator](string/lorem-ipsum-generator/)
+* [Hamming](string/hamming/)
+* [Rna Transcription](string/rna-transcription/)
+* [Citation](string/citation/)
+* [Caesar Cipher](string/cipher/)
+* [Parser (String2Number)](string/parser-string2number/)
+* [IP](string/ip/)
+* [Validing CPF](string/validing-cpf/)
+* [Generating CPF](string/generating-cpf/)
+* [Table Convert .md to .html](string/table-convert-md-to-html/)
 
 ## Math
 ---
 
-* [Random](#random)
+* [Random](math/random/)
 
 ## Object
 ---
 
-* [CEP](#cep)
-* [Products](#products)
-* [Products with Quantity](#products-with-quantity)
-* [Comics](#comics)
-* [Exam](#exam)
-* [Order](#order)
-* [Brazilian Championship A Series 2016](#brazilian-championship-a-series-2016)
+* [CEP](object/cep/)
+* [Products](object/products/)
+* [Products with Quantity](object/products-qtd/)
+* [Comics](object/comics/)
+* [Exam](object/exam/)
+* [Exam OO](object/exam-oo/)
+* [Order](object/order/)
+* [Order Category](object/order-category/)
+* [Brazilian Championship A Series 2016](object/brazilian-championship/)
 
 ## Date
 ---
 
-* [Diff Timestamp](#diff-timestamp)
+* [Diff Timestamp](date/diff-timestamp/)
 
 ## Regexp
 ---
 
-* [Text util](#text-util)
-* [Scanning pattern](#scanning-pattern)
-* [Pattern Validador](#pattern-validator)
-* [Search on Tools](#search-on-tools)
+* [Text Util](regexp/text-util/)
+* [Pattern Scanner](regexp/pattern-scanner/)
+* [Pattern Validador](regexp/pattern-validator/)
+* [Search on Tools](regexp/search-on-tools/)
 
 ## Other Exercises
 ---
@@ -91,11 +98,6 @@
 * [Exercism](http://exercism.io/languages/ecmascript/exercises)
 * [Javscript Koan](https://github.com/mrdavidlaing/javascript-koans)
 * [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/categories)
-
-## Running Javascript
----
-
-{% include_relative running-javascript.md %}
 
 <!-- 
   TODO

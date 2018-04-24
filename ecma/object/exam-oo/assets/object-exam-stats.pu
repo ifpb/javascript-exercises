@@ -1,0 +1,15 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide circle
+
+class ExamStats {
+  grades: Object
+  constructor(grades: Object)
+  avg(): Number
+  min([limit: Number]): mixed
+  max([limit: Number]): mixed
+  lt([limit: Number]): Array<int>
+  gt([limit: Number]): Array<int>
+}
+@enduml

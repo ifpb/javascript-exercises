@@ -1,53 +1,71 @@
-### Node.js (terminal)
+# How to run javascript
 
+## Node.js (terminal)
+---
+
+Node Prompt:
 ```
-$ cd javascript-exercises/_includes/ecma/code/basic/
+$ node
+> (ctrl + v file)
+```
+
+Running by file:
+```
+$ cd javascript-exercises/ecma/basic/bmi/code/
 $ node bmi-if.mjs
 ```
 
+Running by file (Modules):
 ```
-$ cd javascript-exercises/_includes/ecma
-$ node
-> (ctrl + v)
-```
-
-### Browser Console
-
-```
-Control+Shift+J (Google Chrome)
-> (ctrl + v)
-```
-
-### Online Interpreter
-
-[https://repl.it/](https://repl.it/) (ctrl + v)
-
-### vscode 
-
-(run, debug, jest, chrome)
-
-### Node.js (Node Carbon)
-
-```
-$ cd javascript-exercises/_includes/ecma/code/function/
+$ cd javascript-exercises/ecma/function/sum/code/
 $ mv sum.{js,mjs)
 $ node --experimental-modules sum.print.mjs
 ```
 
-### Unit Test (Jest)
+## Browser Console
+---
 
 ```
-$ cd javascript-exercises/_includes/ecma
+Control+Shift+J (Google Chrome)
+> (ctrl + v file)
+```
+
+## Online Interpreter
+---
+
+[https://repl.it/](https://repl.it/)
+```
+Open [https://repl.it/](https://repl.it/)
+> Choose language: Javascript
+> (ctrl + v file)
+> Run button
+```
+
+## Visual Studio Code
+---
+
+(run, debug, jest, chrome)
+
+## Unit Test (Jest)
+---
+
+Installing Jest (package.json):
+```
+$ cd javascript-exercises/ecma/
+$ ls package.json
+package.json
 $ npm install
 ```
 
+Rename file extension to `.js`:
 ```
-$ mv code/function/sum.{mjs,js}
+$ mv function/sum/code/sum.{mjs,js}
 ```
 
+Running Tests and Viewing Results (test fail):
 ```
-$ npx jest code/function/sum.test.js
- FAIL  code/function/sum.test.js
+$ npx jest function/sum/code/sum.test.js
+ FAIL  function/sum/code/sum.test.js
   Number Tools
     ✕ adding 1 + 2 (12ms)
     ○ skipped 1 test
@@ -72,7 +90,7 @@ $ npx jest code/function/sum.test.js
       8 |
       9 |   test.skip('adding 3 + 2', () => {
 
-      at Object.<anonymous> (code/function/sum.test.js:6:23)
+      at Object.<anonymous> (function/sum/code/sum.test.js:6:23)
 
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 skipped, 2 total
@@ -81,8 +99,9 @@ Time:        2.689s
 Ran all test suites matching /code\/function\/sum.test.js/i.
 ```
 
+Running Tests and Viewing Results (test passed):
 ```
-$ npx jest code/function/sum.test.js
+$ npx jest function/sum/code/sum.test.js
  PASS  response/function/sum.test.js
   Number Tools
     ✓ adding 1 + 2 (5ms)
@@ -95,10 +114,12 @@ Time:        1.594s
 Ran all test suites matching /response\/function\/sum.test.js/i.
 ```
 
+Running Tests and Viewing Results (Automatic)
 ```
-$ npx jest --watch code/function/sum.test.js
+$ npx jest --watch function/sum/code/sum.test.js
 ```
 
+Running Tests and Viewing Results (Coverage)
 ```
 $ npx jest --coverage code/ 
 ```
