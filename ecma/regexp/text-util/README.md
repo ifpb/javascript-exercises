@@ -1,13 +1,13 @@
 ### [Text util](code.zip)
 
-`{{ page.path | replace:'README.md','' }}code/tex-util.mjs`:
+`{{ page.path | replace:'README.md','' }}code/text-util.mjs`:
 ```js
-{% include_relative code/tex-util.js %}
+{% include_relative code/text-util.js %}
 ```
 
-`{{ page.path | replace:'README.md','' }}code/tex-util.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/text-util.print.mjs`:
 ```js
-{% include_relative code/tex-util.print.mjs %}
+{% include_relative code/text-util.print.mjs %}
 ```
 
-> [Response](response/tex-util.js)
+> [Response](response/text-util.js)
