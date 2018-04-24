@@ -3,25 +3,25 @@
 ## Basic (Expressions & operators, Statements & declarations)
 ---
 
-* [Body mass index(BMI)](#body-mass-index-bmi)
-* [IRRF 2017](#irrf-2017)
-* [Numbers series](#numbers-series)
-* [Harmonic series](#harmonic-series)
+* [Body mass index(BMI)](basic/bmi/)
+* [IRRF 2017](basic/irrf-2017/)
+* [Numbers series](basic/numbers/)
+* [Harmonic series](basic/harmonic-series/)
 
 ## Function
 ---
 
-* [Sum](#sum)
-* [Area of Circle](#area-of-circle)
-* [Calc](#calc)
-* [Factorial](#factorial)
-* [Fibonacci Number](#fibonacci-number)
-* [Fibonacci Sequence](#fibonacci-sequence)
-* [Triangle Checker](#triangle-checker)
-* [isPrime](#isprime)
-* [Nth Prime](#nth-prime)
-* [Calendar](#calendar)
-* [Figure Text](#figure-text)
+* [Sum](function/sum/)
+* [Area of Circle](function/area-of-circle/)
+* [Calc](function/calc/)
+* [Factorial](function/factorial/)
+* [Fibonacci Number](function/fibonacci-number/)
+* [Fibonacci Sequence](function/fibonacci-sequence/)
+* [Triangle Checker](function/triangle-checker/)
+* [isPrime](function/prime/)
+* [Nth Prime](function/nth-prime/)
+* [Calendar](function/calendar/)
+* [Figure Text](function/figure-text/)
 
 ## Array
 ---
