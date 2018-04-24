@@ -26,7 +26,7 @@
 ## Array
 ---
 
-* [Array Util (Min, Max, Range, Zip, Uniq, Sort)](array/array-util/)
+* [Array Util](array/array-util/)
 * [Array Operations](array/array-operations/)
 * [Matrix Operations](array/matrix-operations/)
 * [Fibonacci Sequence Array](array/fibonacci-sequence/)
@@ -77,7 +77,7 @@
 
 * [Diff Timestamp](#diff-timestamp)
 
-## [Regexp](#regexp)
+## Regexp
 ---
 
 * [Text util](#text-util)
