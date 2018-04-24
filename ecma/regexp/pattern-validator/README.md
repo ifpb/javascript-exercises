@@ -1,13 +1,18 @@
-### Pattern Validator
+### [Pattern Validator](code.zip)
+
+**Description**
 
 > CPF: [Check Digit](http://ghiorzi.org/DVnew.htm)
 
-`ecma/code/regexp/validator-pattern.mjs`:
+**Code**
+`{{ page.path | replace:'README.md','' }}code/pattern-validator.mjs`:
 ```js
-{% include ecma/code/regexp/validator-pattern.js %}
+{% include_relative code/pattern-validator.js %}
 ```
 
-`ecma/code/regexp/validator-pattern.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/pattern-validator.print.mjs`:
 ```js
-{% include ecma/code/regexp/validator-pattern.print.mjs %}
+{% include_relative code/pattern-validator.print.mjs %}
 ```
+
+> [Response](response/pattern-validator.js)

@@ -1,11 +1,13 @@
-### Scanning Pattern
+### [Scanning Pattern](code.zip)
 
-`ecma/code/regexp/scan-pattern.mjs`:
+`{{ page.path | replace:'README.md','' }}code/pattern-scanner.mjs`:
 ```js
-{% include ecma/code/regexp/scan-pattern.js %}
+{% include_relative code/pattern-scanner.js %}
 ```
 
-`ecma/code/regexp/scan-pattern.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/pattern-scanner.print.mjs`:
 ```js
-{% include ecma/code/regexp/scan-pattern.print.mjs %}
+{% include_relative code/pattern-scanner.print.mjs %}
 ```
+
+> [Response](response/pattern-scanner.js)

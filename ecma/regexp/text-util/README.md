@@ -1,11 +1,13 @@
-### Text util
+### [Text util](code.zip)
 
-`ecma/code/regexp/text-util.mjs`:
+`{{ page.path | replace:'README.md','' }}code/tex-util.mjs`:
 ```js
-{% include ecma/code/regexp/text-util.js %}
+{% include_relative code/tex-util.js %}
 ```
 
-`ecma/code/regexp/text-util.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/tex-util.print.mjs`:
 ```js
-{% include ecma/code/regexp/text-util.print.mjs %}
+{% include_relative code/tex-util.print.mjs %}
 ```
+
+> [Response](response/tex-util.js)
