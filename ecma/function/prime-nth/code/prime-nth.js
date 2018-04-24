@@ -1,4 +1,4 @@
-import { isPrime } from './prime.js'
+import { isPrime } from '../../prime/code/prime.js'
 
 /**
  * begin: 1..n
