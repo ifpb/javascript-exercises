@@ -10,7 +10,7 @@
 {% include_relative code/products-qtd.print.mjs %}
 ```
 
-> [Response](response/products-qtd.js)
-
 > Tips:<br>
 > Use `map`, `filter` or `reduce`
+
+> [Response](response/products.js)
