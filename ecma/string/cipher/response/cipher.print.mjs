@@ -1,4 +1,4 @@
-import { rot } from './cipher.js'
+import { rot } from './cipher.mjs'
 
 // Caesar Cipher
 // encoding rot2
