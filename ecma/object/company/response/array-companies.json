@@ -1,0 +1,30 @@
+[
+    {
+        "char": "&",
+        "entity": "&amp;",
+        "decimal": "&#38;",
+        "hexa": "&#x26;",
+        "description": "ampersan"
+    },
+    {
+        "char": "<",
+        "entity": "&lt;",
+        "decimal": "&#60;",
+        "hexa": "&#x3C;",
+        "description": "less than"
+    },
+    {
+        "char": ">",
+        "entity": "&gt;",
+        "decimal": "&#62;",
+        "hexa": "&#x3E;",
+        "description": "greater than"
+    },
+    {
+        "char": "©",
+        "entity": "&copy;",
+        "decimal": "&#169;",
+        "hexa": "&#xA9;",
+        "description": "copyright sign"
+    }
+]
