@@ -2,6 +2,22 @@
 
 ## Node.js (terminal)
 ---
+Installing Node by [nvm](https://github.com/creationix/nvm):
+```
+$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+```
+
+Node LTS:
+```
+$ nvm install lts
+$ nvm alias default lts
+```
+
+Node Stable:
+```
+$ nvm install stable
+$ nvm alias default stable
+```
 
 Node Prompt:
 ```
