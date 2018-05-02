@@ -1,0 +1,81 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E8F5E9;
+  font-family: 'Open Sans', sans-serif;
+  color: #558B2F;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+main {
+  height: 400px;
+  min-width: 900px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+main section {
+  padding: 15px 10px;
+}
+
+main section input, main section button {
+  font-size: 1.5em;
+}
+
+main section #address-input {
+  outline: none;
+  border: 1px solid #558B2F;
+}
+
+main section #ip-info-btn {
+  outline: none;
+  background-color: #558B2F;
+  color: #fff;
+  border: none;
+  transition: all .5s;
+  padding: 2px 10px;
+}
+
+main section #ip-info-btn:hover {
+  background-color: #AED581;
+}
+
+main #ip-info {
+  padding: 30px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s all;
+}
+
+main #ip-info #loading,
+main #ip-info #loaded {
+  display: none;
+}
+
+main #ip-info table {
+  border-collapse: collapse;
+  margin: 0 10px;
+}
+
+main #ip-info thead th {
+  background-color: #8BC34A;
+  color: #fff;
+}
+
+main #ip-info table tbody tr:nth-child(2n){
+  background-color: #F1F8E9;
+}
+
+main #ip-info table tbody td {
+  padding: 3px 5px;
+  text-align: left;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="sparklinedash">
+    <span class="bar"></span>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script>
+  <script>
+    $('#sparklinedash').sparkline(
+      [0, 5, 6, 10, 9, 12, 4, 9], 
+      {
+        type: 'bar',
+        height: '30',
+        barWidth: '4',
+        resize: true,
+        barSpacing: '5',
+        barColor: '#7ace4c'
+      }
+    )
+  </script>
+</body>
+</html>

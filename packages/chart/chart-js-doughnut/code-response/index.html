@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    div {
+      width: 20%;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <canvas class="canvasDoughnut"></canvas>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <script>
+    let ctx = document.querySelector('.canvasDoughnut').getContext('2d')
+
+    let data = {
+      labels: ["Symbian", "Blackberry", "Other", "Android", "IOS"],
+      datasets: [{
+        data: [15, 20, 30, 10, 30],
+        backgroundColor: ["#BDC3C7", "#9B59B6", "#E74C3C", "#26B99A", "#3498DB"],
+        hoverBackgroundColor: ["#CFD4D8", "#B370CF", "#E95E4F", "#36CAAB", "#49A9EA"]
+      }]
+    }
+    
+    let options = {
+      legend: {
+        display: false
+      }
+    }
+    
+    let canvasDoughnut = new Chart(ctx, {
+      type: 'doughnut',
+      data: data,
+      options: options
+    })
+  </script>
+</body>
+</html>

@@ -1,11 +1,10 @@
 # W3C
 
-<!-- * [hello](hello/)
-* [calculator](calculator/)
-* [hello-event](hello-event/)
-* [ipinfo](ipinfo/)
-* [iptable](iptable/)
-* [address-cep](address-cep/)
-* [cryptcoins](cryptcoins/)
-* [cryptcoins-fetch](cryptcoins-fetch/)
-* [weather](weather/) -->
+* [Calculator](calculator/)
+* [Iptable](iptable/)
+* [Cryptcoins Fetch](cryptcoins-fetch/)
+* [Cryptocompare API](cryptcoins-api/)
+* [Ipinfo API](ipinfo/)
+* [Address (Via CEP API)](address-cep-api/)
+
+<!-- * [Weather API](weather/) -->

@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.wrapper {
+  min-height: 70vh;
+  min-width: 50vw;
+}
+h1 {
+  background-color: #333;
+  color: white;
+  margin: 0;
+  padding: 1rem;
+  font-size: 4rem;
+}
+button {
+  font-size: 2rem;
+  border: 1px solid #333;
+}
+.modifiers button {
+  background-color: #ccc;
+}
+.modifiers button:active {
+  background-color: #777;
+}
+.operations button {
+  background-color: #ffa500;
+}
+.operations button:active {
+  background-color: #b78c3e;
+}
+.digits button {
+  background-color: #efefef;
+}
+.digits button:active {
+  background-color: #afafaf;
+}
+
+/* All things Grid, Flexbox, Box Alignment */
+.wrapper, .subgrid {
+  display: grid;
+}
+.wrapper {
+  grid-template-areas:
+    "total total total total"
+    "modif modif modif oper"
+    "digit digit digit oper"
+    "digit digit digit oper"
+    "digit digit digit oper"
+    "digit digit digit oper";
+  grid-auto-columns: 1fr;
+}
+h1 {
+  grid-area: total;
+}
+.modifiers {
+  grid-area: modif;
+}
+.operations {
+  grid-area: oper;
+}
+.digits {
+  grid-area: digit;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.modifiers {
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.digits button {
+  flex: 1 0 30%;
+}
+.digits .wide {
+  flex: 2 0 60%;
+  order: 1;
+}
