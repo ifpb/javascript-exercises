@@ -3,12 +3,6 @@
 ## Bootstrap
 ---
 
-* [BMI](bootstrap/bmi-simple)
-* [BMI Validator](bootstrap/bmi-validator)
-* [Gentelella App Versions (Dynamic)](bootstrap/gentelella-app-versions)
-* [Gentelella Top Tiles (Dynamic)](bootstrap/gentelella-top-tiles)
-* [Ipinfo API](bootstrap/ipinfo-api)
-
 ## Charts
 ---
 
