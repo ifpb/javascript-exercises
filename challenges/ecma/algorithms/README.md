@@ -3,7 +3,7 @@
 ## DESAFIOS DIVERSOS
 ---
 
-O desafio é composta por quarto questões disponibilizados no arquivo [code.zip](code.zip). Cada arquivo possui uma Suite de Testes que apresenta a sua respectiva validação por meio de testes.
+O desafio é composto por quarto questões disponibilizados no arquivo [code.zip](code.zip). Cada arquivo possui uma Suite de Testes que apresenta a sua respectiva validação por meio de testes.
 
 Contudo, para executar cada cenários de validação da Suite de Teste será necessário instalar a ferramenta [Jest](https://facebook.github.io/jest/) usando o `npm` e o `package.json` por meio do comando:
 
@@ -93,7 +93,7 @@ Por fim, é importante destacar que cada questão irá detalhar um teste especí
 ### QUESTÕES
 ---
 
-**QUESTÃO 1 (33%)** - O conjunto de três restas podem formar um triângulo que pode ser classificado em função da quantidade de retas de tamanho igual. Se o triângulo possui todas, duas ou nenhuma reta igual será classificado respectivamente como sendo `equilateral`, `isosceles` e `scalene`.
+**QUESTÃO 1 (33%)** - O conjunto de três retas podem formar um triângulo que pode ser classificado em função da quantidade de retas de tamanho igual. Se o triângulo possui todas, duas ou nenhuma reta igual será classificado respectivamente como sendo `equilateral`, `isosceles` e `scalene`.
 
 Para facilitar essa identificação, crie um objeto `Triangle` no arquivo [`code/triangle/triangle.js`](code/triangle/triangle.js) que recebe em sua construção os tamanhos das três retas, e ao chamar o método `kind()` deve-se retornar o seu tipo por meio de uma `string`:
 
@@ -224,4 +224,3 @@ http://www.sobiologia.com.br/conteudos/Citologia2/AcNucleico5.php
 https://pt.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/stages-of-transcription
 http://exercism.io/exercises/php/rna-transcription/readme
  -->
-

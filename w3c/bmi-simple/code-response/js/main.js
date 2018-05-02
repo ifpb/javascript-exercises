@@ -1,7 +1,10 @@
-// http://www.calcule.net/imc.calculo.indice.de.massa.corporal.a.php
+const alturaElm = document.querySelector('input[name=altura]')
+const pesoElm = document.querySelector('input[name=peso]')
+const imcElm = document.querySelector('#imc')
+
 function calculadoraDeIMC() {
-  let altura = document.querySelector('input[name=altura]').value
-  let peso = document.querySelector('input[name=peso]').value
+  let altura = alturaElm.value
+  let peso = pesoElm.value
   let sexo = document.querySelector('input[name=sexo]:checked').value
   let imc = peso / altura ** 2
   let resultado
@@ -29,5 +32,5 @@ function calculadoraDeIMC() {
     else
       resultado = 'Obeso'
 
-  document.querySelector('#imc').value = resultado
+  imcElm.value = resultado
 }

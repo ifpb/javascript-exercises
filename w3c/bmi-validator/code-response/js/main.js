@@ -5,11 +5,11 @@ const imcField = document.querySelector('#imc')
 
 const warningMessage =
   `<div class="alert alert-warning" role="alert">
-        <strong>Antes de calcular informe o peso e a altura.</strong>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>`
+      <strong>Antes de calcular informe o peso e a altura.</strong>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>`
 
 const border = {
   'Abaixo do Peso': 'border border-warning bg-warning text-white',
@@ -19,7 +19,6 @@ const border = {
   'Obeso': 'border border-danger bg-danger text-white'
 }
 
-// http://www.calcule.net/imc.calculo.indice.de.massa.corporal.a.php
 function calculadoraDeIMC() {
   let altura = alturaField.value
   let peso = pesoField.value
