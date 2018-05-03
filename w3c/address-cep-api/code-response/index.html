@@ -11,13 +11,28 @@
   <main>
     <form action="">
       <h2>Address</h2>
-      <input type="text" id="cep" placeholder="CEP"> <!-- 58015-435 -->
-      <div id="cepError" class="hidden">O CEP informado é invalido.</div>
-      <input type="text" id="street" placeholder="Rua">
-      <input type="text" id="number" placeholder="Número">
-      <input type="text" id="neighborhood" placeholder="Bairro">
-      <input type="text" id="state" placeholder="Estado">
-      <input type="text" id="city" placeholder="Cidade">
+      <div class="row">
+        <input type="text" id="cep" placeholder="CEP" autofocus><!-- 58015-435 -->
+        <img src="img/spinner.svg" alt="loading" class="hidden" id="loading">
+        <div id="cepError" class="hidden">
+          O CEP informado é invalido.
+        </div>
+      </div>
+      <div class="row">
+        <input type="text" id="street" placeholder="Rua">
+      </div>
+      <div class="row">
+        <input type="text" id="number" placeholder="Número">
+      </div>
+      <div class="row">
+        <input type="text" id="neighborhood" placeholder="Bairro">
+      </div>
+      <div class="row">
+        <input type="text" id="state" placeholder="Estado">
+      </div>
+      <div class="row">
+        <input type="text" id="city" placeholder="Cidade">
+      </div>
       <!-- <input type="submit" value="Cadastrar"> -->
     </form>
   </main>

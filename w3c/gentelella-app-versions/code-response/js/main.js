@@ -1,3 +1,5 @@
+const widgetSummariesContentField = document.querySelector('#app-versions .x_content') 
+
 const widgetSummaries = [{
     version: '0.1.5.2',
     progress: 60,
@@ -25,7 +27,6 @@ const widgetSummaries = [{
   }
 ]
 
-const widgetSummariesContentField = document.querySelector('#app-versions .x_content') 
 let widgetSummariesContent = '<h4>App Usage across versions</h4>'
 for (let widgetSummary of widgetSummaries) {
   widgetSummariesContent += 
@@ -46,5 +47,4 @@ for (let widgetSummary of widgetSummaries) {
     <div class="clearfix"></div>
   </div>`
 }
-
 widgetSummariesContentField.innerHTML = widgetSummariesContent

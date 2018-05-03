@@ -3,7 +3,7 @@ const ipInfoBtn = document.querySelector('#ip-info-btn')
 const ipInfoLoading = document.querySelector('#loading')
 const ipInfoLoaded = document.querySelector('#loaded')
 const ipInfoTableField = document.querySelector('#ip-info #loaded table tbody')
-const ipInfoMapField = document.querySelector('#ip-info #loaded img')
+const ipInfoMapField = document.querySelector('#ip-info #loaded div')
 
 // loading event
 ipInfoBtn.addEventListener('click', () => {
@@ -28,7 +28,7 @@ ipInfoBtn.addEventListener('click', () => {
   
         // creating image map
         let mapURL = `https://maps.googleapis.com/maps/api/staticmap?center=${ipInfo.loc}&zoom=13&scale=1&size=600x300&maptype=terrain&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0x558B2F%7Clabel:%7C${ipInfo.loc}`
-        ipInfoMapField.src = mapURL
+        ipInfoMapField.style.cssText = `background-image: url(${mapURL})`
   
         ipInfoLoading.style.display = 'none' 
         ipInfoLoaded.style.display = 'flex' 

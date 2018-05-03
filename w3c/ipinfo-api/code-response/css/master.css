@@ -79,3 +79,9 @@ main #ip-info table tbody td {
   padding: 3px 5px;
   text-align: left;
 }
+
+#ip-info #loaded div {
+  width: 600px;
+  height: 300px;
+  background-color: #ccc;
+}

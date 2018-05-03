@@ -14,11 +14,11 @@ window.addEventListener('scroll', function () {
 })
 
 function loadCoins(){
-  loading.classList.toggle('display-none')
+  loading.classList.toggle('hidden')
   fetch('https://min-api.cryptocompare.com/data/all/coinlist')
     .then(res => res.json())
     .then(json => {
-      loading.classList.toggle('display-none')
+      loading.classList.toggle('hidden')
       coins = json.Data
       coinsContainer.innerHTML = coinsHTML(coins, coinsTotal)
     })

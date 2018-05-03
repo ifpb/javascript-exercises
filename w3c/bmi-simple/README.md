@@ -3,7 +3,7 @@
 ## Description
 ---
 
-| Status | IMC Woman | IMC Man | Classes |
+| Status | IMC Woman | IMC Man |
 |-|-|-|
 | Abaixo do Peso | < 19,1 | < 20,7 |
 | Peso Normal | 19,1 - 25,8 | 20,7 - 26,4 |

@@ -9,8 +9,20 @@ body {
 
 main {
   background-color: #fff;
-  padding: 30px;
-  width: 40%;
+  width: 100%;
+}
+
+@media (min-width: 720px) {
+  main {
+    padding: 30px;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1000px) {
+  main {
+    width: 50%;
+  }
 }
 
 main form {
@@ -19,15 +31,36 @@ main form {
   align-items: center;
 }
 
-main form input[type=text],
-main form #cepError {
-  width: 50%;
+main form .row {
+  width: 100%;
+}
+
+@media (min-width: 570px) {
+  main form .row {
+    width: 90%;
+  }
+}
+
+main form img#loading {
+  position: relative;
+  top: 14px;
 }
 
 main form input {
-  margin: 10px 0;
+  box-sizing: border-box;
+  margin: 10px 0 10px 15%;
   padding: 10px;
+  width: 70%;
   outline: none;
+}
+
+main form.loading div:nth-child(n+3) input {
+  background-color: #f9f9f9;
+}
+
+main form .row .cep {
+  display: flex;
+  align-items: center;
 }
 
 .hidden {
@@ -39,11 +72,9 @@ main form input {
   background: rgba(255, 0, 0, .1);
 }
 
-/* main form input[type=text]:nth-child(n+2) {
-  display: none;
-} */
-
 main form #cepError {
   color: rgba(255, 0, 0, 0.68);
   margin-top: -5px;
+  margin: 10px 0 10px 15%;
+  width: 70%;
 }

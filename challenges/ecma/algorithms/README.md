@@ -199,11 +199,11 @@ Pensando em automatizar funturos mapeamentos de mutação, foi solicitado a cria
 
 Imaginando um segmento hipotético de um filamento de DNA com a seqüência de bases:
 
-> DNA- ATGCCGAAATTTGCG
+> DNA - ATGCCGAAATTTGCG
 
-O segmento de RNAm formado na transcrição terá a seqüência de bases:
+O segmento de RNA formado na transcrição terá a seqüência de bases:
 
-> RNA- UACGGCUUUAAACGC 
+> RNA - UACGGCUUUAAACGC 
 
 Ou seja, o processo consiste basicamente na conversão:
 

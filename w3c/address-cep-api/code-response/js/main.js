@@ -5,8 +5,8 @@ const numberField = document.querySelector('#number')
 const neighborhoodField = document.querySelector('#neighborhood')
 const cityField = document.querySelector('#city')
 const stateField = document.querySelector('#state')
-
-cepField.focus()
+const loadingField = document.querySelector('img#loading')
+const formField = document.querySelector('form')
 
 cepField.addEventListener('focus', () => {
   cleanCepError()
@@ -23,6 +23,8 @@ cepField.addEventListener('blur', () => {
 })
 
 function loadCepInfo(cep) {
+  loadingField.classList.toggle('hidden')
+  formField.classList.toggle('loading')
   let url = `https://viacep.com.br/ws/${cep}/json/`
   fetch(url)
     .then(res => res.json())
@@ -30,6 +32,8 @@ function loadCepInfo(cep) {
       if(cepInfo.erro) {
         cleanAddressFields()
       } else {
+        formField.classList.toggle('loading')
+        loadingField.classList.toggle('hidden')
         streetField.value = cepInfo.logradouro
         neighborhoodField.value = cepInfo.bairro
         cityField.value = cepInfo.localidade
@@ -47,27 +51,11 @@ function loadCepInfo(cep) {
 function cleanCepError() {
   cepField.classList.remove('input-cep-error')
   cepErrorField.classList.add('hidden')
-
-  // cepField.style.cssText = 'border: 1px solid #C7C7CD; background: #fff;'
-  // cepErrorField.style.cssText = 'display: none;'
-
-  // cepField.style.border = '1px solid #C7C7CD'
-  // cepField.style.backgroundColor = '#fff'
-  // cepErrorField.style.display = 'none'
 }
 
 function showCepError() {
   cepField.classList.add('input-cep-error')
   cepErrorField.classList.remove('hidden')
-
-  // cepField.style.cssText = 'border: 1px solid #f00; background: rgba(255, 0, 0, .1);'
-  // cepErrorField.style.cssText = 'display: block;'
-
-  // cepField.style.border = '1px solid #f00'
-  // cepField.style.backgroundColor = 'rgba(255, 0, 0, .1)'
-  // cepErrorField.style.display = 'block'
-
-  // cepField.focus()
   cleanAddressFields()
 }
 
