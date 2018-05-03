@@ -21,3 +21,11 @@ body {
   padding: 10px;
   text-align: center;
 }
+
+.loading {
+  margin: auto;
+}
+
+.display-none {
+  display: none;
+}

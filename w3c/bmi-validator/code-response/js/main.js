@@ -20,8 +20,8 @@ const border = {
 }
 
 function calculadoraDeIMC() {
-  let altura = alturaField.value
-  let peso = pesoField.value
+  let altura = alturaField.value.replace(',','.')
+  let peso = pesoField.value.replace(',', '.')
   let sexo = document.querySelector('input[name=sexo]:checked').value
   let imc = peso / altura ** 2
   let resultado

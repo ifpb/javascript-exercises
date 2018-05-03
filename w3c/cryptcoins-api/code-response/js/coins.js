@@ -1,4 +1,5 @@
 const coinsContainer = document.querySelector('#coins')
+const loading = document.querySelector('.loading')
 let coins
 let coinsTotal = 0
 const coinsPage = 60
@@ -8,21 +9,16 @@ loadCoins()
 window.addEventListener('scroll', function () {
   if ((window.scrollY + window.innerHeight) / document.body.scrollHeight >= 0.99) {
     coinsTotal += coinsPage
-    coinsContainer.innerHTML += coinsHTML(coins, coinsTotal)
+    coinsContainer.insertAdjacentHTML('beforeend', coinsHTML(coins, coinsTotal)) 
   }
 })
 
 function loadCoins(){
-  // https://www.cryptocompare.com/api/
-  // https://www.cryptocompare.com/api/data/coinlist/
-  // https://min-api.cryptocompare.com/
-  // https://min-api.cryptocompare.com/data/all/coinlist
-  // https://github.com/lionsharecapital/lionshare-api
-  // http://cryptorials.io/top-5-cryptocurrency-apis-for-developers/
-
+  loading.classList.toggle('display-none')
   fetch('https://min-api.cryptocompare.com/data/all/coinlist')
     .then(res => res.json())
     .then(json => {
+      loading.classList.toggle('display-none')
       coins = json.Data
       coinsContainer.innerHTML = coinsHTML(coins, coinsTotal)
     })

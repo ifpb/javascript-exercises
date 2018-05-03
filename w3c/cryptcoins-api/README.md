@@ -1,8 +1,28 @@
 # Cryptocompare API
 
-![](assets/layout.png)
+## Description
+---
 
-Code: [code.zip](code.zip)<br>
 API: [Cryptocompare API](https://www.cryptocompare.com/api/) ([coinlist](https://www.cryptocompare.com/api/data/coinlist/))
 
-> [Alternativa de resposta](code-response/)
+## Inferface
+---
+
+Code: [code.zip](code.zip)
+
+![](assets/layout.png)
+
+> [Response alternative](code-response/)
+
+<!-- 
+  https://www.cryptocompare.com/coins/
+  https://coinmarketcap.com/all/views/all/
+  https://coinranking.com/ 
+  https://cryptocoincharts.info/coins/graphicalComparison
+  https://www.cryptocompare.com/api/
+  https://www.cryptocompare.com/api/data/coinlist/
+  https://min-api.cryptocompare.com/
+  https://min-api.cryptocompare.com/data/all/coinlist
+  https://github.com/lionsharecapital/lionshare-api
+  http://cryptorials.io/top-5-cryptocurrency-apis-for-developers/
+-->

@@ -8,25 +8,31 @@ for(let digit of digits) {
     if(target == 'AC')
       result.innerHTML = '0'
     else if(target == '+/-')
-      result.innerHTML = eval((`-1*(${result.innerHTML.replace(/x/g, '*')})`))
+      result.innerHTML = eval(`-1*(${result.innerHTML.replace(/x/g, '*')})`)
     else if(target == '%')
-      result.innerHTML = eval((`(${result.innerHTML.replace(/x/g, '*')})/100`))
+      result.innerHTML = eval(`(${result.innerHTML.replace(/x/g, '*')})/100`)
     else if(target == '=')
       result.innerHTML = eval(result.innerHTML.replace(/x/g, '*'))
     else if(result.innerHTML === '0' && target != '.')
       result.innerHTML = target
+    else if ("0123456789+-/".includes(target))
+      result.innerHTML += target
     else if (target == 'X')
       result.innerHTML += 'x'
-    else if(/[\d\.+-\/]/.test(target))
-      result.innerHTML += target
   })
 }
 
 document.body.addEventListener('keydown', function(event){
-  if (event.keyCode == 13){
-    let resultEval = eval(result.innerHTML.replace(/x/g, '*'))
-    result.innerHTML = resultEval
-  } else if(event.keyCode == 27){
+  if (event.key == "Escape")
     result.innerHTML = '0'
-  }
+  else if (event.key == '%')
+    result.innerHTML = eval(`(${result.innerHTML.replace(/x/g, '*')})/100`)
+  else if (event.key == "Enter" || event.key == "=")
+    result.innerHTML = eval(result.innerHTML.replace(/x/g, '*'))
+  else if (result.innerHTML === '0' && "123456789".includes(event.key))
+    result.innerHTML = event.key
+  else if ("0123456789+-/".includes(event.key))
+    result.innerHTML += event.key
+  else if (event.key == "*")
+    result.innerHTML = + 'x'
 })
