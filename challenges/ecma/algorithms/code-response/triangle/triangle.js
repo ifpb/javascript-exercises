@@ -20,9 +20,9 @@ class Triangle {
   isTriangle() {
     let hasSidesPositives = sides => sides.every(side => side > 0)
 
-    let notViolateTriangle = sides => sides[0] + sides[1] > sides[2] ? true : false
+    let violateTriangle = sides => sides[0] + sides[1] <= sides[2]
     
-    return notViolateTriangle(this.sides) && hasSidesPositives(this.sides)
+    return !violateTriangle(this.sides) && hasSidesPositives(this.sides)
   }
 
   kind() {

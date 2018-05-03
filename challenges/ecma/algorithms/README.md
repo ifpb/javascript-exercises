@@ -218,6 +218,12 @@ Então, tente criar um script [code/rna-transcription/rna-transcription.js](code
 
 ![DNA Transcriber](assets/dna-transcriber.svg)
 
+<br>
+<br>
+<br>
+
+> Alternativa de resposta: [`triangle/triangle.js`](code-response/triangle/triangle.js), [`grade-school/grade-school.js`](code-response/grade-school/grade-school.js), [`rna-transcription/rna-transcription.js`](code-response/rna-transcription/rna-transcription.js) e [`cipher/cipher.js`](code-response/cipher/cipher.js).
+
 <!-- 
 https://pt.wikipedia.org/wiki/Transcrição_(genética)
 http://www.sobiologia.com.br/conteudos/Citologia2/AcNucleico5.php
