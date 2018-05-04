@@ -3,7 +3,7 @@
 ## DESAFIOS DE SEGURANÇA
 ---
 
-A prova é composta por quarto desafios localizados em arquivos [deste diretório compactado](code.zip). Cada arquivo possui uma Suite de Testes que apresenta a sua respectiva validação por meio de testes.
+Esta atividade é composta por quarto desafios localizados em arquivos [deste diretório compactado](code.zip). Cada arquivo possui uma Suite de Testes que apresenta a sua respectiva validação por meio de testes.
 
 Contudo, para executar cada cenários de validação da Suite de Teste será necessário instalar a ferramenta [Jest](https://facebook.github.io/jest/) usando o `npm` e o `package.json` por meio do comando:
 
@@ -85,7 +85,7 @@ Por fim, é importante destacar que cada questão irá detalhar um teste especí
 ### QUESTÕES
 ---
 
-**QUESTÃO 1 (50%)** - Na área da segurança da informação existe um ramo chamado de [Análise de Criptografia](https://en.wikipedia.org/wiki/Cryptanalysis), que consiste em uma séria de técnicas que podem ser utilizadas para desvendar uma mensagem criptografada. 
+**QUESTÃO 1** - Na área da segurança da informação existe um ramo chamado de [Análise de Criptografia](https://en.wikipedia.org/wiki/Cryptanalysis), que consiste em uma séria de técnicas que podem ser utilizadas para desvendar uma mensagem criptografada. 
 
 Segundo o portal [Cryptool](http://cryptool-online.de/index.php?option=com_content&view=article&id=55&Itemid=53&lang=en) existe algumas estratégias que podem ser utilizadas para analisar uma mensagem criptografada. Na maioria das vezes, o esforço e complexidade das técnicas vai depender da criptografia utilizada. Por exemplo, no filme [O Jogo da Imitação](https://pt.wikipedia.org/wiki/O_Jogo_da_Imitação) é possível ver o quão complexo foi para o matemático Alan Turing decodificar a máquina Enigma, usada pela Alemanha Nazista para tornar suas mensagens incompreensíveis em caso de interceptação pelo inimigo.
 
@@ -142,7 +142,7 @@ Veja agora que fica viável analisar a mensagem criptografada, pois ela está le
 
 Portanto, use a Suite de Teste [cipher/cipher.test.js](code/cipher/cipher.test.js) para gerar a implementação de `allRots()`.
 
-**QUESTÃO 2 (50%)** - A [Análise de Frequência](https://en.wikipedia.org/wiki/Frequency_analysis) é uma ferramenta importante na Análise de Criptografia. Sua essência consiste em uma simples análise de quantas letras existem em uma mensagem.
+**QUESTÃO 2** - A [Análise de Frequência](https://en.wikipedia.org/wiki/Frequency_analysis) é uma ferramenta importante na Análise de Criptografia. Sua essência consiste em uma simples análise de quantas letras existem em uma mensagem.
 
 Essa ferramenta pode ser importante na Análise de Criptografia porque a frequência das letras em um idioma possui um certo padrão, por exemplo, segundo o portal [Cryptool](http://cryptool-online.de/index.php?option=com_content&view=article&id=96&Itemid=117&lang=en) a letra de mais alta frequência no inglês é o `e` seguido do `t`, com frequências aproximadas de 12,7% e 9,1% respectivamente.
 
@@ -179,7 +179,7 @@ console.log(WordFrequency.frequency(text))
 
 Portanto, use a Suite de Teste [word-frequency/word-frequency.test.js](word-frequency/word-frequency.test.js) para gerar a implementação de `WordFrequency.frequency()`.
 
-**QUESTÃO 3 (50%)** - Na Análise de Criptografia, o termo [Password cracking](https://en.wikipedia.org/wiki/Password_cracking) se refere às técnicas utilizadas para desvendar a senha original, e dependendo da criptografia existem formas específicas de se atacá-las, usando desde técnicas de forças bruta ou engenharia social.
+**QUESTÃO 3** - Na Análise de Criptografia, o termo [Password cracking](https://en.wikipedia.org/wiki/Password_cracking) se refere às técnicas utilizadas para desvendar a senha original, e dependendo da criptografia existem formas específicas de se atacá-las, usando desde técnicas de forças bruta ou engenharia social.
 
 Até um certo tempo, era muito comum encontrar senhas sendo mascaradas por [Funções Hash](https://en.wikipedia.org/wiki/Cryptographic_hash_function), mas devido a técnicas como o [Rainbow Table](https://en.wikipedia.org/wiki/Rainbow_table) isso já não é mais recomendado.
 

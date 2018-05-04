@@ -5,7 +5,7 @@ hide circle
 
 class Triangle {
   sides: Array<Number>
-  isTriangle(): Boolean
+  constructor(a Number, b Number, c Number)
   kind(): String
 }
 @enduml

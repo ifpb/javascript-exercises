@@ -5,6 +5,7 @@ hide circle
 
 class School {
   grades: Object
+  constructor()
   roster(): Object
   add(student: String, grade: Number): undefined
   grade(grade: Number): Array<Number>

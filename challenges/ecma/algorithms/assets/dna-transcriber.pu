@@ -4,6 +4,7 @@ skinparam monochrome true
 hide circle
 
 class DnaTranscriber {
+  constructor()
   toRna(dna: String): String
 }
 @enduml
