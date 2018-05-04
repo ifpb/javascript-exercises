@@ -1,4 +1,4 @@
-### Numbers series
+### [Numbers series](code.zip)
 
 `{{ page.path | replace:'README.md','' }}code/numbers-for.js`:
 ```js

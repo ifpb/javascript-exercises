@@ -1,4 +1,4 @@
-### Body mass index (BMI)
+### [Body mass index (BMI)](code.zip)
 
 | Category | BMI |
 | -|- |

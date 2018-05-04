@@ -3,7 +3,7 @@
 ## Description
 ---
 
-API: [Ipinfo API](https://ipinfo.io/developers), [Static Google Map API](https://developers.google.com/maps/documentation/static-maps/)
+API: [Ipinfo API](https://ipinfo.io/developers), [Static Map Maker](https://staticmapmaker.com), [Static Google Map API](https://developers.google.com/maps/documentation/static-maps/)
 
 ## Interface
 ---
