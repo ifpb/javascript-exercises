@@ -12,4 +12,8 @@
 * [Ipinfo Table API](ipinfo-table-api/)
 * [Address (Via CEP API)](address-cep-api/)
 
-<!-- * [Weather API](weather/) -->
+<!-- 
+* [Weather API](weather/) 
+* [Calculator IP](calculator-ip/) 
+* [Cron Generator](cron-generator/) 
+-->

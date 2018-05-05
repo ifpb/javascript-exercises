@@ -6,7 +6,6 @@
 * W3C
   * [Github Profile Comparator](w3c/github-profile-comparator/)
   * [Weather App](w3c/weather-app/)
-* Packages
-  * [eZ Server Monitor](packages/ez-server-monitor/)
-  * [Host Monitor](packages/host-monitor/)
-  * [Pingdom Monitor](packages/pingdom-monitor/)
+  * [eZ Server Monitor](w3c/ez-server-monitor/)
+  * [Host Monitor](w3c/host-monitor/)
+  * [Pingdom Monitor](w3c/pingdom-monitor/)
