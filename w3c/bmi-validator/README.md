@@ -11,11 +11,22 @@
 | Acima do Peso Ideal | 27,3 - 32,3 | 27,8 - 31,1 | border border-warning bg-warning text-white |
 | Obeso | > 32,3 | > 31,1 | border border-danger bg-danger text-white |
 
+
+[Bootstrap Alert](https://getbootstrap.com/docs/4.0/components/alerts/):
+```html
+<div class="alert alert-warning" role="alert">
+  <strong>Informe o peso e a altura corretamente.</strong>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+```
+
 ## Interface
 ---
 
 Code: [code.zip](code.zip)
 
-![](assets/layout.png)
+![](assets/layout.gif)
 
 > [Response alternative](code-response/)
