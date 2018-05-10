@@ -1,3 +1,4 @@
+const calcImcBtnField = document.querySelector('#calc-imc-btn')
 const alturaField = document.querySelector('input[name=altura]')
 const pesoField = document.querySelector('input[name=peso]')
 const warningField = document.querySelector('#warning')
@@ -93,17 +94,14 @@ function hideWarningMessage() {
 }
 
 // evetns
-document.body.addEventListener('keydown', function (event) {
-  if(event.key == "Enter")
+calcImcBtnField.addEventListener('click', function(event) {
+  event.preventDefault()
+  calculadoraDeIMC()
+})
+
+document.body.addEventListener('keydown', function(event) {
+  if(event.key == "Enter"){
+    event.preventDefault()
     calculadoraDeIMC()
-  else if (event.key == "Escape")
-    hideWarningMessage()
-})
-
-alturaField.addEventListener('keydown', function (event) {
-  hideWarningMessage()
-})
-
-pesoField.addEventListener('keydown', function (event) {
-  hideWarningMessage()
+  }
 })

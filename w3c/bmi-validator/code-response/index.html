@@ -28,33 +28,35 @@
 
           <div class="card-body">
             <div id="warning"></div>
-            <div class="form-group">
-              <label for="altura">Altura(m):</label>
-              <input type="text" class="form-control form-control-lg" name="altura" 
-                id="altura" placeholder="Digite o altura">
-            </div>
-            <div class="form-group">
-              <label for="peso">Peso(Kg):</label>
-              <input type="text" class="form-control form-control-lg" name="peso" 
-                id="peso" placeholder="Digite a peso">
-            </div>
-            <div class="form-group">
-              <p>Sexo:</p>
-              <input type="radio" name="sexo" value="masculino" id="masculino" checked>
-              <label for="masculino">Masculino</label>
-              <input type="radio" name="sexo" value="feminino" id="feminino">
-              <label for="feminino">Feminino</label>
-            </div>
-            <div class="form-group">
-              <label for="imc">Condição:</label>
-              <input type="text" class="form-control form-control-lg" name="imc" 
-                id="imc" readonly>
-            </div>
-            <div class="form-group text-center">
-              <button onclick="calculadoraDeIMC()" id="calc-imc-btn" class="btn">Calculando o IMC
-                <i class="fa fa-tachometer" aria-hidden="true"></i>
-              </button>
-            </div>
+            <form action="">
+              <div class="form-group">
+                <label for="altura">Altura(m):</label>
+                <input type="text" class="form-control form-control-lg" name="altura" 
+                  id="altura" placeholder="Digite o altura">
+              </div>
+              <div class="form-group">
+                <label for="peso">Peso(Kg):</label>
+                <input type="text" class="form-control form-control-lg" name="peso" 
+                  id="peso" placeholder="Digite a peso">
+              </div>
+              <div class="form-group">
+                <p>Sexo:</p>
+                <input type="radio" name="sexo" value="masculino" id="masculino" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" value="feminino" id="feminino">
+                <label for="feminino">Feminino</label>
+              </div>
+              <div class="form-group">
+                <label for="imc">Condição:</label>
+                <input type="text" class="form-control form-control-lg" name="imc" 
+                  id="imc" readonly>
+              </div>
+              <div class="form-group text-center">
+                <button id="calc-imc-btn" class="btn">Calculando o IMC
+                  <i class="fa fa-tachometer" aria-hidden="true"></i>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
 
