@@ -8,6 +8,7 @@ h1 {
 
 table#iptable td:last-child {
   width: 10%;
+  min-width: 90px;
 }
 
 table#iptable .material-icons {

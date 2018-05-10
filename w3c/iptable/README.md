@@ -5,6 +5,6 @@
 
 Code: [code.zip](code.zip)
 
-![](assets/layout.png)
+![](assets/layout.gif)
 
 > [Alternativa de resposta](code-response/)

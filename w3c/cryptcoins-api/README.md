@@ -10,7 +10,7 @@ API: [Cryptocompare API](https://www.cryptocompare.com/api/) ([coinlist](https:/
 
 Code: [code.zip](code.zip)
 
-![](assets/layout.png)
+![](assets/layout.gif)
 
 > [Response alternative](code-response/)
 

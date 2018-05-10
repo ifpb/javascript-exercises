@@ -25,7 +25,5 @@ td>a {
 
 td>a:hover {
     color: #28a745;
-    -webkit-transition: 1s ease 10ms;
-    -moz-transition: 1s ease 10ms;
     transition: 1s ease 10ms;
 }
