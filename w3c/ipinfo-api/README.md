@@ -8,8 +8,8 @@ API: [Ipinfo API](https://ipinfo.io/developers), [Static Map Maker](https://stat
 ## Interface
 ---
 
-Code: [code.zip](code.gif)
+Code: [code.zip](code.zip)
 
-![](assets/layout.png)
+![](assets/layout.gif)
 
 > [Alternativa de resposta](code-response/)

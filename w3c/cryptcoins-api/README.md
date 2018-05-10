@@ -5,6 +5,14 @@
 
 API: [Cryptocompare API](https://www.cryptocompare.com/api/) ([coinlist](https://www.cryptocompare.com/api/data/coinlist/))
 
+```js
+window.addEventListener('scroll', function () {
+  if ((window.scrollY + window.innerHeight) / document.body.scrollHeight >= 0.99) {
+    // TODO 60 load more coins
+  }
+})
+```
+
 ## Inferface
 ---
 
