@@ -11,6 +11,31 @@
 | Acima do Peso Ideal | 27,3 - 32,3 | 27,8 - 31,1 |
 | Obeso | > 32,3 | > 31,1 |
 
+## Tips
+---
+
+Query element (`<input type="text" name="altura">`):
+```js
+const alturaElemento = document.querySelector('input[name=altura]')
+```
+
+Query input checked:
+```js
+const sexoElemento = document.querySelector('input:checked')
+```
+
+Show input content:
+```js
+const altura = alturaElemento.value
+console.log(altura)
+```
+
+Change input content:
+```js
+const imcElemento = document.querySelector('#imc')
+imcElemento.value = 'lorem ipsum'
+```
+
 ## Interface
 ---
 
