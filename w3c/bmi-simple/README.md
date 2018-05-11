@@ -26,6 +26,7 @@ const sexoElemento = document.querySelector('input:checked')
 
 Show input content:
 ```js
+const alturaElemento = document.querySelector('input[name=altura]')
 const altura = alturaElemento.value
 console.log(altura)
 ```
@@ -34,6 +35,17 @@ Change input content:
 ```js
 const imcElemento = document.querySelector('#imc')
 imcElemento.value = 'lorem ipsum'
+```
+
+Click event:
+```html
+ <button onclick="calculadoraDeIMC()">
+```
+
+```js
+function calculadoraDeIMC() {
+  // TODO
+}
 ```
 
 ## Interface
