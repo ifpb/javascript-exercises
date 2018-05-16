@@ -3,15 +3,11 @@
 ## Descrição
 ---
 
-A gestão financeira é algo extremamente importante para vida das pessoas, e através dela é que conseguimos obter recursos para alcançar algumas metas de nossas vidas, por exemplo, viagens, imóveis, bens de consumo etc.
-
-Pensando em auxiliar a gestão financeira, uma empresa veio recrutar alguns desenvolvedores para criar alguns algoritmos. 
-
-Para facilitar esse desenvolvimento, a princípio, foi disponibilizado neste [diretório compactado](code.zip) alguns arquivos já com a organização desses algoritmos. (També existe a [versão de teste](code-test.zip) com Jest)
+Para facilitar o desenvolvimento da prova, foi disponibilizado neste [diretório compactado](code.zip) alguns arquivos já com a organização dos algoritmos. (Também existe a [versão de teste](code-test.zip) com Jest)
 
 A seguir será descrito os algoritmos por meio de questões.
 
-### Questões
+### QUESTÕES
 ---
 
 **QUESTÃO 1** - A [Tabela Price](https://pt.wikipedia.org/wiki/Tabela_Price) é um método de amortização de empréstimo cuja principal finalidade é gerar parcelas com valores iguais. Muitas vezes é comum nos simuladores das instituições financeiras visualizar o período e a parcela do valor a ser obtido, contudo não é tão evidente o valor final pago no empréstimo.
@@ -26,7 +22,7 @@ Então, para facilitar a geração do valor final pago, primeiro devemos utiliza
 *i*: Taxa de juros<br>
 *n*: Número de períodos (meses)
 
-Depois, é que multiplicamos pelo número de parcelas para obter o valor total.
+Depois multiplicamos pelo número de parcelas para obter o valor total.
 
 Assim sendo, crie um algoritmo para gerar o valor final pago de um empréstimo de R$ 20.000,00 a juros de 1,82% ao mês, nos prazos de 1, 2 e 3 anos.
 
@@ -51,7 +47,7 @@ Sua fórmula pode ser expressa por:
 *n*: Número de períodos (meses)<br>
 *M*: mensalidade ou aportes
 
-Uma aplicação útil para o VF poderia ser no cálculo dos investimentos de renda fixa pré-fixado, sendo assim, crie um algoritmo no arquivo `rendimento-composto-fixo/rendimento-composto-fixo.js` para gerar o valor final de um investimento de renda fixa cujo o rendimento mensal fixo seja de 0,5936%, os aportes de R$ 500,00, e a entrada de R$ 100,00, nos períodos de 1, 2, 3 e 10 anos:
+Crie um algoritmo no arquivo `rendimento-composto-fixo/rendimento-composto-fixo.js` para gerar o valor final de um investimento de renda fixa cujo o rendimento mensal fixo seja de 0,5936%, os aportes de R$ 500,00, e a entrada de R$ 100,00, nos períodos de 1, 2, 3 e 10 anos:
 
 ```js
 console.log(redimentoCompostoFixo(100, 500, 0.5936, 12)) //=> 6307.176654943719
@@ -62,7 +58,7 @@ console.log(redimentoCompostoFixo(100, 500, 0.5936, 120)) //=> 87335.08961181375
 
 **QUESTÃO 3** - Nem sempre os rendimentos dos investimentos possuem juros pré-fixados, algumas modalidades possuem variação na sua taxa de juros.
 
-No contexto brasileiro um exemplo bem conhecido é a [caderneta de poupança](http://www.portalbrasil.net/poupanca_mensal.htm), que conforme a tabela a seguir, exibe a variação dos juros conforme os anos de 2015 até 2018:
+No contexto brasileiro um exemplo bem conhecido é a caderneta de poupança, que conforme a tabela a seguir, exibe a variação dos juros conforme os anos de 2015 até 2018:
 
 | Ano | Jan | Fev | Mar | Abr | Maio | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -71,7 +67,7 @@ No contexto brasileiro um exemplo bem conhecido é a [caderneta de poupança](ht
 | 2016 | 0,7261 | 0,6327 | 0,5962 | 0,7179 | 0,6311 | 0,6541 | 0,7053 | 0,6629 | 0,7558 | 0,6583 | 0,6609 | 0,6435 |
 | 2015 | 0,6058 | 0,5882 | 0,5169 | 0,6302 | 0,6079 | 0,6159 | 0,6822 | 0,7317 | 0,6876 | 0,6930 | 0,6799 | 0,6303 |
 
-Além dos investimentos, alguns outros índices podem se utilizar dessa ideia, como o cálculo da atualização de um valor segundo a inflação usando a [taxa SELIC](http://www.portalbrasil.net/indices_selic_ano.htm):
+Além dos investimentos, alguns outros índices podem utilizar essa ideia, como o cálculo da atualização de um valor segundo a inflação usando a taxa SELIC:
 
 | Ano | Jan | Fev | Mar | Abr | Maio | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -93,26 +89,26 @@ Portanto, a fórmula para calcular o valor final que possui aportes mensais e so
 
 Sendo assim, crie um algoritmo no arquivo `rendimento-composto-variavel/rendimento-composto-variavel.js` para: 
 
-**a)** Gerar o valor final de um investimento na poupança sem entrada de valor, com aportes de R$ 500,00 mensais, nos intervalos de 01/2015 até 12/2017, e de 01/2015 até 12/2015:
+**a)** Gerar o valor final de um investimento na poupança sem entrada de valor, com aportes de R$ 500,00 mensais, nos intervalos de 1/2015 até 12/2017, e de 1/2015 até 12/2015:
 
 ```js
-console.log(redimentoCompostoVariado(poupanca, 0, 500, '01/2015', '12/2017')) //=> 20161.722546560424
-console.log(redimentoCompostoVariado(poupanca, 0, 500, '01/2015', '12/2015')) //=> 6263.110235582166
+console.log(redimentoCompostoVariado(poupanca, 0, 500, '1/2015', '12/2017')) //=> 20161.722546560424
+console.log(redimentoCompostoVariado(poupanca, 0, 500, '1/2015', '12/2015')) //=> 6263.110235582166
 ```
 
-**b)** Gerar o valor final de um atualização de valor acumulado com aportes de R$ 500,00 mensais, nos intervalos de 01/2015 até 12/2017, e de 01/2015 até 12/2015:
+**b)** Gerar o valor final de um atualização de valor acumulado com aportes de R$ 500,00 mensais, nos intervalos de 1/2015 até 12/2017, e de 1/2015 até 12/2015:
 
 ```js
-console.log(redimentoCompostoVariado(ipca, 0, 500, '01/2015', '12/2017')) //=> 19334.152800685235
-console.log(redimentoCompostoVariado(ipca, 0, 500, '01/2015', '12/2015')) //=> 6312.287539035425
+console.log(redimentoCompostoVariado(ipca, 0, 500, '1/2015', '12/2017')) //=> 19334.152800685235
+console.log(redimentoCompostoVariado(ipca, 0, 500, '1/2015', '12/2015')) //=> 6312.287539035425
 ```
 
-**c)** Comparar o rendimento da caderneta de poupança com o IPCA, por exemplo, nos intervalos de 01/2015 até 12/2017, ou de 01/2015 até 12/2015, a poupança repôs a inflação? Em quanto?
+**c)** Comparar o rendimento da caderneta de poupança com o IPCA, por exemplo, nos intervalos de 1/2015 até 12/2017, ou de 1/2015 até 12/2015, a poupança repôs a inflação? Em quanto?
 
-**QUESTÃO 4** - Um dúvida muito comum entre os brasileiros consiste no efetivo reajuste que a poupança gerar sobre a inflação. Pensando em destacar essa reposição (poupança) versus desvalorização (IPCA) é que foi solicitado a criação de um algoritmo no arquivo `saldo-indices/saldo-indices.js` para fazer essa comparação, conforme a exercução a seguir:
+**QUESTÃO 4** - Um dúvida muito comum entre os brasileiros consiste no efetivo reajuste que a poupança gera sobre a inflação. Pensando em destacar essa reposição (poupança) versus desvalorização (IPCA) é que foi solicitado a criação de um algoritmo no arquivo `saldo-indices/saldo-indices.js` para fazer essa comparação, conforme a execução a seguir:
 
 ```js
-console.log(saldoIndices(poupanca, ipca, '01/2015', '12/2017'))
+console.log(saldoIndices(poupanca, ipca, '1/2015', '12/2017'))
 //=>
 // { 
 //   '01/2015': -0.6342,
@@ -159,6 +155,6 @@ console.log(saldoIndices(poupanca, ipca, '01/2015', '12/2017'))
 Para auxiliar nessa detecção crie um algoritmo no arquivo `min-max-indice/min-max-indice.js` que determine o mínimo e máximo de uma série de reajustes conforme código a seguir:
 
 ```js
-console.log(minMaxIndice(poupanca, '01/2015', '12/2017')) //=> [ 0.4273, 0.7558 ]
-console.log(minMaxIndice(ipca, '01/2015', '12/2017')) //=> [ -0.23, 1.32 ]
+console.log(minMaxIndice(poupanca, '1/2015', '12/2017')) //=> [ 0.4273, 0.7558 ]
+console.log(minMaxIndice(ipca, '1/2015', '12/2017')) //=> [ -0.23, 1.32 ]
 ```
