@@ -91,7 +91,7 @@ Portanto, a fórmula para calcular o valor final que possui aportes mensais e so
 *i<sub>i-1</sub>*: Juros anterior<br>
 *M*: mensalidade ou aportes
 
-Sendo assim, crie um algoritmo no arquivo `rendimento-composto-variavel/rendimento-composto-variavel.js` para: 
+Sendo assim, crie um algoritmo no arquivo `rendimento-composto-variado/rendimento-composto-variado.js` para: 
 
 **a)** Gerar o valor final de um investimento na poupança sem entrada de valor, com aportes de R$ 500,00 mensais, nos intervalos de 01/2015 até 12/2017, e de 01/2015 até 12/2015:
 
@@ -170,6 +170,6 @@ console.log(minMaxIndice(ipca, '01/2015', '12/2017')) //=> [ -0.23, 1.32 ]
 > Alternativa de resposta:<br> 
 > * [financiamento-price/financiamento-price.js](code-response/financiamento-price/financiamento-price.js)<br>
 > * [rendimento-composto-fixo/rendimento-composto-fixo.js](code-response/rendimento-composto-fixo/rendimento-composto-fixo.js)<br>
-> * [rendimento-composto-variavel/rendimento-composto-variavel.js](code-response/rendimento-composto-variavel/rendimento-composto-variavel.js)<br>
+> * [rendimento-composto-variado/rendimento-composto-variado.js](code-response/rendimento-composto-variado/rendimento-composto-variado.js)<br>
 > * [saldo-indices/saldo-indices.js](code-response/saldo-indices/saldo-indices.js)<br>
 > * [min-max-indice/min-max-indice.js](code-response/min-max-indice/min-max-indice.js)<br>
