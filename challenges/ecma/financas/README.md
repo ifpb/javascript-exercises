@@ -3,9 +3,13 @@
 ## Descrição
 ---
 
-Para facilitar o desenvolvimento da prova, foi disponibilizado neste [diretório compactado](code.zip) alguns arquivos já com a organização dos algoritmos. (Também existe a [versão de teste](code-test.zip) com Jest)
+A gestão financeira é algo extremamente importante para vida das pessoas, e através dela é que conseguimos obter recursos para alcançar algumas metas de nossas vidas, por exemplo, viagens, imóveis, bens de consumo etc.
 
-A seguir será descrito os algoritmos por meio de questões.
+Pensando em auxiliar a gestão financeira, uma empresa veio recrutar alguns desenvolvedores para criar alguns algoritmos.
+
+Para facilitar o desenvolvimento, foi disponibilizado neste [diretório compactado](code.zip) alguns arquivos já com a organização dos algoritmos. (Também existe a [versão de teste](code-test.zip) com Jest)
+
+A seguir será descrito os algoritmos por meio de questões, e deve ser entregue no mínimo três questões.
 
 ### QUESTÕES
 ---
@@ -58,7 +62,7 @@ console.log(redimentoCompostoFixo(100, 500, 0.5936, 120)) //=> 87335.08961181375
 
 **QUESTÃO 3** - Nem sempre os rendimentos dos investimentos possuem juros pré-fixados, algumas modalidades possuem variação na sua taxa de juros.
 
-No contexto brasileiro um exemplo bem conhecido é a caderneta de poupança, que conforme a tabela a seguir, exibe a variação dos juros conforme os anos de 2015 até 2018:
+No contexto brasileiro um exemplo bem conhecido é a [caderneta de poupança](http://www.portalbrasil.net/poupanca_mensal.htm), que conforme a tabela a seguir, exibe a variação dos juros conforme os anos de 2015 até 2018:
 
 | Ano | Jan | Fev | Mar | Abr | Maio | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -67,7 +71,7 @@ No contexto brasileiro um exemplo bem conhecido é a caderneta de poupança, que
 | 2016 | 0,7261 | 0,6327 | 0,5962 | 0,7179 | 0,6311 | 0,6541 | 0,7053 | 0,6629 | 0,7558 | 0,6583 | 0,6609 | 0,6435 |
 | 2015 | 0,6058 | 0,5882 | 0,5169 | 0,6302 | 0,6079 | 0,6159 | 0,6822 | 0,7317 | 0,6876 | 0,6930 | 0,6799 | 0,6303 |
 
-Além dos investimentos, alguns outros índices podem utilizar essa ideia, como o cálculo da atualização de um valor segundo a inflação usando a taxa SELIC:
+Além dos investimentos, alguns outros índices podem utilizar essa ideia, como o cálculo da atualização de um valor segundo a inflação usando a [taxa SELIC](http://www.portalbrasil.net/indices_selic_ano.htm):
 
 | Ano | Jan | Fev | Mar | Abr | Maio | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -89,26 +93,26 @@ Portanto, a fórmula para calcular o valor final que possui aportes mensais e so
 
 Sendo assim, crie um algoritmo no arquivo `rendimento-composto-variavel/rendimento-composto-variavel.js` para: 
 
-**a)** Gerar o valor final de um investimento na poupança sem entrada de valor, com aportes de R$ 500,00 mensais, nos intervalos de 1/2015 até 12/2017, e de 1/2015 até 12/2015:
+**a)** Gerar o valor final de um investimento na poupança sem entrada de valor, com aportes de R$ 500,00 mensais, nos intervalos de 01/2015 até 12/2017, e de 01/2015 até 12/2015:
 
 ```js
-console.log(redimentoCompostoVariado(poupanca, 0, 500, '1/2015', '12/2017')) //=> 20161.722546560424
-console.log(redimentoCompostoVariado(poupanca, 0, 500, '1/2015', '12/2015')) //=> 6263.110235582166
+console.log(redimentoCompostoVariado(poupanca, 0, 500, '01/2015', '12/2017')) //=> 20161.722546560424
+console.log(redimentoCompostoVariado(poupanca, 0, 500, '01/2015', '12/2015')) //=> 6263.110235582166
 ```
 
-**b)** Gerar o valor final de um atualização de valor acumulado com aportes de R$ 500,00 mensais, nos intervalos de 1/2015 até 12/2017, e de 1/2015 até 12/2015:
+**b)** Gerar o valor final de um atualização de valor acumulado com aportes de R$ 500,00 mensais, nos intervalos de 01/2015 até 12/2017, e de 01/2015 até 12/2015:
 
 ```js
-console.log(redimentoCompostoVariado(ipca, 0, 500, '1/2015', '12/2017')) //=> 19334.152800685235
-console.log(redimentoCompostoVariado(ipca, 0, 500, '1/2015', '12/2015')) //=> 6312.287539035425
+console.log(redimentoCompostoVariado(ipca, 0, 500, '01/2015', '12/2017')) //=> 19334.152800685235
+console.log(redimentoCompostoVariado(ipca, 0, 500, '01/2015', '12/2015')) //=> 6312.287539035425
 ```
 
-**c)** Comparar o rendimento da caderneta de poupança com o IPCA, por exemplo, nos intervalos de 1/2015 até 12/2017, ou de 1/2015 até 12/2015, a poupança repôs a inflação? Em quanto?
+**c)** Comparar o rendimento da caderneta de poupança com o IPCA, por exemplo, nos intervalos de 01/2015 até 12/2017, ou de 01/2015 até 12/2015, a poupança repôs a inflação? Em quanto?
 
 **QUESTÃO 4** - Um dúvida muito comum entre os brasileiros consiste no efetivo reajuste que a poupança gera sobre a inflação. Pensando em destacar essa reposição (poupança) versus desvalorização (IPCA) é que foi solicitado a criação de um algoritmo no arquivo `saldo-indices/saldo-indices.js` para fazer essa comparação, conforme a execução a seguir:
 
 ```js
-console.log(saldoIndices(poupanca, ipca, '1/2015', '12/2017'))
+console.log(saldoIndices(poupanca, ipca, '01/2015', '12/2017'))
 //=>
 // { 
 //   '01/2015': -0.6342,
@@ -155,6 +159,17 @@ console.log(saldoIndices(poupanca, ipca, '1/2015', '12/2017'))
 Para auxiliar nessa detecção crie um algoritmo no arquivo `min-max-indice/min-max-indice.js` que determine o mínimo e máximo de uma série de reajustes conforme código a seguir:
 
 ```js
-console.log(minMaxIndice(poupanca, '1/2015', '12/2017')) //=> [ 0.4273, 0.7558 ]
-console.log(minMaxIndice(ipca, '1/2015', '12/2017')) //=> [ -0.23, 1.32 ]
+console.log(minMaxIndice(poupanca, '01/2015', '12/2017')) //=> [ 0.4273, 0.7558 ]
+console.log(minMaxIndice(ipca, '01/2015', '12/2017')) //=> [ -0.23, 1.32 ]
 ```
+
+<br>
+<br>
+<br>
+
+> Alternativa de resposta:<br> 
+> * [financiamento-price/financiamento-price.js](code-response/financiamento-price/financiamento-price.js)<br>
+> * [rendimento-composto-fixo/rendimento-composto-fixo.js](code-response/rendimento-composto-fixo/rendimento-composto-fixo.js)<br>
+> * [rendimento-composto-variavel/rendimento-composto-variavel.js](code-response/rendimento-composto-variavel/rendimento-composto-variavel.js)<br>
+> * [saldo-indices/saldo-indices.js](code-response/saldo-indices/saldo-indices.js)<br>
+> * [min-max-indice/min-max-indice.js](code-response/min-max-indice/min-max-indice.js)<br>
