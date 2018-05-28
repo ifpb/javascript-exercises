@@ -3,7 +3,9 @@
 ## Description
 ---
 
-| Status | IMC Woman | IMC Man | Classes (input#imc) |
+![](assets/bmi.svg)
+
+| Status | BMI Woman | BMI Man | Classes (input#imc) |
 |-|-|-|-|
 | Abaixo do Peso | < 19,1 | < 20,7 | border border-warning bg-warning text-white |
 | Peso Normal | 19,1 - 25,8 | 20,7 - 26,4 | border border-sucess bg-success text-white |
@@ -11,6 +13,8 @@
 | Acima do Peso Ideal | 27,3 - 32,3 | 27,8 - 31,1 | border border-warning bg-warning text-white |
 | Obeso | > 32,3 | > 31,1 | border border-danger bg-danger text-white |
 
+## Tips
+---
 
 [Bootstrap Alert](https://getbootstrap.com/docs/4.0/components/alerts/):
 ```html
@@ -20,6 +24,11 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
+```
+
+```js
+const imcField = document.querySelector('#imc')
+imcField.className = 'form-control form-control-lg'
 ```
 
 ## Interface

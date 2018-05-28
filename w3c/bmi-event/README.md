@@ -1,4 +1,4 @@
-# BMI
+# BMI Event
 
 ## Description
 ---
@@ -40,14 +40,23 @@ imcElemento.value = 'lorem ipsum'
 ```
 
 Click event:
-```html
- <button onclick="calculadoraDeIMC()">
+```js
+const button = document.querySelector('button')
+
+button.addEventListener('click', function() {
+  // TODO
+})
 ```
 
+Key event:
 ```js
-function calculadoraDeIMC() {
-  // TODO
-}
+document.addEventListener('keyup', function(event) {
+  if (event.key == 'Escape') {
+    // TODO
+  } else if (event.key == 'Enter') {
+    // TODO
+  }
+})
 ```
 
 ## Interface
