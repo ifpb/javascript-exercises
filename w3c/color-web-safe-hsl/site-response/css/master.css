@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+main {
+  width: 95%;
+  margin: auto;
+}
+
+.colors {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.color {
+  color: #fff;
+  text-transform: lowercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100%/15 - 2*.1%);
+  height: 80px;
+  margin: .1%;
+}

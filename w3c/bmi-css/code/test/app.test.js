@@ -16,12 +16,20 @@ test('calculating imc', async t => {
     .eql('Obeso')
 
   await t
+    .expect(imc.classNames)
+    .eql(['form-control', 'form-control-lg', 'border', 'border-danger', 'bg-danger', 'text-white'])
+
+  await t
     .typeText('#peso', '60', { replace: true })
     .pressKey("enter")
 
   await t
     .expect(imc.value)
     .eql('Peso Normal')
+  
+  await t
+    .expect(imc.classNames)
+    .eql(['form-control', 'form-control-lg', 'border', 'border-sucess', 'bg-success', 'text-white'])
 })
 
 test('cleaning form fields', async t => {

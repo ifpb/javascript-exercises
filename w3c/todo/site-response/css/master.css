@@ -1,0 +1,85 @@
+.red {
+  color: #dc3545;
+}
+
+.yellow {
+  color: #ffc107;
+}
+
+.close {
+  font-size: 1.5rem;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: .5rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+ul li.checked {
+  position: relative;
+}
+
+ul li.checked .task {
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #000;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 6px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+main {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  font-size: 1rem;
+  padding: .5rem;
+}
+
+.status, .top-task {
+  padding: .5rem;
+}
+
+button {
+  padding: .4rem;
+  font-size: 1.2rem;
+}
+
+p {
+  padding: .5rem 0;
+  border-bottom: 1px #ccc solid;
+}

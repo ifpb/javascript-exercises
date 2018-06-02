@@ -1,0 +1,32 @@
+:root {
+  --colorHeight: 60px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.colors {
+  display: flex;
+  flex-flow: column wrap;
+  height: calc(20 * var(--colorHeight) + 20px);
+}
+
+.shade {
+  height: 20px;
+}
+
+.color {
+  text-align: left;
+  font-size: .7rem;
+  text-transform: uppercase;
+  padding: .5rem .5rem;
+  color: #fff;
+  box-sizing: border-box;
+  width: calc(100%/9);
+  height: var(--colorHeight);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

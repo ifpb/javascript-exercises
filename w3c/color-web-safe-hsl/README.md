@@ -1,0 +1,1 @@
+https://htmlcolorcodes.com/color-chart/web-safe-color-chart/

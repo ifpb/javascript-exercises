@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+}
+
+main {
+  width: 600px;
+  margin: auto;
+}
+
+@media (min-width: 1000px) {
+  main {
+    width: 900px;
+  }
+}
+
+main h1 {
+  text-align: center;
+  margin: 3rem;
+}
+
+.entities {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.entities .entity {
+  width: 118px;
+  height: 118px;
+  margin: 5px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.entities .entity .character {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.entities .entity .named {
+  font-size: .8rem;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 90%;
+}

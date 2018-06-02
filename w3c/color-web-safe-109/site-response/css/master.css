@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+main {
+  width: 95%;
+  margin: auto;
+}
+
+.colors {
+  display: flex;
+  flex-flow: column wrap;
+  height: 504px;
+}
+
+.color {
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100%/18 - .2%);
+  height: 80px;
+  margin: .1%;
+}

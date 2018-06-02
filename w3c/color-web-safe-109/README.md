@@ -1,0 +1,1 @@
+https://www.webpagefx.com/blog/web-design/cheat_sheets_for_web_designers/
