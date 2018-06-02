@@ -14,7 +14,7 @@
 * Cryptcoins ([Fetch File](cryptcoins-fetch/), [Cryptocompare API](cryptcoins-api/))
 * Ipinfo ([API](ipinfo-api/), [Table API](ipinfo-table-api/))
 * [Address (Via CEP API)](address-cep-api/)
-* [Artistas da Paraíba](artist-vagalume/)
+* [Artistas (Vagalume API)](artist-vagalume/)
 
 <!-- 
 * [Weather API](weather/) 

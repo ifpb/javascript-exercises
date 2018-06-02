@@ -12,4 +12,4 @@ Code: [code.zip](code.zip)
 
 ![](assets/layout.gif)
 
-> [Alternativa de resposta](code-response/)
+> [Response](code-response/)

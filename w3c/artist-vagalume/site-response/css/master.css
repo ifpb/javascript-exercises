@@ -23,8 +23,9 @@ main {
 
 .artist {
   position: relative;
-  height: 223px;
-  width: 190px;
+  height: 200px;
+  width: 170px;
+  background-size: 170px 200px;
   margin: 10px;
   transition: all .5s;
 }
