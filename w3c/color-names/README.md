@@ -4,7 +4,7 @@
 ---
 
 * [MDN - Colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
-* [data/css-color-names.json](site/data/css-color-names.json)
+* [data/css-color-names.json](code/data/css-color-names.json)
 
 ## Interface
 ---

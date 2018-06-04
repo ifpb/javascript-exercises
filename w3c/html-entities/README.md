@@ -8,3 +8,6 @@ W3C: [Entities](https://dev.w3.org/html5/html-author/charref), [entities.json](h
 ## Interface
 ---
 
+![](assets/layout.png)
+
+> [Response alternative](code-response/)
