@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .movie {
+      height: 150px;
+    }
+    .movie>img{
+      width: 100px;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <header>
+
+  </header>
+  <main>
+    <input list="moviesItem" id="movie">
+    <datalist id="moviesItem">
+
+    </datalist>
+    <button id="search">consultar</button>
+    <section id="movies"></div>
+  </main>
+  <footer>
+
+  </footer>
+  <script type="text/javascript">
+    const searchButton = document.querySelector('#search');
+    const movieInput = document.querySelector('#movie');
+    const moviesSection = document.querySelector('#movies');
+    const moviesItem = document.querySelector('#moviesItem');
+    let moviesData;
+    let seasonData;
+    let movies = [];
+    let season = '072017';
+
+    getJSON('data/filmes.json', loadMoviesData);
+    searchButton.addEventListener('click', showMovies);
+    movieInput.addEventListener('keyup', showMovies);
+    movieInput.addEventListener('change', showMovies);
+
+    function loadMoviesData(json){
+      moviesData = json;
+      getJSON('data/temporada.json', loadSeasonData);
+    }
+
+    function loadSeasonData(json){
+      seasonData = json;
+
+      let schedule = seasonData[season].programacao;
+      for (var date in schedule) {
+        for (var time in schedule[date]){
+          let idMovie = parseInt(schedule[date][time]);
+          if(!isNaN(idMovie)){
+            if(moviesData[idMovie].programacao === undefined)
+              moviesData[idMovie].programacao = [];
+            moviesData[idMovie].programacao.push({date, time});
+            moviesData[idMovie].idMovie = idMovie;
+          }
+        }
+      }
+      for (let movie of Object.values(moviesData)) {
+        movies.push(movie);
+      }
+
+      showMovies();
+      loadDatalist();
+    }
+
+    function showMovies(event){
+      if(event !== undefined){
+        event.preventDefault();
+        if(event.key == "Escape")
+          movieInput.value = "";
+      }
+
+      moviesSection.innerHTML = movies
+        .filter(movie => (movieInput.value === '') ||
+            (movieInput.value !== '' &&
+             movie.nome.search(new RegExp(`${movieInput.value}`, 'i')) !== -1))
+        .map(movie => movieView(movie))
+        .join('')
+    }
+
+    function loadDatalist(){
+      let moviesOptions = movies
+        .map(movie => `<option value="${movie.nome}">`)
+        .join('');
+      moviesItem.innerHTML = moviesOptions;
+    }
+
+    function movieView(movie){
+      return `<section class="movie">
+        <img src="img/movies/${movie.idMovie}.jpg" alt="${movie.nome}" />
+        <h1>${movie.nome}</h1>
+        <div class="generos">${movieGenresView(movie.genero)}</div>
+        <div class="programacoes">${movieSchedulesView(movie.programacao)}</div>
+      </section>`;
+    }
+
+    function movieSchedulesView(schedules){
+      return schedules
+        .map(schedule => `<div>
+          <span>${schedule.date}</span>
+          <span>${schedule.time}</span>
+        </div>`)
+        .join('');
+    }
+
+    function movieGenresView(genres){
+      return genres
+        .split(', ')
+        .map(genero => `<span>${genero}</span>`)
+        .join('');
+    }
+
+    function getJSON(url, callback){
+      let xhr = new XMLHttpRequest();
+      xhr.onload = () => callback(JSON.parse(xhr.responseText));
+      xhr.open('GET', url);
+      xhr.send();
+    }
+  </script>
+</body>
+</html>

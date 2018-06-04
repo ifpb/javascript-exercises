@@ -1,0 +1,14 @@
+{
+  "name": "cinebangue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/http-serve/bin/http-serve --cors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-serve": "^1.0.1"
+  }
+}
