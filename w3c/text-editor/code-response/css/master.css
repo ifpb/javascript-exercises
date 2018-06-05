@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.text-editor {
+  width: 50%;
+  margin: auto;
+}
+
+.text-editor .commands {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.text-editor .commands li {
+  margin: .5rem;
+}
+
+.text-editor .commands input {
+  width: 4rem;
+  font-size: 19px;
+  border-radius: 5px;
+}
+
+.text-editor .commands select option {
+  font-size: 24px;
+}
+
+.text-editor .content {
+  padding: .5rem;
+  height: 10rem;
+  border: 1px solid #000;
+}

@@ -1,0 +1,9 @@
+.container {
+  margin-top: 40px;
+}
+
+.card-body textarea {
+  padding: .5rem;
+  width: 95%;
+  height: 10rem;
+}

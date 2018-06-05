@@ -1,0 +1,44 @@
+body {
+  background-color: #eee;
+  font-family: Arial, sans-serif;
+  padding-bottom: 4rem;
+}
+
+main {
+  width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #1565C0;
+}
+
+.posts {
+  counter-reset: blog;
+}
+
+.post {
+  position: relative;
+  background-color: #fff;
+  padding: 2rem 2rem 2rem 9rem;
+  margin: 1rem 0;
+}
+
+.post:before {
+  color: #1565C0;
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  counter-increment: blog;
+  content: '#'counter(blog, decimal-leading-zero);
+  margin-right: 1rem;
+  font-size: 3.5rem;
+}
+
+.post h2 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: #1565C0;
+}
