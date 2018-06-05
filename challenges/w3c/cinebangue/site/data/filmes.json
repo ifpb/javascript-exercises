@@ -6,11 +6,11 @@
     "pais": "Reino Unido",
     "lancamento": "1976",
     "genero": "Ficção científica, Drama",
-    "duração": "139 min.",
+    "duracao": "139 min.",
     "distribuidor": "Zeta Filmes",
     "diretor": "Nicolas Roeg",
     "elenco": "David Bowie, Rip Torn, Candy Clark, Buck Henry, Bernie Casey, Jackson D. Kane, Rick Riccardo, Tony Mascia",
-    "classificacao": "16",
+    "classificacao": "16 anos",
     "formato": "DCP",
     "sinopse": "A lenda David Bowie é o alienígena humanoide Thomas Jerome Newton, na antológica ficção científica do diretor Nicolas Roeg. Newton chega à Terra com a missão de levar água ao seu distante planeta natal que vive uma seca catastrófica. Usando a tecnologia avançada de seu planeta para patentear muitas invenções na Terra, Newton, auxiliado pelo advogado Oliver Farnsworth, fica milionário como o líder de um conglomerado tecnológico. E ainda na Terra vive um relacionamento com a camareira Mary-Lou. Bowie, em sua estreia como ator, cria com seu visual andrógino a perfeita imagem de um homem que veio do espaço."
   },
@@ -21,11 +21,11 @@
     "pais": "Chile, Argentina, França, Espanha, Estados Unidos",
     "lancamento": "2016",
     "genero": "Drama, Biografia",
-    "duração": "107 min.",
+    "duracao": "107 min.",
     "distribuidor": "Imovision",
     "diretor": "Pablo Larraín",
     "elenco": "Luis Gnecco, Gael García Bernal, Mercedes Morán, Alfredo Castro",
-    "classificacao ": "14",
+    "classificacao": "14 anos",
     "formato": "DCP",
     "sinopse": "Chile, 1948. A chamada Lei Maldita do governo de Gabriel González Videla está a todo vapor para prender os militantes comunistas. Entre eles, o poeta Prêmio Nobel, Pablo Neruda (Luis Gnecco), que começa a ser perseguido incansavelmente pelo inspetor Óscar Peluchonneau (Gael Garcia Bernal)."
   },
@@ -66,6 +66,7 @@
     "duracao": "80 min.",
     "distribuidor": "Mira Filmes",
     "direcao": "Paula Sacchetta",
+    "classificacao": "18 anos",
     "sinopse": "Na semana da mulher, uma van-estúdio parou em nove locais em são paulo e no rio de janeiro. O objetivo era coletar depoimentos de mulheres vítimas de qualquer tipo de assédio. ao todo, 140 decidiram falar. são relatos de mulheres de 14 a 85 anos, de zonas nobres ou periferias das duas cidades, com diferenças e semelhanças na violência que acontece todos os dias e pode se dar dentro de casa, em um beco escuro ou no meio da rua, à luz do dia. no filme, temos uma amostra significativa, 26 deles. nos depoimentos puros, sem qualquer tipo de interlocução ou entrevista, acompanhamos um desabafo, um momento íntimo ou a oportunidade de falarem daquilo pela primeira vez."
   }
 }
