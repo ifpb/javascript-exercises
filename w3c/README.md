@@ -22,6 +22,7 @@
 * [Artistas (Vagalume API)](artist-vagalume/)
 
 <!-- 
+* [Blog - Pagination (JSONPlaceHolder API)](blog/)
 * [Text Editor](text-editor/)
 * [Weather API](weather/) 
 * [Calculator IP](calculator-ip/) 
