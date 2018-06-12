@@ -1,7 +1,9 @@
 # PACKAGES
 
+<!-- 
 ## Bootstrap
----
+--- 
+-->
 
 ## Charts
 ---
