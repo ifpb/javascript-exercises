@@ -1,8 +1,9 @@
 # Chart JS (Doughnut)
 
-![](assets/layout.png)
+## Tips
+---
 
-[site](http://www.chartjs.org)
+[chart.js](http://www.chartjs.org) data:
 
 ```js
 let data = {
@@ -14,5 +15,11 @@ let data = {
   }]
 }
 ```
+
+## Interface
+---
+
+[site](http://www.chartjs.org)
+![](assets/layout.png)
 
 > [Alternativa de resposta](code-response/)
