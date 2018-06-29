@@ -1,0 +1,38 @@
+[
+  {
+    "percent": 6,
+    "size": 43,
+    "arrow": "up",
+    "info": "New Tickets"
+  },
+  {
+    "percent": -3,
+    "size": 17,
+    "arrow": "down",
+    "info": "Closed Today"
+  },
+  {
+    "percent": 9,
+    "size": 7,
+    "arrow": "up",
+    "info": "New Replies"
+  },
+  {
+    "percent": 3,
+    "size": 27300,
+    "arrow": "up",
+    "info": "Followers"
+  },
+  {
+    "percent": -2,
+    "size": 95,
+    "arrow": "down",
+    "info": "Daily Earnings"
+  },
+  {
+    "percent": -1,
+    "size": 621,
+    "arrow": "down",
+    "info": "Products"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "logo": "dollar",
+    "info": "132 Sales",
+    "subinfo": "12 waiting payments",
+    "color": "blue"
+  },
+  {
+    "logo": "shopping-cart",
+    "info": "78 Orders",
+    "subinfo": "32 shipped",
+    "color": "green"
+  },
+  {
+    "logo": "users",
+    "info": "1352 Members",
+    "subinfo": "163 registered today",
+    "color": "red"
+  },
+  {
+    "logo": "envelope",
+    "info": "132 Comments",
+    "subinfo": "16 waiting",
+    "color": "yellow"
+  }
+]

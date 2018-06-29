@@ -16,7 +16,7 @@ A princípio foi disponibilizado o projeto HTML e CSS neste [link](code.zip), co
 ## COMPONENTES
 ---
 
-**COMPONENTE 1 - (50%)** Crie o conteúdo do Painel de Hosts no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Hosts`:
+**COMPONENTE 1 -** Crie o conteúdo do Painel de Hosts no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Hosts`:
 
 ```html
 <!-- 
@@ -54,21 +54,21 @@ mas considerando que:
 
 ![Layout da página](assets/hosts.png)
 
-**COMPONENTE 2 - (50%)** Crie o conteúdo do Painel de tempo de resposta no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Response Time`, mas considerando os estilos do Componente 1, os dados em `data/status.json` e a aparência da *Figura 3*:
+**COMPONENTE 2 -** Crie o conteúdo do Painel de tempo de resposta no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Response Time`, mas considerando os estilos do Componente 1, os dados em `data/status.json` e a aparência da *Figura 3*:
 
 *Figura 3 - Painel do tempo de reposta*<br>
 
 ![Layout da página](assets/response-time.png)
 
 
-**COMPONENTE 3 - (50%)** Crie o conteúdo do Painel de tempo de disponibilidade no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Uptime`, mas considerando os estilos do Componente 1, os dados em `data/status.json` e a aparência da *Figura 4*:
+**COMPONENTE 3 -** Crie o conteúdo do Painel de tempo de disponibilidade no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Uptime`, mas considerando os estilos do Componente 1, os dados em `data/status.json` e a aparência da *Figura 4*:
 
 *Figura 4 - Painel do tempo de disponibilidade*<br>
 
 ![Layout da página](assets/uptime.png)
 
 
-**COMPONENTE 4 - (50%)** Crie o conteúdo do Painel de registros de monitoramento (Logs) no arquivo [`code/index.html`](code/index.html), especificamente em `TODO LOGS`, mas considerando a aparência semelhante à *Figura 5*:
+**COMPONENTE 4 -** Crie o conteúdo do Painel de registros de monitoramento (Logs) no arquivo [`code/index.html`](code/index.html), especificamente em `TODO LOGS`, mas considerando a aparência semelhante à *Figura 5*:
 
 *Figura 5 - Painel de Hosts*<br>
 
@@ -96,7 +96,7 @@ e as seguintes observações:
   * `<p class="response">Timeout (11/02/17 03:33:51)</p>`, onde representa ausência de feedback
   * `<p class="response">Resonse 500ms (11/02/17 03:32:51)</p>`, onde informa o tempo do feebback
 
-**COMPONENTE 5 - (50%)** Crie o conteúdo do Painel da tabela dos registros de disponibilidade no arquivo [`code/index.html`](code/index.html), especificamente em `TODO UPTIME`, mas considerando a aparência da *Figura 6*:
+**COMPONENTE 5 -** Crie o conteúdo do Painel da tabela dos registros de disponibilidade no arquivo [`code/index.html`](code/index.html), especificamente em `TODO UPTIME`, mas considerando a aparência da *Figura 6*:
 
 *Figura 6 - Painel da tabela dos registros de disponibilidade*<br>
 
