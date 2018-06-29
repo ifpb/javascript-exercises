@@ -123,5 +123,7 @@ Portanto, cabe a você continuar o desenvolvimento através dos componentes que 
 *Figura 5 - Painel Bottom Stats*<br>
 
 ![Bottom Stats](assets/component4.png)
-
-<!-- > **[Alternativa de resposta](code-response/)** -->
+<br>
+<br>
+<br>
+> **[Alternativa de resposta](code-response/)**
