@@ -1,0 +1,26 @@
+[
+  {
+    "avatar": "img/faces/male/9.jpg",
+    "user": "Ronald Bradley",
+    "commit": "Initial commit",
+    "date": "May 6, 2018"
+  },
+  {
+    "avatar": "img/faces/female/1.jpg",
+    "user": "Beverly Armstrong",
+    "commit": "Left sidebar adjustments",
+    "date": "April 15, 2018"
+  },
+  {
+    "avatar": "img/faces/male/4.jpg",
+    "user": "Bobby Knight",
+    "commit": "Topbar dropdown style",
+    "date": "April 8, 2018"
+  },
+  {
+    "avatar": "img/faces/female/11.jpg",
+    "user": "Sharon Wells",
+    "commit": "Fixes #625",
+    "date": "April 9, 2018"
+  }
+]

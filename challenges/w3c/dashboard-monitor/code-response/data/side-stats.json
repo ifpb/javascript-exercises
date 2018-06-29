@@ -1,0 +1,26 @@
+[
+  {
+    "info": "New feedback",
+    "size": 62,
+    "percent": 28,
+    "color": "red"
+  },
+  {
+    "info": "Today profit",
+    "size": 652,
+    "percent": 84,
+    "color": "green"
+  }, 
+  {
+    "info": "New feedback",
+    "size": 62,
+    "percent": 28,
+    "color": "red"
+  },
+  {
+    "info": "Today profit",
+    "size": 652,
+    "percent": 84,
+    "color": "green"
+  }
+]
