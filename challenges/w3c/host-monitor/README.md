@@ -42,3 +42,8 @@ Uma das rotas que serão úteis para essa prova será o `/v1/memory`, que atrav�
 
 *Figura 4 - Painel sobre a carga da CPU.*
 ![Painel sobre a carga da memória](assets/memory.png)
+
+> [Alternativa de Resposta](code-response/)
+
+<!-- http://blacktie.co/2014/07/dashgum-free-dashboard/ -->
+<!-- http://linuxdash.afaqtariq.com/#/system-status -->
