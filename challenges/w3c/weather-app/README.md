@@ -36,7 +36,7 @@ Crie os componentes dinâmicos da *Figura 1* usando o arquivo [weather-forecast.
 **COMPONENTE 4 -** Como o grupo de ciclistas às vezes recebe algumas pessoas do exterior, foi solicitado a criação de um seletor de formato de temperatura, como ilustrado na *Figura 5*, que faz a converão entre `Celsius` e `Fahrenheit` de todas as temperaturas da página.
 
 *Figura 5 - Conversor.*<br>
-![layout-mobile](assets/converter.png)
+![layout-mobile](assets/converter.gif)
 
 > **Dica**: Para converter as temperaturas use as seguintes fórmulas:
 
@@ -44,6 +44,8 @@ Crie os componentes dinâmicos da *Figura 1* usando o arquivo [weather-forecast.
 C = (F - 32) / 1.8
 F = C * 1.8 + 32
 ```
+
 <br>
 <br>
+
 > [Alternativa de resposta](code-response/).
