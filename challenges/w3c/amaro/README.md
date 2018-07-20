@@ -206,3 +206,9 @@ Considere que o HTML necessário para compor cada produto em promoção deve con
 
 *Figura 5 - Filtro de produtos*<br>
 ![](assets/products-filter.gif)
+
+<br>
+<br>
+<br>
+
+> [Alternativa de resposta](code-response/)

@@ -1,0 +1,167 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fafafa;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+body>header {
+  background-color: #fff;
+  padding: 1.5rem 0;
+  border-bottom: .1rem solid #ccc; 
+  text-align: center;
+}
+
+body>main {
+  width: 90%;
+  min-width: 960px;
+  margin: auto;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  font-size: 1.4rem;
+}
+
+.toolbar .total {
+  color: #999;
+}
+
+.toolbar input {
+  display: none;
+}
+
+.toolbar label {
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: .2rem;
+  transition: all .3s;
+}
+
+.toolbar input:checked+label {
+  color: #ccc;
+  border-color: #ccc; 
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+.catalog {
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3rem;
+}
+
+
+.product-box-image {
+  position: relative;
+}
+
+.product-box-image .product-image {
+  width: 100%;
+  /* height: 380px; */
+  object-fit: cover;
+}
+
+.product-box-image .stamp {
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  background: #000;
+  /* width: 4rem;
+  height: 4rem;
+  text-align: center; */
+}
+
+
+.product-name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.4rem;
+  margin: 1rem 0 0;
+  text-align: center;
+}
+
+.product-price {
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-cost, 
+.product-sale {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.actual-price,
+.product-sale .stamp {
+  font-weight: 600;
+}
+
+.installments,
+.product-sale .stamp {
+  color: #999;
+  padding-left: .8rem;
+}
+
+.regular-price {
+  color: #999;
+}
+
+.product-sale .stamp {
+  color: #cf3838;
+}
+
+.product-sizes {
+  margin-top: 1rem;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+    
+.product-sizes li {
+  width: 3rem;
+  height: 3rem;
+  margin: .3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: .1rem solid #ccc;
+  font-size: 1rem;
+}
+
+.product-sizes a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.product-sizes .available {
+  color: #000;
+}
