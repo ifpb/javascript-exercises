@@ -8,6 +8,7 @@
   * [Github Profile Comparator](w3c/github-profile-comparator/)
   * [Cinebangue](w3c/cinebangue/)
   * [Weather App](w3c/weather-app/)
+  * [Amaro](w3c/amaro/)
   * Monitor:
     * [eZ Server](w3c/ez-server-monitor/)
     * [Host](w3c/host-monitor/)
