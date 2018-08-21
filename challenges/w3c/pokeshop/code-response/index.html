@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Pokeshop</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="css/icon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400">
+  <!-- https://file.myfontastic.com/pY6DoAEbjw8eKm35NxyzgQ/icons.css -->
+  <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/pokeball.css">
   <link rel="stylesheet" href="css/master.css">
 </head>
@@ -14,31 +15,19 @@
   <header class="header">
     <h1>Pokeshop</h1>
     <div class="cart-count hidden"></div>
-    <i class="icon cart"></i>
+    <i class="icon-cart"></i>
   </header>
+  <section class="toolbar">
+    <div class="sorting"><i class="icon-angle-down"></i>Ordernar</div>
+  </section>
   <main class="container">
     <div id="pokemons"></div>
-    <div class="nav-top hidden">
-      <i class="icon up-arrow"></i>
-    </div>
   </main>
-  <aside class="cart-view hidden">
-    <section class="cart-view-title">
-      <i class="icon close"></i>
-      <span class="cart-view-count"></span>
-    </section>
-    <section class="cart-view-items"></section>
-    <section class="cart-view-footer">
-      <div class="cart-view-total"></div>
-      <button class="btn close-cart">FECHAR PAGAMENTO</button>
-    </section>
-  </aside>
-  <div class="overlay hidden"></div>
   <div class="loading">
     <div class="pokeball">
       <div class="pokeball__button"></div>
     </div>
   </div>
-  <script src="js/main.js"></script>
+  <script type="module" src="js/main.mjs"></script>
 </body>
 </html>
