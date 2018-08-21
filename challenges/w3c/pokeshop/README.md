@@ -62,3 +62,9 @@ window.scrollTo({
 
 *Figura 4 - Adicionando ao carrinho*<br>
 ![](assets/add-cart.gif)
+
+<br>
+<br>
+<br>
+
+> [Alternativa de resposta](code-response/)
