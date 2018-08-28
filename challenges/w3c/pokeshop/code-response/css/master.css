@@ -3,6 +3,12 @@
   color: #212121 !important;
 }
 
+.selected.background-dragon {
+  background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  background-color: #53a4cf;
+  color: #fff !important;
+}
+
 .selected.background-grass {
   background-color: #9bcc50;
   color: #212121 !important;

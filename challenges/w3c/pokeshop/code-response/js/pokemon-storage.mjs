@@ -2,7 +2,7 @@ const pokemons = []
 
 function storePokemons(data) {
   data.forEach(p => {
-    p.image = `img/pokemon/${p.name.toLowerCase().replace(/\'/g, '')}.png`
+    p.image = `img/pokemon/${p.name.toLowerCase().replace(/\'/g, '').replace(/\. /g, '-')}.png`
     pokemons.push(p)
   })
 }

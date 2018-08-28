@@ -846,5 +846,432 @@
     "type": [
       "electric"
     ]
+  }, 
+  {
+    "id": 101,
+    "name": "Electrode",
+    "price": 3.50,
+    "type": [
+      "electric"
+    ]
+  }, 
+  {
+    "id": 102,
+    "name": "Exeggcute",
+    "price": 3.50,
+    "type": [
+      "grass",
+      "psychic"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Exeggutor",
+    "price": 1.50,
+    "type": [
+      "grass",
+      "psychic"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Cubone",
+    "price": 1.50,
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Marowak",
+    "price": 2.50,
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Hitmonlee",
+    "price": 3.00,
+    "type": [
+      "fighting"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Hitmonchan",
+    "price": 2.50,
+    "type": [
+      "fighting"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Lickitung",
+    "price": 1.00,
+    "type": [
+      "normal"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Koffing",
+    "price": 2.50,
+    "type": [
+      "poison"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Weezing",
+    "price": 3.00,
+    "type": [
+      "poison"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Rhyhorn",
+    "price": 3.00,
+    "type": [
+      "ground",
+      "rock"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Rhydon",
+    "price": 2.50,
+    "type": [
+      "ground",
+      "rock"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Chansey",
+    "price": 1.00,
+    "type": [
+      "normal"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Tangela",
+    "price": 3.00,
+    "type": [
+      "grass"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Kangaskhan",
+    "price": 2.50,
+    "type": [
+      "normal"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Horsea",
+    "price": 1.00,
+    "type": [
+      "water"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Seadra",
+    "price": 1.00,
+    "type": [
+      "water"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Goldeen",
+    "price": 3.00,
+    "type": [
+      "water"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Seaking",
+    "price": 1.00,
+    "type": [
+      "water"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Staryu",
+    "price": 2.50,
+    "type": [
+      "water"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Starmie",
+    "price": 1.00,
+    "type": [
+      "water",
+      "psychic"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Mr. Mime",
+    "price": 3.00,
+    "type": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Scyther",
+    "price": 3.00,
+    "type": [
+      "bug",
+      "flying"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Jynx",
+    "price": 2.50,
+    "type": [
+      "ice",
+      "psychic"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Electabuzz",
+    "price": 5.00,
+    "type": [
+      "electric"
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Magmar",
+    "price": 3.00,
+    "type": [
+      "fire"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Pinsir",
+    "price": 1.00,
+    "type": [
+      "bug"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Tauros",
+    "price": 2.50,
+    "type": [
+      "normal"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Magikarp",
+    "price": 7.00,
+    "type": [
+      "water"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Gyarados",
+    "price": 9.00,
+    "type": [
+      "water",
+      "flying"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Lapras",
+    "price": 8.00,
+    "type": [
+      "water",
+      "ice"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Ditto",
+    "price": 3.00,
+    "type": [
+      "normal"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "price": 1.00,
+    "type": [
+      "normal"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Vaporeon",
+    "price": 6.00,
+    "type": [
+      "water"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Jolteon",
+    "price": 3.00,
+    "type": [
+      "electric"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Flareon",
+    "price": 2.50,
+    "type": [
+      "fire"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Porygon",
+    "price": 1.00,
+    "type": [
+      "normal"
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Omanyte",
+    "price": 3.00,
+    "type": [
+      "rock",
+      "water"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Omastar",
+    "price": 4.00,
+    "type": [
+      "rock",
+      "water"
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Kabuto",
+    "price": 1.00,
+    "type": [
+      "rock",
+      "water"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Kabutops",
+    "price": 3.00,
+    "type": [
+      "rock",
+      "water"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Aerodactyl",
+    "price": 1.00,
+    "type": [
+      "rock",
+      "flying"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Snorlax",
+    "price": 2.50,
+    "type": [
+      "normal"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Articuno",
+    "price": 5.00,
+    "type": [
+      "ice",
+      "flying"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Zapdos",
+    "price": 7.00,
+    "type": [
+      "electric",
+      "flying"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Moltres",
+    "price": 1.00,
+    "type": [
+      "fire",
+      "flying"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Dratini",
+    "price": 1.00,
+    "type": [
+      "dragon"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Dragonair",
+    "price": 3.00,
+    "type": [
+      "dragon"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Dragonite",
+    "price": 9.00,
+    "type": [
+      "dragon",
+      "flying"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Mewtwo",
+    "price": 2.50,
+    "type": [
+      "psychic"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Mew",
+    "price": 9.00,
+    "type": [
+      "psychic"
+    ]
   }
 ]

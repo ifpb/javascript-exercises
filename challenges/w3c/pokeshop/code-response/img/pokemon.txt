@@ -1,0 +1,5 @@
+pokedex
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
+
+https://www.pokemon.com/us/pokedex/bulbasaur
+https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png
