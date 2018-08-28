@@ -2,14 +2,15 @@
 
 @font-face {
   font-family: "pokeshop";
-  src:url("../fonts/pokeshop.eot");
-  src:url("../fonts/pokeshop.eot?#iefix") format("embedded-opentype"),
+  /* src: url("../fonts/pokeshop.eot"); */
+  /* src: url("../fonts/pokeshop.eot?#iefix") format("embedded-opentype"),
     url("../fonts/pokeshop.woff") format("woff"),
     url("../fonts/pokeshop.ttf") format("truetype"),
-    url("../fonts/pokeshop.svg#pokeshop") format("svg");
+    url("../fonts/pokeshop.svg#pokeshop") format("svg"); */
+  src: url("../fonts/pokeshop.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-
+  font-display: fallback;
 }
 
 [data-icon]:before {

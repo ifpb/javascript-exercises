@@ -1,7 +1,8 @@
 import { createPokemonsCards } from './pokemon-card-view.mjs'
 import { createCart } from './pokemon-cart-view.mjs'
-import { storePokemons } from './pokemon-storage.mjs'
+import { storePokemons, getPokemons } from './pokemon-storage.mjs'
 import { createNavTop } from './nav-to-top.mjs'
+import { createToolbar } from './toolbar.mjs'
 
 loadPokemons()
 
@@ -10,8 +11,9 @@ function loadPokemons() {
     .then(res => res.json())
     .then(json => {
       storePokemons(json)
-      createPokemonsCards()
+      createPokemonsCards(getPokemons())
       createCart()
       createNavTop()
+      createToolbar()
     })
 }

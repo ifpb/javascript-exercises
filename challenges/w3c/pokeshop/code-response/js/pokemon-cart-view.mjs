@@ -2,12 +2,14 @@ import { getPokemon } from './pokemon-storage.mjs'
 import { getCartItems, getCartItem, addCartItem, incrementCartItem, decrementCartItem, removeCartItem, countCart, totalCart } from './cart-storage.mjs'
 
 function createCart() {
-  const cartIcon = document.querySelector('.icon-cart')
+  const cartIcon = document.querySelector('.cart-button')
   cartIcon.onclick = () => activeCartView()
 
-  document.body.insertAdjacentHTML('beforeend', `<aside class="cart-view hidden"></aside>
-    <div class="overlay hidden"></div>`)
-  document.querySelector('.overlay').onclick = () => hideCartView()
+  document.body.insertAdjacentHTML('beforeend', `<div class="overlay hidden"></div>
+  <aside class="cart-view hidden"></aside>`)
+  document.querySelector('.overlay').addEventListener('click', () => hideCartView())
+
+  loadCart()
 }
 
 function loadCart() {

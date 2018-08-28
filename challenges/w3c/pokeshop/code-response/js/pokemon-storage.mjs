@@ -7,8 +7,26 @@ function storePokemons(data) {
   })
 }
 
-function getPokemons() {
-  return pokemons
+function getPokemons(sorting, typeFilters, offset = 12) {
+  let collection
+  if (sorting == 'name') {
+    collection = pokemons.sort((a, b) => a.name.localeCompare(b.name))
+  } else if (sorting == 'highestPrice') {
+    collection = pokemons.sort((a, b) => {
+      const diff = a.price - b.price
+      return diff === 0 ? a.name.localeCompare(b.name) : diff
+    })
+  } else if (sorting == 'lowestPrice') {
+    collection = pokemons.sort((a, b) => {
+      const diff = -1 * (a.price - b.price)
+      return diff === 0 ? a.name.localeCompare(b.name) : diff
+    })
+  } else {
+    collection = pokemons.sort((a, b) => a.id - b.id)
+  }
+  collection = typeFilters && typeFilters.length > 0 ? collection.filter(p => p.type.some(t => typeFilters.includes(t))) : collection
+  collection = offset === 'all' ? collection : collection.slice(0, offset)
+  return collection
 }
 
 function getPokemon(id) {

@@ -1,14 +1,14 @@
-import { getPokemons } from './pokemon-storage.mjs'
 import { addCartItem } from './cart-storage.mjs'
 import { loadCart } from './pokemon-cart-view.mjs'
 
-function createPokemonsCards() {
-  const pokemons = document.querySelector('#pokemons')
+function createPokemonsCards(pokemonSet) {
+  const pokemonCards = document.querySelector('.pokemon-cards')
   
-  getPokemons().forEach((p, id) => {
-    pokemons.insertAdjacentHTML('beforeend', pokemonCard(p))
+  pokemonCards.innerHTML = ''
+  pokemonSet.forEach((p, id) => {
+    pokemonCards.insertAdjacentHTML('beforeend', pokemonCard(p))
     
-    const shopBtn = pokemons.lastChild.querySelector('.pokemon-view-shop')
+    const shopBtn = pokemonCards.lastChild.querySelector('.pokemon-card-shop')
     shopBtn.onclick = (event) => {
       event.target.blur()
       addCartItem(id)
@@ -18,11 +18,12 @@ function createPokemonsCards() {
 }
 
 function pokemonCard(pokemon) {
-  return `<div class="pokemon-view">
-    <img class="pokemon-view-img" src="${pokemon.image}" alt="${pokemon.name}">
-    <span class="pokemon-view-name">${pokemon.name}</span>
-    <span class="pokemon-view-price">R$ ${pokemon.price.toFixed(2)}</span>
-    <button class="pokemon-view-shop">COMPRAR</button>
+  return `<div class="pokemon-card">
+    <img class="pokemon-card-img" src="${pokemon.image}" alt="${pokemon.name}">
+    <span class="pokemon-card-id">#${pokemon.id}</span>
+    <span class="pokemon-card-name">${pokemon.name}</span>
+    <span class="pokemon-card-price">R$ ${pokemon.price.toFixed(2)}</span>
+    <button class="pokemon-card-shop">COMPRAR</button>
   </div>`
 }
 
