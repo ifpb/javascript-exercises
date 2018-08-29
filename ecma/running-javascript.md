@@ -32,17 +32,18 @@ $ choco install nodejs
 
 ### Running JS
 
+Running by file:
+
+```
+$ node file.js
+```
+
+![vscode](running-vscode-terminal.gif)
+
 Node Prompt:
 ```
 $ node
 > (ctrl + v file)
-```
-
-Running by file:
-```
-$ git clone https://github.com/ifpb/javascript-exercises/
-$ cd javascript-exercises/ecma/basic/bmi/code/
-$ node bmi-if.mjs
 ```
 
 Running by file (Modules):
