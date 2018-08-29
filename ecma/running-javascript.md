@@ -2,6 +2,9 @@
 
 ## Node.js (terminal)
 ---
+
+### Installing Node
+
 Installing Node by [nvm](https://github.com/creationix/nvm):
 ```
 $ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
@@ -19,6 +22,16 @@ $ nvm install stable
 $ nvm alias default stable
 ```
 
+Alternatives:
+- [Node.js - Download](https://nodejs.org/en/)
+- [Chocoletey](https://chocolatey.org)
+
+```
+$ choco install nodejs
+```
+
+### Running JS
+
 Node Prompt:
 ```
 $ node
@@ -27,16 +40,30 @@ $ node
 
 Running by file:
 ```
+$ git clone https://github.com/ifpb/javascript-exercises/
 $ cd javascript-exercises/ecma/basic/bmi/code/
 $ node bmi-if.mjs
 ```
 
 Running by file (Modules):
 ```
+$ git clone https://github.com/ifpb/javascript-exercises/
 $ cd javascript-exercises/ecma/function/sum/code/
 $ mv sum.{js,mjs)
 $ node --experimental-modules sum.print.mjs
 ```
+
+## Visual Studio Code
+---
+
+Installing:
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+- Node.js
+
+<!-- (run, debug, jest, chrome) -->
+
+![vscode](running-vscode.gif)
 
 ## Browser Console
 ---
@@ -54,19 +81,15 @@ Control+Shift+J (Google Chrome)
 Open [https://repl.it/](https://repl.it/)
 > Choose language: Javascript
 > (ctrl + v file)
-> Run button
+> Click button run
 ```
-
-## Visual Studio Code
----
-
-(run, debug, jest, chrome)
 
 ## Unit Test (Jest)
 ---
 
 Installing Jest (package.json):
 ```
+$ git clone https://github.com/ifpb/javascript-exercises/
 $ cd javascript-exercises/ecma/
 $ ls package.json
 package.json
