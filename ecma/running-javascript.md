@@ -1,5 +1,11 @@
 # How to run javascript
 
+* [Node.js (terminal)](#node.js-terminal)
+* [Visual Studio Code](#visual-studio-code)
+* [Browser Console](#browser-console)
+* [Online Interpreter](#online-interpreter)
+* [Unit Test (Jest)](#unit-test-jest)
+
 ## Node.js (terminal)
 ---
 
@@ -46,7 +52,7 @@ $ node
 > (ctrl + v file)
 ```
 
-Running by file (Modules):
+Running by file (ECMAScript Modules ESM):
 ```
 $ git clone https://github.com/ifpb/javascript-exercises/
 $ cd javascript-exercises/ecma/function/sum/code/
@@ -152,14 +158,4 @@ Tests:       2 passed, 2 total
 Snapshots:   0 total
 Time:        1.594s
 Ran all test suites matching /response\/function\/sum.test.js/i.
-```
-
-Running Tests and Viewing Results (Automatic)
-```
-$ npx jest --watch function/sum/code/sum.test.js
-```
-
-Running Tests and Viewing Results (Coverage)
-```
-$ npx jest --coverage code/ 
 ```
