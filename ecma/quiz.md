@@ -11,7 +11,7 @@ Se a quantidade de argumentos for menor que os parâmetros de uma função, é p
 Sobrecarga de declaração.
 Chamada recursiva.
 Parâmetros padrão.
-Parâmetros ilimitados.
+Argumentos ilimitados.
 Tipagem de parâmetro.
 
 ## Quais destes seguintes binários é instalado junto com o `node.js`? [node]
