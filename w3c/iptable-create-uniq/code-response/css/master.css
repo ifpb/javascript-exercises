@@ -1,0 +1,24 @@
+h1 {
+  margin: 5vh auto;
+}
+
+.container .row {
+  margin: 1rem;
+}
+
+table#iptable td:last-child {
+  width: 10%;
+  min-width: 90px;
+}
+
+table#iptable .material-icons {
+  transition: color .3s;
+}
+table#iptable .material-icons {
+  color: #e9ecef;
+}
+
+table#iptable .material-icons:hover {
+  cursor: pointer;
+  color: #000;
+}

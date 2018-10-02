@@ -3,7 +3,7 @@
 * BMI ([Simple](bmi-simple/), [Event](bmi-event/), [CSS](bmi-css/), [Validator](bmi-validator/))
 * Color ([Names](color-names/), [Shades](color-shades/), [Web Safe 109](color-web-safe-109/), [Web Safe 217](color-web-safe-217/), [Web Safe HSL - 60](color-web-safe-hsl-60/), [Web Safe HSL - 360](color-web-safe-hsl-360/))
 * [List Generator](list-generator/)
-* [Tabela IP](iptable-simple/)
+* Tabela IP ([Read](iptable-read/), [Create](iptable-create/))
 * [Lorem ipsum generetor](lorem-ipsum-generator/)
 * [HTML Entities](html-entities/)
 * [Calculator](calculator/)
@@ -17,7 +17,7 @@
 * Gentelella ([App Versions](gentelella-app-versions/), [Top Tiles](gentelella-top-tiles))
 * Ipinfo ([API](ipinfo-api/), [Table API](ipinfo-table-api/))
 * [Address (Via CEP API)](address-cep-api/)
-* [Tabela IP 2](iptable/)
+* Tabela IP [(CRUD)](iptable/)
 * [TODO List](todo/)
 * [Artistas (Vagalume API)](artist-vagalume/)
 
