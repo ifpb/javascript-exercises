@@ -4,6 +4,7 @@
   * [Algorithms Challenge](ecma/algorithms/)
   * [Security Challenge](ecma/security/)
   * [Finance Challenge](ecma/financas/)
+  * [Interview Preparation Challenge](ecma/interviewPreparationKit/)
 * W3C
   * [Github Profile Comparator](w3c/github-profile-comparator/)
   * [Cinebangue](w3c/cinebangue/)
