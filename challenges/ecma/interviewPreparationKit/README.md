@@ -191,3 +191,14 @@ ou seja, o número `115380` é formado pelos digitos {`1`, `1`, `5`, `3`, `8`, `
 ```js
 console.log(numberOfLeds('2819311')) //=> 29
 ```
+
+<br>
+<br>
+<br>
+
+> Alternativa de resposta:<br> 
+> * [formatDate/formatDate.js](code-response/formatDate/formatDate.js)<br>
+> * [grammar/grammar.js](code-response/grammar/grammar.js)<br>
+> * [sockMerchant/sockMerchant.js](code-response/sockMerchant/sockMerchant.js)<br>
+> * [arrayUtil/arrayUtil.js](code-response/arrayUtil/arrayUtil.js)<br>
+> * [stringUtil/stringUtil.js](code-response/stringUtil/stringUtil.js)<br>
