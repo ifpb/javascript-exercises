@@ -9,7 +9,7 @@ Detalhe, as questões já estão disponíveis no arquivo [code.zip](code.zip), p
 
 ```
 $ npm install
-$ npx formatDate/formatDate.test.js
+$ npx jest formatDate/formatDate.test.js
 ```
 
 Ou usando node pelo comando:
@@ -172,7 +172,7 @@ console.log(zeroMeansZero(15, 5)) //=> 2
 
 ou seja, a soma de 15 mais 5 é igual a 20, logo o retorno será 2 pois será removido o digito `0`.
 
-**d)** - Crie a função `numberOfLeds(number)` que recebe um número e retorno o total de LEDs necessário para exibi-lo. Lembrando que conforme a *Figura 1* exibe, cada número exige uma quantidade de LEDs específica, por exemplo, o digito `1` precisa de 2 LEDs, o `2` de 4, e assim sucessivamente. (Fonte: [Zero means Zero - URI Online Judge](https://www.urionlinejudge.com.br/judge/en/problems/view/1871)).
+**d)** - Crie a função `numberOfLeds(number)` que recebe um número e retorno o total de LEDs necessário para exibi-lo. Lembrando que conforme a *Figura 1* exibe, cada número exige uma quantidade de LEDs específica, por exemplo, o digito `1` precisa de 2 LEDs, o `2` de 5, e assim sucessivamente. (Fonte: [Zero means Zero - URI Online Judge](https://www.urionlinejudge.com.br/judge/en/problems/view/1871)).
 
 *Figura 1 - Representação dos números em LED*<br>
 ![Representação dos números em LED](https://urionlinejudge.r.worldssl.net/gallery/images/problems/UOJ_1168.png)<br>
