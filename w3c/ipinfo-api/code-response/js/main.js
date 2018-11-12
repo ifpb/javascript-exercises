@@ -8,7 +8,7 @@ const ipInfoMapField = document.querySelector('#ip-info #loaded div')
 // loading event
 ipInfoBtn.addEventListener('click', () => {
   let address = addressInput.value
-  let url = `https://ipinfo.io/${address}/json`
+  let url = `https://ipinfo.io/${address}/json?TOKEN=ea38c5437881ca`
   
   ipInfoLoading.style.display = 'flex'
   ipInfoLoaded.style.display = 'none'

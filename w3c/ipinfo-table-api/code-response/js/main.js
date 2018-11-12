@@ -35,7 +35,7 @@ function addIp() {
     if (!flag) {
       ipTableBody = document.querySelector('tbody')
 
-      let url = `https://ipinfo.io/${ipAddress}/json`
+      let url = `https://ipinfo.io/${ipAddress}/json?TOKEN=ea38c5437881ca`
 
       fetch(url)
         .then(function (response) {
