@@ -15,9 +15,9 @@
 * [Blog (JSONPlaceHolder API)](blog/)
 * Cryptcoins ([Fetch File](cryptcoins-fetch/), [Cryptocompare API](cryptcoins-api/))
 * Gentelella ([App Versions](gentelella-app-versions/), [Top Tiles](gentelella-top-tiles))
-* Ipinfo ([API](ipinfo-api/), [Table API](ipinfo-table-api/))
 * [Address (Via CEP API)](address-cep-api/)
-* Tabela IP [(CRUD)](iptable/)
+* Tabela IP ([Create Uniq](iptable-create-uniq/), [CRUD](iptable-crud/))
+* Ipinfo ([API](ipinfo-api/), [Table API](ipinfo-table-api/))
 * [TODO List](todo/)
 * [Artistas (Vagalume API)](artist-vagalume/)
 
