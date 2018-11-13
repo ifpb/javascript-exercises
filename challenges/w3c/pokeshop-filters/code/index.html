@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pokeshop</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Pokeshop</h1>
+    <div class="cart-count">1</div>
+    <svg class="fa-shopping-cart cart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"></path></svg>
+    <div class="cart-popper popper hidden">
+      <div class='popper__arrow'></div>
+      <div class="content"></div>
+    </div>
+  </header>
+  <main class="container">
+<div id="pokemons">
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/001.png" alt="Bulbasaur">
+    <span class="pokemon-view-name">Bulbasaur</span>
+    <span class="pokemon-view-price">R$ 1.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/002.png" alt="Ivysaur">
+    <span class="pokemon-view-name">Ivysaur</span>
+    <span class="pokemon-view-price">R$ 1.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/003.png" alt="Venusaur">
+    <span class="pokemon-view-name">Venusaur</span>
+    <span class="pokemon-view-price">R$ 1.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/004.png" alt="Charmander">
+    <span class="pokemon-view-name">Charmander</span>
+    <span class="pokemon-view-price">R$ 1.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/005.png" alt="Charmeleon">
+    <span class="pokemon-view-name">Charmeleon</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/006.png" alt="Charizard">
+    <span class="pokemon-view-name">Charizard</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/007.png" alt="Squirtle">
+    <span class="pokemon-view-name">Squirtle</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/008.png" alt="Wartortle">
+    <span class="pokemon-view-name">Wartortle</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/009.png" alt="Blastoise">
+    <span class="pokemon-view-name">Blastoise</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/010.png" alt="Caterpie">
+    <span class="pokemon-view-name">Caterpie</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/011.png" alt="Metapod">
+    <span class="pokemon-view-name">Metapod</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/012.png" alt="Butterfree">
+    <span class="pokemon-view-name">Butterfree</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/013.png" alt="Weedle">
+    <span class="pokemon-view-name">Weedle</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/014.png" alt="Kakuna">
+    <span class="pokemon-view-name">Kakuna</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/015.png" alt="Beedrill">
+    <span class="pokemon-view-name">Beedrill</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/016.png" alt="Pidgey">
+    <span class="pokemon-view-name">Pidgey</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/017.png" alt="Pidgeotto">
+    <span class="pokemon-view-name">Pidgeotto</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/018.png" alt="Pidgeot">
+    <span class="pokemon-view-name">Pidgeot</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/019.png" alt="Rattata">
+    <span class="pokemon-view-name">Rattata</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/020.png" alt="Raticate">
+    <span class="pokemon-view-name">Raticate</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/021.png" alt="Spearow">
+    <span class="pokemon-view-name">Spearow</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/022.png" alt="Fearow">
+    <span class="pokemon-view-name">Fearow</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/023.png" alt="Ekans">
+    <span class="pokemon-view-name">Ekans</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/024.png" alt="Arbok">
+    <span class="pokemon-view-name">Arbok</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/025.png" alt="Pikachu">
+    <span class="pokemon-view-name">Pikachu</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/026.png" alt="Raichu">
+    <span class="pokemon-view-name">Raichu</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/027.png" alt="Sandshrew">
+    <span class="pokemon-view-name">Sandshrew</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/028.png" alt="Sandslash">
+    <span class="pokemon-view-name">Sandslash</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/029.png" alt="Nidoran♀">
+    <span class="pokemon-view-name">Nidoran♀</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/030.png" alt="Nidorina">
+    <span class="pokemon-view-name">Nidorina</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/031.png" alt="Nidoqueen">
+    <span class="pokemon-view-name">Nidoqueen</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/032.png" alt="Nidoran♂">
+    <span class="pokemon-view-name">Nidoran♂</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/033.png" alt="Nidorino">
+    <span class="pokemon-view-name">Nidorino</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/034.png" alt="Nidoking">
+    <span class="pokemon-view-name">Nidoking</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/035.png" alt="Clefairy">
+    <span class="pokemon-view-name">Clefairy</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/036.png" alt="Clefable">
+    <span class="pokemon-view-name">Clefable</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/037.png" alt="Vulpix">
+    <span class="pokemon-view-name">Vulpix</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/038.png" alt="Ninetales">
+    <span class="pokemon-view-name">Ninetales</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/039.png" alt="Jigglypuff">
+    <span class="pokemon-view-name">Jigglypuff</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/040.png" alt="Wigglytuff">
+    <span class="pokemon-view-name">Wigglytuff</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/041.png" alt="Zubat">
+    <span class="pokemon-view-name">Zubat</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/042.png" alt="Golbat">
+    <span class="pokemon-view-name">Golbat</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/043.png" alt="Oddish">
+    <span class="pokemon-view-name">Oddish</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/044.png" alt="Gloom">
+    <span class="pokemon-view-name">Gloom</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/045.png" alt="Vileplume">
+    <span class="pokemon-view-name">Vileplume</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/046.png" alt="Paras">
+    <span class="pokemon-view-name">Paras</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/047.png" alt="Parasect">
+    <span class="pokemon-view-name">Parasect</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/048.png" alt="Venonat">
+    <span class="pokemon-view-name">Venonat</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/049.png" alt="Venomoth">
+    <span class="pokemon-view-name">Venomoth</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/050.png" alt="Diglett">
+    <span class="pokemon-view-name">Diglett</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/051.png" alt="Dugtrio">
+    <span class="pokemon-view-name">Dugtrio</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/052.png" alt="Meowth">
+    <span class="pokemon-view-name">Meowth</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/053.png" alt="Persian">
+    <span class="pokemon-view-name">Persian</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/054.png" alt="Psyduck">
+    <span class="pokemon-view-name">Psyduck</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/055.png" alt="Golduck">
+    <span class="pokemon-view-name">Golduck</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/056.png" alt="Mankey">
+    <span class="pokemon-view-name">Mankey</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/057.png" alt="Primeape">
+    <span class="pokemon-view-name">Primeape</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/058.png" alt="Growlithe">
+    <span class="pokemon-view-name">Growlithe</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/059.png" alt="Arcanine">
+    <span class="pokemon-view-name">Arcanine</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/060.png" alt="Poliwag">
+    <span class="pokemon-view-name">Poliwag</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/061.png" alt="Poliwhirl">
+    <span class="pokemon-view-name">Poliwhirl</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/062.png" alt="Poliwrath">
+    <span class="pokemon-view-name">Poliwrath</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/063.png" alt="Abra">
+    <span class="pokemon-view-name">Abra</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/064.png" alt="Kadabra">
+    <span class="pokemon-view-name">Kadabra</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/065.png" alt="Alakazam">
+    <span class="pokemon-view-name">Alakazam</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/066.png" alt="Machop">
+    <span class="pokemon-view-name">Machop</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/067.png" alt="Machoke">
+    <span class="pokemon-view-name">Machoke</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/068.png" alt="Machamp">
+    <span class="pokemon-view-name">Machamp</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/069.png" alt="Bellsprout">
+    <span class="pokemon-view-name">Bellsprout</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/070.png" alt="Weepinbell">
+    <span class="pokemon-view-name">Weepinbell</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/071.png" alt="Victreebel">
+    <span class="pokemon-view-name">Victreebel</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/072.png" alt="Tentacool">
+    <span class="pokemon-view-name">Tentacool</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/073.png" alt="Tentacruel">
+    <span class="pokemon-view-name">Tentacruel</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/074.png" alt="Geodude">
+    <span class="pokemon-view-name">Geodude</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/075.png" alt="Graveler">
+    <span class="pokemon-view-name">Graveler</span>
+    <span class="pokemon-view-price">R$ 1.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/076.png" alt="Golem">
+    <span class="pokemon-view-name">Golem</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/077.png" alt="Ponyta">
+    <span class="pokemon-view-name">Ponyta</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/078.png" alt="Rapidash">
+    <span class="pokemon-view-name">Rapidash</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/079.png" alt="Slowpoke">
+    <span class="pokemon-view-name">Slowpoke</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/080.png" alt="Slowbro">
+    <span class="pokemon-view-name">Slowbro</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/081.png" alt="Magnemite">
+    <span class="pokemon-view-name">Magnemite</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/082.png" alt="Magneton">
+    <span class="pokemon-view-name">Magneton</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/083.png" alt="Farfetch'd">
+    <span class="pokemon-view-name">Farfetch'd</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/084.png" alt="Doduo">
+    <span class="pokemon-view-name">Doduo</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/085.png" alt="Dodrio">
+    <span class="pokemon-view-name">Dodrio</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/086.png" alt="Seel">
+    <span class="pokemon-view-name">Seel</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/087.png" alt="Dewgong">
+    <span class="pokemon-view-name">Dewgong</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/088.png" alt="Grimer">
+    <span class="pokemon-view-name">Grimer</span>
+    <span class="pokemon-view-price">R$ 1.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/089.png" alt="Muk">
+    <span class="pokemon-view-name">Muk</span>
+    <span class="pokemon-view-price">R$ 1.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/090.png" alt="Shellder">
+    <span class="pokemon-view-name">Shellder</span>
+    <span class="pokemon-view-price">R$ 1.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/091.png" alt="Cloyster">
+    <span class="pokemon-view-name">Cloyster</span>
+    <span class="pokemon-view-price">R$ 1.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/092.png" alt="Gastly">
+    <span class="pokemon-view-name">Gastly</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/093.png" alt="Haunter">
+    <span class="pokemon-view-name">Haunter</span>
+    <span class="pokemon-view-price">R$ 1.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/094.png" alt="Gengar">
+    <span class="pokemon-view-name">Gengar</span>
+    <span class="pokemon-view-price">R$ 1.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/095.png" alt="Onix">
+    <span class="pokemon-view-name">Onix</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/096.png" alt="Drowzee">
+    <span class="pokemon-view-name">Drowzee</span>
+    <span class="pokemon-view-price">R$ 3.00</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/097.png" alt="Hypno">
+    <span class="pokemon-view-name">Hypno</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/098.png" alt="Krabby">
+    <span class="pokemon-view-name">Krabby</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/099.png" alt="Kingler">
+    <span class="pokemon-view-name">Kingler</span>
+    <span class="pokemon-view-price">R$ 1.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+  <div class="pokemon-view">
+    <img class="pokemon-view-img" src="img/100.png" alt="Voltorb">
+    <span class="pokemon-view-name">Voltorb</span>
+    <span class="pokemon-view-price">R$ 2.50</span>
+    <button class="pokemon-view-shop">COMPRAR</button>
+  </div>
+</div>
+    <div class="nav-top">
+      <svg class="fa-chevron-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"></path>
+      </svg>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>

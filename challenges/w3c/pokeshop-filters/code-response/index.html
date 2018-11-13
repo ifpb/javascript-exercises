@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pokeshop</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400">
+  <!-- https://file.myfontastic.com/pY6DoAEbjw8eKm35NxyzgQ/icons.css -->
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/pokeball.css">
+  <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Pokeshop</h1>
+    <div class="cart-button">
+      <div class="cart-count hidden"></div>
+      <i class="icon-cart"></i>
+    </div>
+  </header>
+  <div class="toolbar">
+    <div class="toolbar-content">
+      <ul>
+        <li class="type-filter"><i class="icon-angle-down"></i><span>Tipos</span></li>
+        <li>|</li>
+        <li class="sorting"><i class="icon-angle-down"></i><span>Ordernar</span></li>
+      </ul>
+    </div>
+    <div class="toolbar-dropdown hidden"></div>
+  </div>
+  <main class="container">
+    <div class="pokemon-cards"></div>
+  </main>
+  <div class="loading">
+    <div class="pokeball">
+      <div class="pokeball__button"></div>
+    </div>
+  </div>
+  <script type="module" src="js/main.mjs"></script>
+</body>
+</html>

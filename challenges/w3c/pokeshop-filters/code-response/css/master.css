@@ -1,0 +1,538 @@
+.selected.background-normal {
+  background-color: #a4acaf;
+  color: #212121 !important;
+}
+
+.selected.background-dragon {
+  background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  background-color: #53a4cf;
+  color: #fff !important;
+}
+
+.selected.background-grass {
+  background-color: #9bcc50;
+  color: #212121 !important;
+}
+
+.selected.background-poison {
+  background-color: #b97fc9;
+  color: #fff !important;
+}
+
+.selected.background-fire {
+  background-color: #fd7d24;
+  color: #fff !important;
+}
+
+.selected.background-water {
+  background-color: #4592c4;
+  color: #fff !important;
+}
+
+.selected.background-electric {
+  background-color: #eed535;
+  color: #212121 !important;
+}
+
+.selected.background-bug {
+  background-color: #729f3f;
+  color: #fff !important;
+}
+
+.selected.background-flying {
+  background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+  background-color: #3dc7ef;
+  color: #212121 !important;
+}
+
+.selected.background-fairy {
+  background-color: #fdb9e9;
+  color: #212121 !important;
+}
+
+.selected.background-psychic {
+  background-color: #f366b9;
+  color: #fff !important;
+}
+
+.selected.background-rock {
+  background-color: #a38c21;
+  color: #fff !important;
+}
+
+.selected.background-ice {
+  background-color: #51c4e7;
+  color: #212121 !important;
+}
+
+.selected.background-ghost {
+  background-color: #7b62a3;
+  color: #fff !important;
+}
+
+.selected.background-steel {
+  background-color: #9eb7b8;
+  color: #212121 !important;
+}
+
+.selected.background-fighting {
+  background-color: #d56723;
+  color: #fff !important;
+}
+
+.selected.background-ground {
+  background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+  background-color: #f7de3f;
+  color: #212121 !important;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  opacity: 0;
+  z-index: -1;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: .4rem;
+  margin-top: 1rem;
+}
+
+body {
+  margin: 0;
+  background: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* header */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  box-shadow: 0 0 1px 1px #000;
+  background-color: #383838;
+  background-image: radial-gradient(#4A4949 15%, #383838 35%);
+  background-size: 3px 3px;
+  text-align: center;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
+.header h1 {
+  margin: 0;
+  color: #fff;
+}
+
+/* cart-button */
+.cart-button {
+  position: absolute;
+  right: 2rem;
+}
+
+.cart-button:hover {
+  cursor: pointer;
+}
+
+.cart-button .cart-count {
+  color: #fff;
+  position: absolute;
+  width: 1.3rem;
+  height: 1.3rem;
+  right: -.5rem;
+  top: -.3rem;
+  background-color: #cf3838;
+  border-radius: 50%;
+  padding: .2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.cart-button .icon-cart {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* toolbar */
+.toolbar {
+  position: fixed;
+  top: 5rem;
+  width: 100%;
+  z-index: 3;
+}
+
+.toolbar-content {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5rem 2rem;
+  border-bottom: solid 1px #383838;
+  background-color: #fff;
+}
+
+.toolbar-content ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.toolbar-content li {
+  margin-left: .7rem;
+  display: flex;
+}
+
+.toolbar-content li:hover {
+  cursor: pointer;
+}
+
+.toolbar-content li.selected {
+  border-bottom: solid 2px #383838; 
+}
+
+.toolbar-content li.selected .icon-angle-down {
+  transform: rotate(180deg) translateY(.2rem);
+}
+
+.toolbar-content li .icon-angle-down {
+  transition: transform .1s;
+}
+
+.toolbar-dropdown.hidden .toolbar-list {
+  display: none;
+}
+
+.toolbar-dropdown .toolbar-list {
+  position: absolute;
+  top: 2rem;
+  background-color: #fff;
+  margin-top: 1rem;
+}
+
+.toolbar-dropdown .toolbar-list::before {
+  content: '';
+  border: .7rem solid transparent;
+  border-bottom-color: #fff;
+  position: absolute;
+  right: 1.5rem;
+  top: -1.4rem;
+}
+
+.toolbar-dropdown .toolbar-list ul {
+  list-style: none;
+}
+
+.toolbar-dropdown.type-filter ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.toolbar-dropdown .toolbar-list ul li {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.toolbar-dropdown .toolbar-list ul li span[class|=background] {
+  border-radius: 3px;
+  padding: .2rem 1rem;
+  font-size: .7rem;
+  margin-right: .5rem;
+  border: 1px solid #949494;
+  color: #949494;
+}
+
+.toolbar-dropdown .toolbar-list ul li i[class|=icon] {
+  color: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.toolbar-dropdown .toolbar-list ul li.selected i[class|=icon] {
+  background-color: #000;
+}
+
+.toolbar-dropdown .toolbar-list ul li:hover {
+  cursor: pointer;
+}
+
+.toolbar-dropdown.sorting .toolbar-list ul li + li {
+  border-top: 1px solid #ccc;
+}
+
+/* pokemon - card */
+.container {
+  margin: 9rem 5rem 3rem;
+}
+
+.pokemon-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 250px));
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+.pokemon-card {
+  background-color: #fff;
+  display: grid;
+  grid-template-areas: 
+    "pokemon-id pokemon-id" 
+    "pokemon-img pokemon-img" 
+    "pokemon-name pokemon-price" 
+    "pokemon-shop pokemon-shop";
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemon-card-id {
+  grid-area: pokemon-id;
+  text-align: left;
+  font-weight: bold;
+  color: #919191;
+}
+
+.pokemon-card-img {
+  grid-area: pokemon-img;
+  min-height: 215px;
+  /* transform: translateY(-1.5rem); */
+}
+
+.pokemon-card-name {
+  grid-area: pokemon-name;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.pokemon-card-price {
+  text-align: right;
+  grid-area: pokemon-price;
+  font-weight: bold;
+}
+
+.pokemon-card-shop {
+  grid-area: pokemon-shop;
+  margin: .5rem;
+  padding: .3rem;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  font-size: 1rem;
+  width: 90%;
+  transition: all .3s;
+}
+
+.pokemon-card-shop:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+}
+
+/* cart - view */
+.cart-view {
+  z-index: 4;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: #fff;
+  text-align: center;
+  font-weight: 300;
+  transition: all .3s;
+}
+
+.cart-view.hidden {
+  right: -300px;
+}
+
+.cart-view-title {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  align-items: center;
+}
+
+.cart-view-title .close {
+  display: block;
+  width: .8rem;
+  height: .8rem;
+}
+
+.cart-view .item {
+  border-bottom: 1px solid #ccc;
+  padding: 0 .4rem;
+  text-align: left;
+  font-size: .9rem;
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  grid-template-areas:
+    "item-img item-name item-close"
+    "item-img item-qtd item-subtotal";
+  min-height: 74px;
+}
+
+.cart-view .item-img {
+  grid-area: item-img;
+  width: 60px;
+  min-height: 60px;
+}
+
+.cart-view .item-close {
+  grid-area: item-close;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cart-view .item-close .close {
+  width: .7rem;
+  height: .7rem;
+}
+
+.cart-view .item-close .close:hover {
+  cursor: pointer;
+}
+
+.cart-view .item-name {
+  text-transform: uppercase;
+  margin-bottom: .4rem;
+  grid-area: item-name;
+  align-self: end;
+}
+
+.cart-view .item-qtd {
+  display: flex;
+  justify-content: space-between;
+  grid-area: item-qtd;
+  width: 4rem;
+}
+
+.cart-view .item-qtd .item-minus,
+.cart-view .item-qtd .item-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  width: 1rem;
+  height: 1rem;
+  transition: all .3s;
+}
+
+.cart-view .item-qtd .item-minus:hover,
+.cart-view .item-qtd .item-add:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+}
+
+.cart-view .item-subtotal {
+  text-align: right;
+  grid-area: item-subtotal;
+}
+
+.cart-view-footer {
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.cart-view-total {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* cart - overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 2;
+}
+
+.overlay.hidden {
+  z-index: -1;
+}
+
+/* loading */
+.loading {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  animation: loading 3.5s forwards;
+}
+
+@keyframes loading {
+  from,
+  99% {
+    z-index: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  to {
+    z-index: -1;
+    opacity: 0;
+  }
+}
+
+/* nav to top */
+.nav-top {
+  background-color: #383838;
+  font-size: 2rem;
+  color: #fff;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .5s;
+}
+
+.nav-top:hover {
+  background-color: #696969;
+  cursor: pointer;
+}
+
+.nav-top.hidden {
+  z-index: -1;
+}
