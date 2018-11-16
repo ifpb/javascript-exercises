@@ -30,17 +30,17 @@ Uma das rotas que serão úteis para essa prova será o `/v1/memory`, que atrav�
 
 **a.** Painel de informações do host conforme a Figura 3.
 
-*Figura 3 - Painel de informações do host.*
+*Figura 3 - Painel de informações do host.*<br>
 ![Painel de informações do host](assets/info.png)
 
 **b.** Painel sobre a carga da CPU conforme a Figura 4.
 
+*Figura 5 - Painel sobre a carga da memória.*<br>
 ![Painel sobre a carga da CPU](assets/cpu.png)
-*Figura 5 - Painel sobre a carga da memória.*
 
 **c.** Painel sobre a carga da memória conforme a Figura 5.
 
-*Figura 4 - Painel sobre a carga da CPU.*
+*Figura 4 - Painel sobre a carga da CPU.*<br>
 ![Painel sobre a carga da memória](assets/memory.png)
 
 > [Alternativa de Resposta](code-response/)

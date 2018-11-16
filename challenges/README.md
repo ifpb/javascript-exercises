@@ -11,7 +11,7 @@
   * [Weather App](w3c/weather-app/)
   * [Amaro](w3c/amaro/)
   * [Pokeshop](w3c/pokeshop/)
-  * Monitor:
+  * Dashboard Monitor:
     * [eZ Server](w3c/ez-server-monitor/)
     * [Host](w3c/host-monitor/)
     * [Pingdom](w3c/pingdom-monitor/)
