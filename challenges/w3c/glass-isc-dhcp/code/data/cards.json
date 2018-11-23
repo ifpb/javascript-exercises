@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "alert-circle",
+    "bg": "bg-danger",
+    "name": "Leases Per Second / Minute",
+    "value": "0/0"
+  },
+  {
+    "icon": "pie-chart",
+    "bg": "bg-info",
+    "name": "Total Leases",
+    "value": "14"
+  },
+  {
+    "icon": "cpu",
+    "bg": "bg-primary",
+    "name": "CPU",
+    "value": "0 %"
+  },
+  {
+    "icon": "server",
+    "bg": "bg-success",
+    "name": "SERVER",
+    "value": "dhcp"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "location": "10.0.40.0/24",
+    "used": "9(4.71 %)",
+    "size": "191",
+    "free": "182",
+    "utilization": "25"
+  },
+  {
+    "location": "10.0.20.0/24",
+    "used": "4(4.4 %)",
+    "size": "91",
+    "free": "87",
+    "utilization": "20"
+  },
+  {
+    "location": "10.0.10.0/24",
+    "used": "1(0.65 %)",
+    "size": "155",
+    "free": "154",
+    "utilization": "10"
+  },
+  {
+    "location": "10.0.30.0/24",
+    "used": "0(0 %)",
+    "size": "91",
+    "free": "91",
+    "utilization": "0"
+  }
+]
