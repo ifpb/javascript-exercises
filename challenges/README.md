@@ -16,3 +16,4 @@
     * [Host](w3c/host-monitor/)
     * [Pingdom](w3c/pingdom-monitor/)
     * [Dashboard](w3c/dashboard-monitor/)
+    * [Glass ISC DHCP](w3c/glass-isc-dhcp/)
