@@ -3,7 +3,7 @@
 ## DESCRIÇÃO
 ---
 
-O projeto *open source* [Akkadius/glass-isc-dhcp](https://github.com/Akkadius/glass-isc-dhcp) que administra o serviço ISC DHCP, disponibilizou um projeto HTML e CSS no arquivo [code.zip](code.zip), contudo, o sistema deve gerar a interface semelhante ao da *Figura 1* usando dados JSON na pasta `data/` por meio da linguagem Javascript.
+O projeto *open source* [Akkadius/glass-isc-dhcp](https://github.com/Akkadius/glass-isc-dhcp) que administra o serviço Glass ISC DHCP, disponibilizou um projeto HTML e CSS no arquivo [code.zip](code.zip), contudo, o sistema deve gerar a interface semelhante ao da *Figura 1* usando dados JSON na pasta `data/` por meio da linguagem Javascript.
 
 *Figura 1 - Proposta de Template*
 ![Layout](assets/layout.png)
@@ -89,3 +89,9 @@ Portanto, cabe a você continuar o desenvolvimento através dos componentes que 
 *Figura 4 - Painel Networks*<br>
 
 ![Networks](assets/component3.png)
+
+<br>
+<br>
+<br>
+
+> [Alternativa de resposta](code-response/)
