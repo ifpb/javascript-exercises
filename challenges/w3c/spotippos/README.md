@@ -65,7 +65,7 @@ Também considere que o HTML necessário para compor este grid de imóveis deve 
 
 **COMPONENTE 2 -** Pensando em facilitar apenas a listagem dos imóveis que possuiam alguns parâmetros iniciais, o layout possui um seção de filtro. A idéia é que ao mudar os campos, a listagem seja atualizada conforme os valores digitados. A *Figura 3* ilustra bem como seria a ação do filtro.
 
-*Figura 2 - Filro dos imóveis*<br>
+*Figura 3 - Filro dos imóveis*<br>
 ![Filtro dos imóveis](assets/filtro.gif)
 
 **Observação:** veja que o filtro considera valores maiores ou igual ao informado.
