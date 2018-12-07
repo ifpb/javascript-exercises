@@ -63,6 +63,14 @@ Também considere que o HTML necessário para compor este grid de imóveis deve 
 </div>
 ```
 
+**Dica**, para exibir o preço do imóvel no formato brasileiro, use o seguinte código:
+
+```js
+const price = 643000
+console.log(price.toLocaleString('pt-BR', { minimumFractionDigits: 2 }))
+//=> 643.000,00
+```
+
 **COMPONENTE 2 -** Pensando em facilitar apenas a listagem dos imóveis que possuiam alguns parâmetros iniciais, o layout possui um seção de filtro. A idéia é que ao mudar os campos, a listagem seja atualizada conforme os valores digitados. A *Figura 3* ilustra bem como seria a ação do filtro.
 
 *Figura 3 - Filro dos imóveis*<br>
