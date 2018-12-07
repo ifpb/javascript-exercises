@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: #4491ca;
+  color: #fff;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+main {
+  width: 1000px;
+  margin: auto;
+}
+
+.filter {
+  margin: 1rem 0;
+  background-color: #fff;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.imoveis {
+  padding: 1rem;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  justify-content: center;
+}
+
+/* .imoveis .warning {
+  display: none;
+} */
+
+.imovel {
+  border: 1px solid #8b8b8b;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.imovel .resumo {
+  padding: 1rem;
+}
+
+.imovel .resumo .id {
+  display: inline-block;
+  border: 1px solid #efefef;
+  padding: .1rem .2rem;
+  color: #8b8b8b;
+  font-size: .8rem;
+}
+
+.imovel .resumo > * {
+  margin-bottom: .7rem;
+}
+
+.imovel .info {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto) 1fr;
+  grid-gap: .5rem;
+  background-color: #fafafa;
+  color: #999;
+}
+
+.imovel .info .infoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imovel .info .value {
+  font-size: .7rem;
+}
+
+.imovel .info .logo {
+  width: 20px;
+  margin-bottom: .4rem;
+}
+
+.imovel .info .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}

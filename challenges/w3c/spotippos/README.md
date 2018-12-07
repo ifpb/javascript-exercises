@@ -77,3 +77,8 @@ console.log(price.toLocaleString('pt-BR', { minimumFractionDigits: 2 }))
 ![Filtro dos imóveis](assets/filtro.gif)
 
 **Observação:** veja que o filtro considera valores maiores ou igual ao informado.
+
+<br>
+<br>
+
+> Alternativa de resposta: [recriando elemento](site-reponse/) e [ocultando por estilo](site-reponse-style/).
