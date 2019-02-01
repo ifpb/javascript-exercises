@@ -10,8 +10,8 @@
   * [Cinebangue](w3c/cinebangue/)
   * [Weather App](w3c/weather-app/)
   * [Amaro](w3c/amaro/)
-  * [Spotippos](w3c/spotippos/)
-  * [Pokeshop](w3c/pokeshop/)
+  * Spotippos: [Listagem](w3c/spotippos/) e [Filtros](w3c/spotippos/)
+  * Pokeshop: [Listagem](w3c/pokeshop/) e [Filtros](w3c/pokeshop-filters/)
   * Dashboard Monitor:
     * [eZ Server](w3c/ez-server-monitor/)
     * [Host](w3c/host-monitor/)
