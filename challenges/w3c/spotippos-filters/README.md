@@ -87,4 +87,4 @@ console.log(price.toLocaleString('pt-BR', { minimumFractionDigits: 2 }))
 <br>
 <br>
 
-<!-- > [Alternativa de resposta](site-response/). -->
+> [Alternativa de resposta](site-response/).

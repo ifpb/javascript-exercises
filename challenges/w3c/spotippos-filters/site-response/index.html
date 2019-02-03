@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spotippos</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1>SPOTIPPOS - ANÚNCIOS</h1>
+  </header>
+  <main>
+    <aside>
+      <div class="filter">
+        <h2>Filtro</h2>
+        <div class="form-field">
+          <label for="neighborhood">Bairro:</label>
+          <input type="text" class="neighborhood" id="neighborhood" placeholder="Digite algum bairro">
+        </div>
+        <div class="form-field">
+          <label for="squareMeters">Área:</label>
+          <input type="text" class="squareMeters" id="squareMeters" placeholder="O valor em m²">
+        </div>
+        <div class="form-field">
+          <label for="beds">Quartos:</label>
+          <input type="text" class="beds" id="beds" placeholder="O número de quartos">
+        </div>
+        <div class="form-field">
+          <label for="baths">Banheiros:</label>
+          <input type="text" class="baths" id="baths" placeholder="O número de banheiros">
+        </div>
+        <div class="form-field price">
+          <label for="min-price">Valor:</label>
+          <input type="text" class="min-price" id="min-price" placeholder="Mínimo">
+          <input type="text" class="max-price" id="max-price" placeholder="Máximo">
+        </div>
+      </div>
+    </aside>
+    <div class="imoveis"></div>
+  </main>
+  <script type="module" src="js/main.mjs"></script>
+</body>
+</html>
