@@ -12,6 +12,7 @@
   * [Amaro](w3c/amaro/)
   * Spotippos: [Listagem](w3c/spotippos/) e [Filtros](w3c/spotippos/)
   * Pokeshop: [Listagem](w3c/pokeshop/) e [Filtros](w3c/pokeshop-filters/)
+  * [Pokedex](w3c/pokedex/)
   * Dashboard Monitor:
     * [eZ Server](w3c/ez-server-monitor/)
     * [Host](w3c/host-monitor/)
