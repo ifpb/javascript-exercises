@@ -15,7 +15,7 @@ Detalhe, a empresa já disponibilizou uma estrutura inicial no arquivo [code.zip
 ## Componentes
 ---
 
-**COMPONENTE - 1** No arquivo JSON existe um Array de Pokemons que possui várias informação como id, nome, tipo e estatísticas:
+**COMPONENTE 1 -** No arquivo JSON existe um Array de Pokemons que possui várias informação como id, nome, tipo e estatísticas:
 
 ```js
 [
@@ -101,29 +101,29 @@ Também considere que o HTML necessário para compor esta Pokedex deve possuir u
 </div>
 ```
 
-**COMPONENTE - 2** Crie o filtro da Pokedex por nome para exibir os pokemon da Pokedex que possuirem o termo digitado em seu nome, caso contrário ele não será exibido. A Figura 3, por exemplo, lista na Pokedex os pokemons que possuem o nome `pikachu`.
+**COMPONENTE 2 -** Crie o filtro da Pokedex por nome para exibir os pokemon da Pokedex que possuirem o termo digitado em seu nome, caso contrário ele não será exibido. A Figura 3, por exemplo, lista na Pokedex os pokemons que possuem o nome `pikachu`.
 
 <!-- TODO 0 pokemons -->
 *Figura 3 - Filtro por nome*<br>
 ![](assets/component-2.png)
 
-**COMPONENTE - 3** Crie o filtro da Pokedex por tipo para exibir apenas os pokemon de algum tipo específico. A Figura 4, por exemplo, lista na Pokedex apenas os pokemons que possuem o tipo `eletric`.
+**COMPONENTE 3 -** Crie o filtro da Pokedex por tipo para exibir apenas os pokemon de algum tipo específico. A Figura 4, por exemplo, lista na Pokedex apenas os pokemons que possuem o tipo `eletric`.
 
 *Figura 4 - Filtro por tipo*<br>
 ![](assets/component-3.png)
 
-**COMPONENTE - 4** Crie o ordenador da Pokedex para ajudar na listagem da Pokedex conforme a Figura 5.
+**COMPONENTE 4 -** Crie o ordenador da Pokedex para ajudar na listagem da Pokedex conforme a Figura 5.
 
 *Figura 5 - Ordenador da Pokedex*<br>
 ![](assets/component-4.png)
 
-**COMPONENTE - 5** Faça que o formulário realize o filtro e ordenação de modo integrado, tal como a Figura 6.
+**COMPONENTE 5 -** Faça que o formulário realize o filtro e ordenação de modo integrado, tal como a Figura 6.
 
 *Figura 6 - Ordenador e Filtros combinados*<br>
 ![](assets/component-5.png)
 
-<!-- <br>
+<br>
 <br>
 <br>
 
-> [Alternativa de resposta](code-response/) -->
+> [Alternativa de resposta](code-response/)
