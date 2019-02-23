@@ -28,15 +28,15 @@ filterName.addEventListener('keyup', e => {
 
 filterType.addEventListener('change', e => {
   e.preventDefault()
-  filterType.blur()
   loadFilters()
+  filterType.blur()
 })
 
 sortType.addEventListener('change', e => {
   e.preventDefault()
-  sortType.blur()
   loadPokedex(pokedexValues, sortType.value)
   loadFilters()
+  sortType.blur()
 })
 
 function loadFilters() {
@@ -74,13 +74,13 @@ function loadPokedex(pokedex, sort) {
 function sortPokedex(pokedex, sort) {
   switch(sort) {
     case 'Lowest Number (First)':
-      return pokedex.sort((a, b) => a.id > b.id)
+      return pokedex.sort((a, b) => a.id > b.id ? 1 : a.id < b.id ? -1 : 0)
     case 'Highest Number (First)':
-      return pokedex.sort((a, b) => a.id < b.id)
+      return pokedex.sort((a, b) => a.id > b.id ? -1 : a.id < b.id ? 1 : 0)
     case 'A-Z':
-      return pokedex.sort((a, b) => a.name > b.name)
+      return pokedex.sort((a, b) => a.name > b.name ? 1 : a.name < b.name ? -1 : 0)
     case 'Z-A':
-      return pokedex.sort((a, b) => a.name < b.name)
+      return pokedex.sort((a, b) => a.name > b.name ? -1 : a.name < b.name ? 1 : 0)
   }
 }
 
@@ -92,7 +92,7 @@ function pokemonCard(pokemon) {
   pokemonTypes = pokemonTypes.concat(pokemon.type)
   return `<div class="pokemon" data-name="${pokemon.name}" data-type="${pokemon.type}" tabindex="${pokemon.id}">
       <figure class="pokemon-figure">
-        <img src="img/${img}.png" alt="${pokemon.name}">
+        <img src="img/${img.toLowerCase()}.png" alt="${pokemon.name}">
       </figure>
       <section class="pokemon-description">
         <span class="pokemon-id">#${Number(pokemon.id).toString().padStart(3, '0')}</span>
