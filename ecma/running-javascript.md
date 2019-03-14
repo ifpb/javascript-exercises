@@ -159,3 +159,5 @@ Snapshots:   0 total
 Time:        1.594s
 Ran all test suites matching /response\/function\/sum.test.js/i.
 ```
+
+> [Unit Testing](http://softwaretestingfundamentals.com/unit-testing/)
