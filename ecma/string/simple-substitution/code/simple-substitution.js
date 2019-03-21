@@ -1,6 +1,5 @@
-
-function substitution(message, plaintext, ciphertext ) {
+function substitution(message, plaintext, ciphertext) {
   // TODO
 }
 
-export { substitution }
+export { substitution };

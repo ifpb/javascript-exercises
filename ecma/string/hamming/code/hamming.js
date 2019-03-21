@@ -1,6 +1,5 @@
-
-function hamming(dna1, dna2){
+function hamming(dna1, dna2) {
   // TODO
 }
 
-export { hamming }
+export { hamming };

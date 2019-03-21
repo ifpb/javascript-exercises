@@ -1,6 +1,5 @@
-
 class ExamStats {
   // TODO
 }
 
-export { ExamStats }
+export { ExamStats };

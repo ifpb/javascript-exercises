@@ -1,18 +1,15 @@
 class Order {
-  
   constructor() {
-    this.products = []
+    this.products = [];
   }
 
   addProduct(product) {
-    this.products.push(product)
+    this.products.push(product);
   }
 
   total() {
-    return this.products
-      .reduce((sum, product) => sum + product.price, 0)
+    return this.products.reduce((sum, product) => sum + product.price, 0);
   }
-
 }
 
-export { Order }
+export { Order };

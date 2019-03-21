@@ -1,4 +1,3 @@
-
 function grade(student, weight, answer) {
   // TODO
 }
@@ -7,11 +6,11 @@ function avg(students) {
   // TODO
 }
 
-function min(students, count=1) {
+function min(students, count = 1) {
   // TODO
 }
 
-function max(students, count=1) {
+function max(students, count = 1) {
   // TODO
 }
 
@@ -23,4 +22,4 @@ function gt(students, limit) {
   // TODO
 }
 
-export { grade, avg, min, max, gt, lt }
+export { grade, avg, min, max, gt, lt };

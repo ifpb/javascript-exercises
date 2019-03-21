@@ -1,18 +1,17 @@
-
-function cpf(){
+function cpf() {
   // TODO
 }
 
-function cnpj(){
+function cnpj() {
   // TODO
 }
 
-function cep(){
+function cep() {
   // TODO
 }
 
-function octal(){
+function octal() {
   // TODO
 }
 
-export { cpf, cnpj, cep, octal }
+export { cpf, cnpj, cep, octal };

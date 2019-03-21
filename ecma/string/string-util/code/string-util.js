@@ -1,4 +1,3 @@
-
 /**
  * text: string
  * action: lowercase, uppercase, camelcase, snakecase, reverse,
@@ -8,4 +7,4 @@ function formatter(text, action) {
   // TODO
 }
 
-export { formatter }
+export { formatter };

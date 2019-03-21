@@ -1,6 +1,5 @@
-
 class Item {
   // TODO
 }
 
-export { Item }
+export { Item };

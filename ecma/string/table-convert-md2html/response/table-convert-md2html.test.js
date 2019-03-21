@@ -1,14 +1,12 @@
-import { md2html } from './table-convert-md2html.js'
+import { md2html } from './table-convert-md2html.js';
 
 describe('Markdown Util', () => {
   test('converting table to html', () => {
-    const table =
-`| Header One     | Header Two     |
+    const table = `| Header One     | Header Two     |
 | :------------- | :------------- |
-| Item One       | Item Two       |`
+| Item One       | Item Two       |`;
 
-    const expected =
-`<table>
+    const expected = `<table>
   <thead>
     <tr>
       <th>Header One</th>
@@ -21,8 +19,8 @@ describe('Markdown Util', () => {
       <td>Item Two</td>
     </tr>
   </tbody>
-</table>`
+</table>`;
 
-    expect(md2html(table)).toBe(expected)
-  })
-})
+    expect(md2html(table)).toBe(expected);
+  });
+});

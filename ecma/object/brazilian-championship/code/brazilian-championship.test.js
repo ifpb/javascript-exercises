@@ -1,12 +1,11 @@
-import { firstTeam, showStading } from './brazilian-championship.js'
+import { firstTeam, showStading } from './brazilian-championship.js';
 
-const standings = undefined // TODO
+const standings = undefined; // TODO
 
 describe('Brazilian Championship', () => {
-
   test('Finding first team', () => {
-    expect(firstTeam(standings)).toBe('Palmeiras')
-  })
+    expect(firstTeam(standings)).toBe('Palmeiras');
+  });
 
   test.skip('Displaying stading', () => {
     expect(showStading(standings)).toBe(
@@ -29,8 +28,7 @@ describe('Brazilian Championship', () => {
       Internacional    | 38 | 11 | 10 | 17 | 35 | 41 |  -6 | 43
       Figueirense      | 38 |  8 | 13 | 17 | 30 | 50 | -20 | 37
       Santa Cruz       | 38 |  8 |  7 | 23 | 45 | 69 | -24 | 31
-      América-MG       | 38 |  7 |  7 | 24 | 23 | 58 | -35 | 28`
-    )
-  })
-  
-})
+      América-MG       | 38 |  7 |  7 | 24 | 23 | 58 | -35 | 28`,
+    );
+  });
+});

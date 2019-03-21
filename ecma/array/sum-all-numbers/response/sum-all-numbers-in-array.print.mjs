@@ -4,7 +4,7 @@ import { sumIntegerInArray } from './sum-all-numbers-in-array';
 const regularArray = [1, 2, 3, 20];
 console.log(sumIntegerInArray(regularArray)); // 26, which is (1 + 2 + 3 + 20)
 
-// an array with 2 dimensions (2d) 
+// an array with 2 dimensions (2d)
 const array2d = [[1, 3], [2, 2]];
 console.log(sumIntegerInArray(array2d)); // 8, which is (1 + 3 + 2 + 2);
 

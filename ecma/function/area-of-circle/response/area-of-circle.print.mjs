@@ -1,4 +1,6 @@
-import { areaOfCircle } from './area-of-circle.js'
+import {
+  areaOfCircle
+} from './area-of-circle.js'
 
 // Circle Tools
 

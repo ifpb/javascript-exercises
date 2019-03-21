@@ -1,6 +1,5 @@
-
-function factorial(number){
+function factorial(number) {
   // TODO
 }
 
-export { factorial }
+export { factorial };

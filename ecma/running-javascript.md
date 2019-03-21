@@ -1,34 +1,39 @@
 # How to run javascript
 
-* [Node.js (terminal)](#node.js-terminal)
-* [Visual Studio Code](#visual-studio-code)
-* [Browser Console](#browser-console)
-* [Online Interpreter](#online-interpreter)
-* [Unit Test (Jest)](#unit-test-jest)
+- [Node.js (terminal)](#node.js-terminal)
+- [Visual Studio Code](#visual-studio-code)
+- [Browser Console](#browser-console)
+- [Online Interpreter](#online-interpreter)
+- [Unit Test (Jest)](#unit-test-jest)
 
 ## Node.js (terminal)
+
 ---
 
 ### Installing Node
 
 Installing Node by [nvm](https://github.com/creationix/nvm):
+
 ```
 $ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 ```
 
 Node LTS:
+
 ```
 $ nvm install lts
 $ nvm alias default lts
 ```
 
 Node Stable:
+
 ```
 $ nvm install stable
 $ nvm alias default stable
 ```
 
 Alternatives:
+
 - [Node.js - Download](https://nodejs.org/en/)
 - [Chocoletey](https://chocolatey.org)
 
@@ -47,12 +52,14 @@ $ node file.js
 ![vscode](running-vscode-terminal.gif)
 
 Node Prompt:
+
 ```
 $ node
 > (ctrl + v file)
 ```
 
 Running by file (ECMAScript Modules ESM):
+
 ```
 $ git clone https://github.com/ifpb/javascript-exercises/
 $ cd javascript-exercises/ecma/function/sum/code/
@@ -61,9 +68,11 @@ $ node --experimental-modules sum.print.mjs
 ```
 
 ## Visual Studio Code
+
 ---
 
 Installing:
+
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 - Node.js
@@ -73,6 +82,7 @@ Installing:
 ![vscode](running-vscode.gif)
 
 ## Browser Console
+
 ---
 
 ```
@@ -81,9 +91,11 @@ Control+Shift+J (Google Chrome)
 ```
 
 ## Online Interpreter
+
 ---
 
 [https://repl.it/](https://repl.it/)
+
 ```
 Open [https://repl.it/](https://repl.it/)
 > Choose language: Javascript
@@ -92,9 +104,11 @@ Open [https://repl.it/](https://repl.it/)
 ```
 
 ## Unit Test (Jest)
+
 ---
 
 Installing Jest (package.json):
+
 ```
 $ git clone https://github.com/ifpb/javascript-exercises/
 $ cd javascript-exercises/ecma/
@@ -104,11 +118,13 @@ $ npm install
 ```
 
 Rename file extension to `.js`:
+
 ```
 $ mv function/sum/code/sum.{mjs,js}
 ```
 
 Running Tests and Viewing Results (test fail):
+
 ```
 $ npx jest function/sum/code/sum.test.js
  FAIL  function/sum/code/sum.test.js
@@ -146,6 +162,7 @@ Ran all test suites matching /code\/function\/sum.test.js/i.
 ```
 
 Running Tests and Viewing Results (test passed):
+
 ```
 $ npx jest function/sum/code/sum.test.js
  PASS  response/function/sum.test.js

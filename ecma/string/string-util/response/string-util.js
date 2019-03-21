@@ -1,4 +1,3 @@
-
 /**
  * text: string
  * action: lowercase, uppercase, camelcase, snakecase, reverse,
@@ -7,32 +6,35 @@
 function formatter(text, action) {
   switch (action) {
     case 'lowercase':
-      return text.toLowerCase()
+      return text.toLowerCase();
     case 'uppercase':
-      return text.toUpperCase()
+      return text.toUpperCase();
     case 'camelcase':
-      return toCamelCase(text)
+      return toCamelCase(text);
     case 'snakecase':
-      return text.replace(/\s/g, '_')
+      return text.replace(/\s/g, '_');
     case 'reverse':
-      return text.split('').reverse().join('')
+      return text
+        .split('')
+        .reverse()
+        .join('');
     case 'countchar':
-      return text.split('').length
+      return text.split('').length;
     case 'countword':
-      return text.split(/\s/g).length
+      return text.split(/\s/g).length;
     case 'countline':
-      return text.split('\n').length
+      return text.split('\n').length;
   }
 }
 
 function toCamelCase(text) {
-  let result = []
+  let result = [];
   for (let word of text.split(' ')) {
-    let firstLetter = word[0].toUpperCase()
-    let slicedWord = word.substr(1).toLowerCase()
-    result.push(firstLetter+slicedWord)
+    let firstLetter = word[0].toUpperCase();
+    let slicedWord = word.substr(1).toLowerCase();
+    result.push(firstLetter + slicedWord);
   }
-  return result.join(' ')
+  return result.join(' ');
 }
 
-export { formatter }
+export { formatter };

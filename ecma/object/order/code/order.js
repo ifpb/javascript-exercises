@@ -1,6 +1,5 @@
 class Order {
   // TODO
-
 }
 
-export { Order }
+export { Order };

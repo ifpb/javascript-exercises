@@ -1,4 +1,3 @@
-
 function min(array) {
   // TODO
 }
@@ -23,4 +22,4 @@ function sortNum(array) {
   // TODO
 }
 
-export { min, max, range, zip, uniq, sortNum }
+export { min, max, range, zip, uniq, sortNum };

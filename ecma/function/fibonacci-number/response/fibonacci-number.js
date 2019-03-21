@@ -1,23 +1,20 @@
+function fibonacci(number) {
+  let a = 0;
+  let b = 1;
+  let temp = 1;
 
-function fibonacci(number){
-  let a = 0
-  let b = 1
-  let temp = 1
+  if (number > 1)
+    while (number > 2) {
+      temp = a + b;
+      a = b;
+      b = temp;
 
-  if(number > 1)
-    while (number > 2){
-      temp = a + b
-      a = b
-      b = temp
-
-      number--
+      number--;
     }
-  else if(number == 1)
-    return 0
-  else
-    return undefined
+  else if (number == 1) return 0;
+  else return undefined;
 
-  return temp
+  return temp;
 }
 
-export { fibonacci }
+export { fibonacci };

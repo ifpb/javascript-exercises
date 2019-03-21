@@ -6,4 +6,4 @@ function compactCitation(name) {
   // TODO
 }
 
-export { citation, compactCitation }
+export { citation, compactCitation };

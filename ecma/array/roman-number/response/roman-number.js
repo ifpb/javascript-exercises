@@ -1,4 +1,3 @@
-
 function toRoman(number) {
   const romanMatrix = [
     [1000, 'M'],
@@ -13,19 +12,18 @@ function toRoman(number) {
     [9, 'IX'],
     [5, 'V'],
     [4, 'IV'],
-    [1, 'I']
-  ]
+    [1, 'I'],
+  ];
 
-  let result = []
+  let result = [];
 
   for (let romanInfo of romanMatrix) {
-    let count = parseInt(number/romanInfo[0])
-    number = number%romanInfo[0]
-    if(count)
-      result.push(romanInfo[1].repeat(count))
+    let count = parseInt(number / romanInfo[0]);
+    number = number % romanInfo[0];
+    if (count) result.push(romanInfo[1].repeat(count));
   }
 
-  return result.join('')
+  return result.join('');
 }
 
-export { toRoman }
+export { toRoman };

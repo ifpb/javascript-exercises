@@ -1,6 +1,5 @@
-
 function md2html() {
   // TODO
 }
 
-export { md2html }
+export { md2html };

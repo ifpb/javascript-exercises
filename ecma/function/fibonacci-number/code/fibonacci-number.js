@@ -1,6 +1,5 @@
-
-function fibonacci(number){
+function fibonacci(number) {
   // TODO
 }
 
-export { fibonacci }
+export { fibonacci };

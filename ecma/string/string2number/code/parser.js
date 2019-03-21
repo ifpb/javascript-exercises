@@ -1,4 +1,3 @@
-
 function str2hex() {
   // TODO
 }
@@ -23,4 +22,4 @@ function dec2str() {
   // TODO
 }
 
-export { str2hex, hex2str, str2bin, bin2str, str2dec, dec2str }
+export { str2hex, hex2str, str2bin, bin2str, str2dec, dec2str };

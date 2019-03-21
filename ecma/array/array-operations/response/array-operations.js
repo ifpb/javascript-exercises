@@ -1,27 +1,25 @@
-
 function sum(array) {
-  let sum = 0
+  let sum = 0;
   for (let value of array) {
-    sum += value
+    sum += value;
   }
-  return sum
+  return sum;
 }
 
 function product(array) {
-  let product = 1
+  let product = 1;
   for (let value of array) {
-    product *= value
+    product *= value;
   }
-  return product
+  return product;
 }
 
 function sumOdds(array) {
-  let sum = 0
+  let sum = 0;
   for (let value of array) {
-    if(value % 2)
-      sum += value
+    if (value % 2) sum += value;
   }
-  return sum
+  return sum;
 }
 
-export { sum, product, sumOdds }
+export { sum, product, sumOdds };

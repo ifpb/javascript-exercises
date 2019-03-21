@@ -1,6 +1,5 @@
-
 function primeFactors(number) {
   // TODO
 }
 
-export { primeFactors }
+export { primeFactors };

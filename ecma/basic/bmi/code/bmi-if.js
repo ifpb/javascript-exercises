@@ -1,8 +1,8 @@
 // BMI = weight/height²
 
-let weight = 60
-let height = 1.65
-let result
+const weight = 60;
+const height = 1.65;
+let result;
 
 // TODO if
 

@@ -1,6 +1,5 @@
-
 class ExamCheck {
   // TODO
 }
 
-export { ExamCheck }
+export { ExamCheck };

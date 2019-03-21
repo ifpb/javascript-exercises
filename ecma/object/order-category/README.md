@@ -3,6 +3,7 @@
 <img src="assets/object-order-category.svg" alt="Order" width="300">
 
 `{{ page.path | replace:'README.md','' }}code/order.print.mjs`:
+
 ```js
 {% include_relative code/order.print.mjs %}
 ```

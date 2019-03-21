@@ -1,5 +1,4 @@
-
-function halfSquare(size){
+function halfSquare(size) {
   // TODO
 }
 
@@ -19,4 +18,4 @@ function boardText(size) {
   // TODO
 }
 
-export { triangleText, halfDiamondText, diamondText, boardText }
+export { triangleText, halfDiamondText, diamondText, boardText };
