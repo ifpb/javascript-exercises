@@ -49,7 +49,7 @@ Running by file:
 $ node file.js
 ```
 
-![vscode](running-vscode-terminal.gif)
+![vscode](assets/running-vscode-terminal.gif)
 
 Node Prompt:
 
@@ -79,7 +79,7 @@ Installing:
 
 <!-- (run, debug, jest, chrome) -->
 
-![vscode](running-vscode.gif)
+![vscode](assets/running-vscode.gif)
 
 ## Browser Console
 
