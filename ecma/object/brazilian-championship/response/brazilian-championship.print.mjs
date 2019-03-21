@@ -1,15 +1,14 @@
-import { firstTeam, showStading } from './brazilian-championship.mjs'
+import { firstTeam, showStading } from './brazilian-championship.mjs';
 
-const standings = // TODO
-
+const standings = null; // TODO
 // Brazilian Championship
 
 // Finding first team
-expect(firstTeam(standings))
-console.log('Palmeiras')
+expect(firstTeam(standings));
+console.log('Palmeiras');
 
 // Displaying stading
-expect(showStading(standings))
+expect(showStading(standings));
 console.log(
   `Palmeiras        | 38 | 24 |  8 |  6 | 62 | 32 |  30 | 80
   Santos           | 38 | 22 |  5 | 11 | 59 | 35 |  24 | 71
@@ -30,5 +29,5 @@ console.log(
   Internacional    | 38 | 11 | 10 | 17 | 35 | 41 |  -6 | 43
   Figueirense      | 38 |  8 | 13 | 17 | 30 | 50 | -20 | 37
   Santa Cruz       | 38 |  8 |  7 | 23 | 45 | 69 | -24 | 31
-  América-MG       | 38 |  7 |  7 | 24 | 23 | 58 | -35 | 28`
-)
+  América-MG       | 38 |  7 |  7 | 24 | 23 | 58 | -35 | 28`,
+);

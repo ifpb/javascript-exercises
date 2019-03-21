@@ -1,16 +1,14 @@
-import { md2html } from './table-convert-md2html.mjs'
+import { md2html } from './table-convert-md2html.mjs';
 
 // Markdown Util
 
 // converting table to html
 
-const table =
-  `| Header One     | Header Two     |
+const table = `| Header One     | Header Two     |
 | :------------- | :------------- |
-| Item One       | Item Two       |`
+| Item One       | Item Two       |`;
 
-const expected =
-`<table>
+const expected = `<table>
 <thead>
 <tr>
 <th>Header One</th>
@@ -23,7 +21,7 @@ const expected =
 <td>Item Two</td>
 </tr>
 </tbody>
-</table>`
+</table>`;
 
-console.log(md2html(table))
-console.log(expected)
+console.log(md2html(table));
+console.log(expected);

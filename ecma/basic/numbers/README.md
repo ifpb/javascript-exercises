@@ -1,21 +1,25 @@
 ### [Numbers series](code.zip)
 
 `{{ page.path | replace:'README.md','' }}code/numbers-for.js`:
+
 ```js
 {% include_relative code/numbers-for.js %}
 ```
 
 `{{ page.path | replace:'README.md','' }}code/numbers-forfor.js`:
+
 ```js
 {% include_relative code/numbers-forfor.js %}
 ```
 
 `{{ page.path | replace:'README.md','' }}code/numbers-reverse-for.js`:
+
 ```js
 {% include_relative code/numbers-reverse-for.js %}
 ```
 
 `{{ page.path | replace:'README.md','' }}code/numbers-reverse-odd-for.js`:
+
 ```js
 {% include_relative code/numbers-reverse-odd-for.js %}
 ```

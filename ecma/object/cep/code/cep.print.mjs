@@ -1,4 +1,4 @@
-import { getInfo } from './cep.mjs'
+import { getInfo } from './cep.mjs';
 
 // CEP Util
 
@@ -11,20 +11,20 @@ localidade: São Paulo,
 uf: SP,
 unidade: ,
 ibge: 3550308,
-gia: 1004`
+gia: 1004`;
 
 // https://viacep.com.br/ws/01001000/json/
 let cep = {
-  cep: "01001-000",
-  logradouro: "Praça da Sé",
-  complemento: "lado ímpar",
-  bairro: "Sé",
-  localidade: "São Paulo",
-  uf: "SP",
-  unidade: "",
-  ibge: "3550308",
-  gia: "1004"
-}
+  cep: '01001-000',
+  logradouro: 'Praça da Sé',
+  complemento: 'lado ímpar',
+  bairro: 'Sé',
+  localidade: 'São Paulo',
+  uf: 'SP',
+  unidade: '',
+  ibge: '3550308',
+  gia: '1004',
+};
 
-console.log(getInfo(cep))
-console.log(expected)
+console.log(getInfo(cep));
+console.log(expected);

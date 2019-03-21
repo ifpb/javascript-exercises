@@ -1,6 +1,5 @@
-
 function createList(number) {
   // TODO
 }
 
-export { createList }
+export { createList };

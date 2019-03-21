@@ -1,8 +1,7 @@
-import { Item } from './item.js'
+import { Item } from './item.js';
 
 class Order {
-  
   // TODO
 }
 
-export { Order }
+export { Order };

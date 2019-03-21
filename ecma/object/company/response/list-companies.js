@@ -2,23 +2,22 @@ const companies = [
   {
     name: 'Amazon',
     founded: 1994,
-    industry: 'E-Commerce, Cloud'
+    industry: 'E-Commerce, Cloud',
   },
   {
     name: 'Alphabet Inc.',
     founded: 2015,
-    industry: 'Search, Cloud, Advertising'
+    industry: 'Search, Cloud, Advertising',
   },
   {
     name: 'Facebook',
     founded: 2004,
-    industry: 'Social'
-  }
-]
-
+    industry: 'Social',
+  },
+];
 
 const companiesFounded = companies
   .map(company => `${company.name.padEnd(15, '.')}${company.founded}`)
-  .join('\n')
+  .join('\n');
 
-console.log(companiesFounded)
+console.log(companiesFounded);

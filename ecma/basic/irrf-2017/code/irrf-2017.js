@@ -1,4 +1,4 @@
-let salary = 3500
+const salary = 3500;
 
 // TODO
 

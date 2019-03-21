@@ -1,4 +1,4 @@
-import { firstTeam, showStading } from './brazilian-championship.js'
+import { firstTeam, showStading } from './brazilian-championship.js';
 
 const standings = [
   {
@@ -10,7 +10,7 @@ const standings = [
     gf: 62,
     ga: 32,
     gd: 30,
-    pts: 80
+    pts: 80,
   },
   {
     team: 'Santos',
@@ -21,7 +21,7 @@ const standings = [
     gf: 59,
     ga: 35,
     gd: 24,
-    pts: 71
+    pts: 71,
   },
   {
     team: 'Flamengo',
@@ -32,7 +32,7 @@ const standings = [
     gf: 52,
     ga: 35,
     gd: 17,
-    pts: 71
+    pts: 71,
   },
   {
     team: 'Atlético Mineiro',
@@ -43,7 +43,7 @@ const standings = [
     gf: 61,
     ga: 53,
     gd: 8,
-    pts: 62
+    pts: 62,
   },
   {
     team: 'Botafogo',
@@ -54,7 +54,7 @@ const standings = [
     gf: 43,
     ga: 39,
     gd: 4,
-    pts: 59
+    pts: 59,
   },
   {
     team: 'Atlético-PR',
@@ -65,7 +65,7 @@ const standings = [
     gf: 38,
     ga: 32,
     gd: 6,
-    pts: 57
+    pts: 57,
   },
   {
     team: 'Corinthians',
@@ -76,7 +76,7 @@ const standings = [
     gf: 48,
     ga: 42,
     gd: 6,
-    pts: 55
+    pts: 55,
   },
   {
     team: 'Ponte Preta',
@@ -87,7 +87,7 @@ const standings = [
     gf: 48,
     ga: 52,
     gd: -4,
-    pts: 53
+    pts: 53,
   },
   {
     team: 'Grêmio',
@@ -98,7 +98,7 @@ const standings = [
     gf: 41,
     ga: 44,
     gd: -3,
-    pts: 53
+    pts: 53,
   },
   {
     team: 'São Paulo',
@@ -109,7 +109,7 @@ const standings = [
     gf: 44,
     ga: 36,
     gd: 8,
-    pts: 52
+    pts: 52,
   },
   {
     team: 'Chapecoense',
@@ -120,7 +120,7 @@ const standings = [
     gf: 49,
     ga: 56,
     gd: -7,
-    pts: 52
+    pts: 52,
   },
   {
     team: 'Cruzeiro',
@@ -131,7 +131,7 @@ const standings = [
     gf: 48,
     ga: 49,
     gd: -1,
-    pts: 51
+    pts: 51,
   },
   {
     team: 'Fluminense',
@@ -142,7 +142,7 @@ const standings = [
     gf: 45,
     ga: 45,
     gd: 0,
-    pts: 50
+    pts: 50,
   },
   {
     team: 'Sport Recife',
@@ -153,7 +153,7 @@ const standings = [
     gf: 49,
     ga: 55,
     gd: -6,
-    pts: 47
+    pts: 47,
   },
   {
     team: 'Coritiba',
@@ -164,7 +164,7 @@ const standings = [
     gf: 41,
     ga: 42,
     gd: -1,
-    pts: 46
+    pts: 46,
   },
   {
     team: 'Vitória',
@@ -175,7 +175,7 @@ const standings = [
     gf: 51,
     ga: 53,
     gd: -2,
-    pts: 45
+    pts: 45,
   },
   {
     team: 'Internacional',
@@ -186,7 +186,7 @@ const standings = [
     gf: 35,
     ga: 41,
     gd: -6,
-    pts: 43
+    pts: 43,
   },
   {
     team: 'Figueirense',
@@ -197,7 +197,7 @@ const standings = [
     gf: 30,
     ga: 50,
     gd: -20,
-    pts: 37
+    pts: 37,
   },
   {
     team: 'Santa Cruz',
@@ -208,7 +208,7 @@ const standings = [
     gf: 45,
     ga: 69,
     gd: -24,
-    pts: 31
+    pts: 31,
   },
   {
     team: 'América-MG',
@@ -219,19 +219,18 @@ const standings = [
     gf: 23,
     ga: 58,
     gd: -35,
-    pts: 28
-  }
-]
+    pts: 28,
+  },
+];
 
 describe('Brazilian Championship', () => {
-
   test('Finding first team', () => {
-    expect(firstTeam(standings)).toBe('Palmeiras')
-  })
+    expect(firstTeam(standings)).toBe('Palmeiras');
+  });
 
   test('Displaying stading', () => {
     expect(showStading(standings)).toBe(
-`Palmeiras        | 38 | 24 |  8 |  6 | 62 | 32 |  30 | 80
+      `Palmeiras        | 38 | 24 |  8 |  6 | 62 | 32 |  30 | 80
 Santos           | 38 | 22 |  5 | 11 | 59 | 35 |  24 | 71
 Flamengo         | 38 | 20 | 11 |  7 | 52 | 35 |  17 | 71
 Atlético Mineiro | 38 | 17 | 11 | 10 | 61 | 53 |   8 | 62
@@ -250,8 +249,7 @@ Vitória          | 38 | 12 |  9 | 17 | 51 | 53 |  -2 | 45
 Internacional    | 38 | 11 | 10 | 17 | 35 | 41 |  -6 | 43
 Figueirense      | 38 |  8 | 13 | 17 | 30 | 50 | -20 | 37
 Santa Cruz       | 38 |  8 |  7 | 23 | 45 | 69 | -24 | 31
-América-MG       | 38 |  7 |  7 | 24 | 23 | 58 | -35 | 28`
-    )
-  })
-  
-})
+América-MG       | 38 |  7 |  7 | 24 | 23 | 58 | -35 | 28`,
+    );
+  });
+});

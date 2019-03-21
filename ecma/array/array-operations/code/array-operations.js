@@ -1,4 +1,3 @@
-
 function sum(array) {
   // TODO
 }
@@ -11,8 +10,4 @@ function sumOdds(array) {
   // TODO
 }
 
-export {
-  sum,
-  product,
-  sumOdds
-}
+export { sum, product, sumOdds };

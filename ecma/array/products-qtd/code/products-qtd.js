@@ -1,4 +1,3 @@
-
 function gtZero(products) {
   // TODO
 }
@@ -11,4 +10,4 @@ function total(products) {
   // TODO
 }
 
-export { gtZero, subTotal, total }
+export { gtZero, subTotal, total };

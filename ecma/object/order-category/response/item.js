@@ -1,13 +1,12 @@
-
 class Item {
   constructor(product) {
-    this.product = product
-    this.quantity = 1
+    this.product = product;
+    this.quantity = 1;
   }
 
   total() {
-    return this.product.price * this.quantity
+    return this.product.price * this.quantity;
   }
 }
 
-export { Item }
+export { Item };

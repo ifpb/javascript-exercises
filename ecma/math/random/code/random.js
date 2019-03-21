@@ -6,4 +6,4 @@ function randArray(array) {
   // TODO
 }
 
-export { rand, randArray }
+export { rand, randArray };

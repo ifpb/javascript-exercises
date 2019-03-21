@@ -1,4 +1,4 @@
-import { isPrime } from '../../../function/prime/code/prime.js'
+import { isPrime } from '../../../function/prime/code/prime.js';
 
 /**
  * begin: 1..n
@@ -8,4 +8,4 @@ function primes(begin, end) {
   // TODO
 }
 
-export { primes }
+export { primes };

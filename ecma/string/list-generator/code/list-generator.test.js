@@ -1,16 +1,15 @@
-import { createList } from './list-generator.js'
+import { createList } from './list-generator.js';
 
 describe('List Generator', () => {
-
   test('making list', () => {
     let expected = `<ul>
   <li>Text 1</li>
   <li>Text 2</li>
   <li>Text 3</li>
-</ul>`
+</ul>`;
 
-    expect(createList(3)).toBe(expected)
-  })
+    expect(createList(3)).toBe(expected);
+  });
 
   test.skip('making list', () => {
     let expected = `<ul>
@@ -19,9 +18,8 @@ describe('List Generator', () => {
   <li>Item 3</li>
   <li>Item 4</li>
   <li>Item 5</li>
-</ul>`
+</ul>`;
 
-    expect(createList(5, 'Item')).toBe(expected)
-  })
-
-})
+    expect(createList(5, 'Item')).toBe(expected);
+  });
+});

@@ -1,6 +1,5 @@
-
 function checkingDigitCpf(cpf) {
   // TODO
 }
 
-export { checkingDigitCpf }
+export { checkingDigitCpf };

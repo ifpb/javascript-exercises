@@ -1,4 +1,4 @@
-let n = 10
+const size = 10;
 
 // TODO h(10)
 
